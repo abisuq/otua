@@ -51,6 +51,12 @@ const fetch = async () => {
       .map((farm) => {
         const rkey = Object.keys(farm).find((k) => k.startsWith('__reactInternalInstance'))
         try {
+          if (farm.href && farm.href.includes('/stakeaddy')) {
+            return {
+              name: 'Staking Addy',
+              apr: farm.querySelector('.apy').innerText.split('%')[0],
+            }
+          }
           const p = farm[rkey].return.memoizedProps.pool
           if (!p) return undefined
           if (p.addyFeeShareApr) {
@@ -75,10 +81,7 @@ const fetch = async () => {
       })
       .filter(Boolean)
   })
-  result.push({
-    name: 'Staking Addy',
-    apr: document.querySelector('.farms-card-item[href="/stakeaddy"] .apy').innerText.split('%')[0],
-  })
+ 
 
   await page.close()
   await browser.close()
