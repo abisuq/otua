@@ -18,3 +18,10 @@ jobs:
         uses: ianwalter/playwright-container@ec253ce35910412cc6607f5d7cfbbe89fb77c9b4
         with:
           args: npm run fetch
+      - name: Commit to repo
+        run: |
+          git config --global user.name "spiderman"
+          git config --global user.email "chenrunshan@outlook.com"
+          git add pools.json && echo A
+          git commit -m 'update pools' && echo B
+          git push -u origin main && echo C

@@ -1,4 +1,5 @@
 const playwright = require('playwright')
+const fs = require('fs')
 const fetch = async () => {
   const t1 = Date.now()
   const browser = await playwright.chromium.launch({
@@ -32,9 +33,20 @@ const fetch = async () => {
   if (result.length > 0) return result
   return []
 }
-
-fetch().then(r => {
-  console.log(r)
-})
-
-
+const main = async () => {
+  const newPools = await fetch()
+  let currentPools = []
+  try {
+    currentPools = JSON.parse(fs.readFileSync('./pools.json').toString())
+  } catch (e) {}
+  const newVaultAddressList = newPools
+    .slice(1)
+    .map((p) => p.vaultAddress)
+    .filter(Boolean)
+  for (const pool of currentPools.slice(1)) {
+    if (newVaultAddressList.includes(pool.vaultAddress)) continue
+    newPools.push({ ...pool, deprecated: true })
+  }
+  fs.writeFileSync('./pools.json', JSON.stringify(newPools))
+}
+main()
