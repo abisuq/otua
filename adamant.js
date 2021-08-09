@@ -1,4 +1,4 @@
-import playwright from 'playwright'
+const playwright = require('playwright')
 const fetch = async () => {
   const t1 = Date.now()
   const browser = await playwright.launch({
