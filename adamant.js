@@ -10,14 +10,6 @@ const fetch = async () => {
     ],
   })
   const page = await browser.newPage()
-  await page.setRequestInterception(true)
-  page.on('request', (req) => {
-    if (req.resourceType() == 'stylesheet' || req.resourceType() == 'font' || req.resourceType() == 'image') {
-      req.abort()
-    } else {
-      req.continue()
-    }
-  })
   await page.goto('https://adamant.finance/home')
   await page.waitForFunction(() => {
     const cards = document.querySelectorAll('.farms-card-item')
