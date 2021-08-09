@@ -1,7 +1,7 @@
 const playwright = require('playwright')
 const fetch = async () => {
   const t1 = Date.now()
-  const browser = await playwright.launch({
+  const browser = await playwright.chromium.launch({
     args: [
       '--no-sandbox',
       // '--disable-setuid-sandbox',
