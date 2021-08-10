@@ -95,14 +95,21 @@ const main = async () => {
   try {
     currentPools = JSON.parse(fs.readFileSync('./pools.json').toString())
   } catch (e) {}
+
+  console.log('---- currentPools ----')
+  console.log(currentPools.map(p => p.vaultAddress).filter(Boolean))
   const newVaultAddressList = newPools
-    .slice(1)
     .map((p) => p.vaultAddress)
     .filter(Boolean)
-  for (const pool of currentPools.slice(1)) {
+  console.log('---- newPools ----')
+  console.log(newVaultAddressList)
+
+  for (const pool of currentPools) {
     if (newVaultAddressList.includes(pool.vaultAddress)) continue
+    console.log('---- deprecated push ----')
     newPools.push({ ...pool, deprecated: true })
   }
+
   fs.writeFileSync('./pools.json', JSON.stringify(newPools, null, 2))
 }
 main()
