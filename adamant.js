@@ -1,43 +1,6 @@
 const playwright = require('playwright')
 const fs = require('fs')
 
-const getPoolName = (p) => {
-  const name = p.nameOverride ?? p.singleAsset ? p.token1Name : p.token0Name + '/' + p.token1Name + ' LP'
-  return p.beta
-    ? name + ' (Beta)'
-    : 'cometh' == p.platform
-    ? name + ' (Cometh)'
-    : 'sushi' == p.platform
-    ? name + ' (Sushi)'
-    : 'elk' == p.platform
-    ? name + ' (Elk)'
-    : 'polyzap' == p.platform
-    ? name + ' (PolyZap)'
-    : 'mai' == p.platform
-    ? name + ' (QiDao)'
-    : 'curve' == p.platform
-    ? name + ' (Curve)'
-    : 'wault' == p.platform
-    ? name + ' (Wault)'
-    : 'quick' == p.platform
-    ? name + ' (Quick)'
-    : 'augury' == p.platform
-    ? name + ' (Augury)'
-    : 'jet' == p.platform
-    ? name + ' (Jet)'
-    : 'ape' == p.platform
-    ? name + ' (Ape)'
-    : 'dino' == p.platform
-    ? name + ' (Dino)'
-    : 'yeld' == p.platform
-    ? 'sushi' == p.exchange
-      ? name + ' (Sushi)'
-      : 'ape' == p.exchange
-      ? name + ' (Ape)'
-      : name + ' (Quick)'
-    : name
-}
-
 const fetch = async () => {
   const browser = await playwright.chromium.launch({ args: ['--no-sandbox'] })
   const page = await browser.newPage()
@@ -49,6 +12,42 @@ const fetch = async () => {
   const result = await page.$$eval('.farms-card-item', (farms) => {
     return farms
       .map((farm) => {
+        const getPoolName = (p) => {
+          const name = p.nameOverride ?? p.singleAsset ? p.token1Name : p.token0Name + '/' + p.token1Name + ' LP'
+          return p.beta
+            ? name + ' (Beta)'
+            : 'cometh' == p.platform
+            ? name + ' (Cometh)'
+            : 'sushi' == p.platform
+            ? name + ' (Sushi)'
+            : 'elk' == p.platform
+            ? name + ' (Elk)'
+            : 'polyzap' == p.platform
+            ? name + ' (PolyZap)'
+            : 'mai' == p.platform
+            ? name + ' (QiDao)'
+            : 'curve' == p.platform
+            ? name + ' (Curve)'
+            : 'wault' == p.platform
+            ? name + ' (Wault)'
+            : 'quick' == p.platform
+            ? name + ' (Quick)'
+            : 'augury' == p.platform
+            ? name + ' (Augury)'
+            : 'jet' == p.platform
+            ? name + ' (Jet)'
+            : 'ape' == p.platform
+            ? name + ' (Ape)'
+            : 'dino' == p.platform
+            ? name + ' (Dino)'
+            : 'yeld' == p.platform
+            ? 'sushi' == p.exchange
+              ? name + ' (Sushi)'
+              : 'ape' == p.exchange
+              ? name + ' (Ape)'
+              : name + ' (Quick)'
+            : name
+        }
         const rkey = Object.keys(farm).find((k) => k.startsWith('__reactInternalInstance'))
         try {
           if (farm.href && farm.href.includes('/stakeaddy')) {
@@ -81,7 +80,6 @@ const fetch = async () => {
       })
       .filter(Boolean)
   })
- 
 
   await page.close()
   await browser.close()
@@ -96,17 +94,10 @@ const main = async () => {
     currentPools = JSON.parse(fs.readFileSync('./pools.json').toString())
   } catch (e) {}
 
-  console.log('---- currentPools ----')
-  console.log(currentPools.map(p => p.vaultAddress).filter(Boolean))
-  const newVaultAddressList = newPools
-    .map((p) => p.vaultAddress)
-    .filter(Boolean)
-  console.log('---- newPools ----')
-  console.log(newVaultAddressList)
+  const newVaultAddressList = newPools.map((p) => p.vaultAddress).filter(Boolean)
 
-  for (const pool of currentPools) {
+  for (const pool of currentPools.filter((p) => p.vaultAddress)) {
     if (newVaultAddressList.includes(pool.vaultAddress)) continue
-    console.log('---- deprecated push ----')
     newPools.push({ ...pool, deprecated: true })
   }
 
