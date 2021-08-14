@@ -4,7 +4,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 */3 * * *'
+    - cron: '0 */5 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,11 +12,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Install
-        uses: ianwalter/playwright-container@ec253ce35910412cc6607f5d7cfbbe89fb77c9b4
+        uses: ianwalter/playwright-container@v2.2.0
         with:
           args: npm ci
       - name: Fetch
-        uses: ianwalter/playwright-container@ec253ce35910412cc6607f5d7cfbbe89fb77c9b4
+        uses: ianwalter/playwright-container@v2.2.0
         with:
           args: npm run fetch
       - name: Commit to repo
