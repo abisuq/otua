@@ -13,9 +13,10 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '16'
+          cache: 'npm'
       - uses: microsoft/playwright-github-action@v1
       - name: Fetch
-        run: npm run fetch
+        run: npm install && npm run fetch
       - name: Commit to repo
         run: |
           git config --global user.name "spiderman"
