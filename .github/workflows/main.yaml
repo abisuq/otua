@@ -9,16 +9,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Install
-        uses: ianwalter/playwright-container@v2.2.0
-        with:
-          args: npm ci
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+      - uses: microsoft/playwright-github-action@v1
       - name: Fetch
-        uses: ianwalter/playwright-container@v2.2.0
-        with:
-          args: npm run fetch
+        run: npm run fetch
       - name: Commit to repo
         run: |
           git config --global user.name "spiderman"
