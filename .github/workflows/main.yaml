@@ -21,7 +21,7 @@ jobs:
         run: |
           git config --global user.name "spiderman"
           git config --global user.email "chenrunshan@outlook.com"
-          git add pools.json && echo _
+          git add pools.json pools-dino.json && echo _
           git commit -m 'update pools' && echo _
           git pull --rebase --autostash && echo _
           git push -u origin main && echo _
