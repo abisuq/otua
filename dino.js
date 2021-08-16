@@ -2,21 +2,22 @@ const fs = require('fs')
 
 const fetch = async (browser) => {
   const page = await browser.newPage()
-  await page.goto('https://dinoswap.exchange/jurassicpools?t=l')
-  await page.waitForFunction(() => document.querySelectorAll('img').length > 10)
-  const result = await page.$$eval('div', (divs) => {
-    return divs 
-      .map(div => {
-				try {
-					const rkey = Object.keys(div).find((k) => k.startsWith('__reactProps'))
-					const pool = div[rkey].children[2].props
-					if (!pool.contractAddress) return false
-					return pool
-				} catch (err) {
-					return false
-				}
+  await page.setRequestInterception(true)
+  page.on('request', (request) => {
+    if (/main.*\.js/.test(request.url())) {
+      request.respond({
+        status: 200,
+        contentType: 'application/javascript; charset=utf-8',
+        body: fs.readFileSync(path.resolve(__dirname, 'dino.main.js'), 'utf8').toString(),
       })
-      .filter(Boolean)
+    } else {
+      request.continue()
+    }
+  })
+  await page.goto('https://dinoswap.exchange/jurassicpools?t=l')
+  await page.waitForSelector('#wtf')
+  const result = await page.$eval('#wtf', (div) => {
+    return JSON.parse(div.innerText)
   })
 
   await page.close()
