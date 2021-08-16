@@ -1,4 +1,5 @@
 const fs = require('fs')
+const path = require('path')
 
 const fetch = async (browser) => {
   const page = await browser.newPage()
