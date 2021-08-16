@@ -1,8 +1,6 @@
-const playwright = require('playwright')
 const fs = require('fs')
 
-const fetch = async () => {
-  const browser = await playwright.chromium.launch({ args: ['--no-sandbox'] })
+const fetch = async (browser) => {
   const page = await browser.newPage()
   await page.goto('https://adamant.finance/home')
   await page.waitForFunction(() => {
@@ -82,12 +80,11 @@ const fetch = async () => {
   })
 
   await page.close()
-  await browser.close()
   if (result.length > 1) return result
   return null
 }
-const main = async () => {
-  const newPools = await fetch()
+module.exports = async (browser) => {
+  const newPools = await fetch(browser)
   if (!newPools) return
   let currentPools = []
   try {
@@ -103,4 +100,3 @@ const main = async () => {
 
   fs.writeFileSync('./pools.json', JSON.stringify(newPools, null, 2))
 }
-main()
