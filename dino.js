@@ -2,18 +2,13 @@ const fs = require('fs')
 
 const fetch = async (browser) => {
   const page = await browser.newPage()
-  await page.setRequestInterception(true)
-  page.on('request', (request) => {
-    if (/main.*\.js/.test(request.url())) {
-      request.respond({
-        status: 200,
-        contentType: 'application/javascript; charset=utf-8',
-        body: fs.readFileSync(path.resolve(__dirname, 'dino.main.js'), 'utf8').toString(),
-      })
-    } else {
-      request.continue()
-    }
-  })
+  await page.route(/main.*\.js/, route => {
+    route.fulfill({
+      status: 200,
+      contentType: 'application/javascript; charset=utf-8',
+      body: fs.readFileSync(path.resolve(__dirname, 'dino.main.js'), 'utf8').toString(),
+    })
+  });
   await page.goto('https://dinoswap.exchange/jurassicpools?t=l')
   await page.waitForSelector('#wtf')
   const result = await page.$eval('#wtf', (div) => {
