@@ -32,10 +32,10 @@ module.exports = async (browser) => {
     currentPools = JSON.parse(fs.readFileSync('./pools-dino.json').toString())
   } catch (e) {}
 
-  const newContractAddressList = newPools.map((p) => p.contractAddress).filter(Boolean)
+  const newContractAddressList = newPools.map((p) => p.contractAddress['137']).filter(Boolean)
 
-  for (const pool of currentPools.filter((p) => p.contractAddress)) {
-    if (newContractAddressList.includes(pool.contractAddress)) continue
+  for (const pool of currentPools.filter((p) => p.contractAddress['137'])) {
+    if (newContractAddressList.includes(pool.contractAddress['137'])) continue
     newPools.push({ ...pool, isFinished: true })
   }
 
