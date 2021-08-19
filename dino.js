@@ -1,19 +1,25 @@
 const fs = require('fs')
-const path = require('path')
 
 const fetch = async (browser) => {
   const page = await browser.newPage()
-  await page.route(/main.*\.js/, route => {
-    route.fulfill({
-      status: 200,
-      contentType: 'application/javascript; charset=utf-8',
-      body: fs.readFileSync(path.resolve(__dirname, 'dino.main.js'), 'utf8').toString(),
+  await page.goto('https://dinoswap.exchange/jurassicpools')
+  const result = await new Promise((resolve, reject) => {
+    page.on('console', async (msg) => {
+      try {
+        const [a1, a2] = msg.args()
+        const name = await a1.jsonValue()
+        const pools = await a2.jsonValue()
+        if (
+          name === 'POOLS' &&
+          pools.find((p) => p.sousId === 1 && p.contractAddress['137'] === '0x52e7b0C6fB33D3d404b07006b006c8A8D6049C55')
+        ) {
+          resolve(pools)
+        }
+      } catch (err) {}
     })
-  });
-  await page.goto('https://dinoswap.exchange/jurassicpools?t=l')
-  await page.waitForSelector('#wtf')
-  const result = await page.$eval('#wtf', (div) => {
-    return JSON.parse(div.innerText)
+    setTimeout(() => {
+      reject('timeout')
+    }, 10000)
   })
 
   await page.close()
