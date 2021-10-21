@@ -1,1881 +1,1872 @@
 [
   {
     "name": "Staking Addy",
-    "apr": "668.59"
+    "apr": "604.43"
   },
   {
     "name": "ADDY/WETH LP (Quick)",
-    "apr": 77.26776755524617,
-    "addyFeeShareApr": 17.518508904558118
+    "apr": 76.06723608214769,
+    "addyFeeShareApr": 17.4403129134053
   },
   {
     "name": "RENBTC/WBTC LP",
     "lpAddress": "0xcdd1ad14b4c156aff8d833de1793f67d75237909",
     "vaultAddress": "0xafceb14562304274073ec12a3daf130964d0adc5",
     "strategyAddress": "0x33d26B0A580152F35d50A3065f8a5D4f6958657d",
-    "apy": 6.440711252948715,
-    "baseApr": 4.475975421592199,
-    "addyTokenApr": 1.5042066933501486
-  },
-  {
-    "name": "USDT/USDC LP",
-    "lpAddress": "0x42286296c3ede3f6a0ec4e687939b017408cf321",
-    "vaultAddress": "0x6d9482d1713a99a69e8805de94aa7dd5eeed2839",
-    "strategyAddress": "0x87aEE6D84fB64FB6cfdc900C18dF18deaB61DA62",
-    "apy": 13.835699597999671,
-    "baseApr": 9.416647406321616,
-    "addyTokenApr": 3.164580392728932
+    "apy": 6.626478928711599,
+    "baseApr": 4.639803847502258,
+    "addyTokenApr": 1.512074875728061
   },
   {
     "name": "WBTC/WETH LP",
     "lpAddress": "0x84d49beff6aecf52c461eae687d959d64edf2427",
     "vaultAddress": "0x5b346d41aecfc6076a331f676ec06ede77a80bcc",
     "strategyAddress": "0x4a980992e7EB8De404985EB8C098d38EBed673e7",
-    "apy": 14.411907012200661,
-    "baseApr": 9.793158450934392,
-    "addyTokenApr": 3.291111568636358
+    "apy": 14.464435374674858,
+    "baseApr": 9.904240508535704,
+    "addyTokenApr": 3.227712577588155
+  },
+  {
+    "name": "USDT/USDC LP",
+    "lpAddress": "0x42286296c3ede3f6a0ec4e687939b017408cf321",
+    "vaultAddress": "0x6d9482d1713a99a69e8805de94aa7dd5eeed2839",
+    "strategyAddress": "0x87aEE6D84fB64FB6cfdc900C18dF18deaB61DA62",
+    "apy": 14.577939794584545,
+    "baseApr": 9.978788646397309,
+    "addyTokenApr": 3.252007218050925
   },
   {
     "name": "QI/WMATIC LP (QiDao)",
     "lpAddress": "0x9a8b2601760814019b7e6ee0052e25f1c623d1e6",
     "vaultAddress": "0xf4f21e9ed672896947a56ae0851674f40b0aef18",
     "strategyAddress": "0xfAf0B4b72cEDd1D80ac969Bf20f1C23730E5e5B1",
-    "apy": 212.76856492734458,
-    "baseApr": 96.9674024677117,
-    "addyTokenApr": 32.587090430631655
+    "apy": 215.92960812987155,
+    "baseApr": 98.36943714567144,
+    "addyTokenApr": 32.05781091964752
   },
   {
     "name": "MAI/USDT LP (Quick)",
     "lpAddress": "0xe89fae1b4ada2c869f05a0c96c87022dadc7709a",
     "vaultAddress": "0xf85b26a8225b662dabdaeeb93c8d236590fbf370",
     "strategyAddress": "0x80eF7e18736fFEC4020bb3DB030dbCDFB4b9b886",
-    "apy": 21.676858753652567,
-    "baseApr": 14.440806835811017,
-    "addyTokenApr": 4.8530110766507635
+    "apy": 23.93713165764095,
+    "baseApr": 15.969729148618534,
+    "addyTokenApr": 5.204406697237305
   },
   {
     "name": "MAI/USDC LP (QiDao)",
     "lpAddress": "0x160532d2536175d65c03b97b0630a9802c274dad",
     "vaultAddress": "0xaef8e2e099a8fb2ce2272f65bda11475650a0855",
     "strategyAddress": "0x5aAad43A6749BDEF19Df7eE3eBD4848200C190c5",
-    "apy": 27.279451919183835,
-    "baseApr": 19.183013547606585,
-    "addyTokenApr": 4.835016056679773
+    "apy": 28.224030410472906,
+    "baseApr": 19.909986482655036,
+    "addyTokenApr": 4.866378729466323
   },
   {
     "name": "WETH/USDC LP",
     "lpAddress": "0xeefe518d89a49328580480fa3d90073bda074d32",
     "vaultAddress": "0x4aecb286a7a734bf7ea0856238a3d0aaaaa8445d",
     "strategyAddress": "0x1ff6f4683065d8c236d3AaA8C3C2c10d265571Ac",
-    "apy": 22.62916371025947,
-    "baseApr": 15.036768565111801,
-    "addyTokenApr": 5.053291359216721
+    "apy": 23.570490346754976,
+    "baseApr": 15.74066119347222,
+    "addyTokenApr": 5.129755287135646
   },
   {
     "name": "IBBTC/WBTC LP (Sushi)",
     "lpAddress": "0x8f8e95ff4b4c5e354ccb005c6b0278492d7b5907",
     "vaultAddress": "0xb992d8ed162696d2b8022bcf61e9f630a0d0ad9d",
     "strategyAddress": "0x94007B39dAE5Aa67DA787313dfcC9dd5DF2D261E",
-    "apy": 3.7235839379657847,
-    "baseApr": 2.6101996201519166,
-    "addyTokenApr": 0.877189745205497
+    "apy": 3.9068933477546404,
+    "baseApr": 2.7596922381924505,
+    "addyTokenApr": 0.8993615754594708
   },
   {
     "name": "MAI/DAI LP (Quick)",
     "lpAddress": "0x74214f5d8aa71b8dc921d8a963a1ba3605050781",
     "vaultAddress": "0x4f7a152e3db9ea472061a63b7c2b96edb9a4ac2d",
     "strategyAddress": "0x68fEBb842F2f201Be69638Cf53e08415aeF3Cfee",
-    "apy": 22.57573764070306,
-    "baseApr": 15.003413163758575,
-    "addyTokenApr": 5.042081865587049
+    "apy": 21.762184656403157,
+    "baseApr": 14.60433431652986,
+    "addyTokenApr": 4.759435468084667
   },
   {
     "name": "UST/USDC LP",
     "lpAddress": "0xe507a93b99120d916229ee6d4adb4204bbb04edc",
     "vaultAddress": "0x117e3d3ada1b0f91c36f1a31dc1a99ab483b589c",
     "strategyAddress": "0x74951bC8F44C07BfD21b7c07AD1Ba3bA22cE408E",
-    "apy": 30.660893006688624,
-    "baseApr": 19.947299399765974,
-    "addyTokenApr": 6.703535753713772
+    "apy": 31.342305739238288,
+    "baseApr": 20.503532024481476,
+    "addyTokenApr": 6.681936706137675
   },
   {
     "name": "WMATIC/WETH LP",
     "lpAddress": "0x0dfbf1a50bdcb570bd0ff7bb307313b553a02598",
     "vaultAddress": "0x8fcd0a48cd01a3161411a37bfa528ae9067826ba",
     "strategyAddress": "0x6210956049b1fd0e4F82C038EF643ceDf0485514",
-    "apy": 27.06776858251819,
-    "baseApr": 17.775635504352877,
-    "addyTokenApr": 5.973721342439541
+    "apy": 29.58655259020349,
+    "baseApr": 19.444245869352038,
+    "addyTokenApr": 6.33672384067569
   },
   {
     "name": "WMATIC/USDC LP (Quick)",
     "lpAddress": "0x6e7a5fafcec6bb1e78bae2a1f0b612012bf14827",
     "vaultAddress": "0x99340c1d9627dab2d657bfa59762d9db01112c6e",
     "strategyAddress": "0xFD41C99f2dA778B338528eF23A30F7C6cb89034a",
-    "apy": 13.980896403079036,
-    "baseApr": 9.695147980168995,
-    "addyTokenApr": 3.258173942251612
-  },
-  {
-    "name": "DAI/USDC LP",
-    "lpAddress": "0x4bb452b8b74864f44913f100bee280daa61ac298",
-    "vaultAddress": "0x05ba909e3cacc37a8ed4e1822d1f3b7f7d81b215",
-    "strategyAddress": "0xEae91629c666003939Bd141Dc58980007Fa0Eb8B",
-    "apy": 23.61356719733515,
-    "baseApr": 15.64968638823773,
-    "addyTokenApr": 5.259269946045436
+    "apy": 12.677485985491625,
+    "baseApr": 8.880325757675143,
+    "addyTokenApr": 2.8940269691982508
   },
   {
     "name": "WETH/WMATIC LP (Sushi)",
     "lpAddress": "0xc4e595acdd7d12fec385e5da5d43160e8a0bac0e",
     "vaultAddress": "0x079eabca6696a7c755b2436f38eba89019fbb39d",
     "strategyAddress": "0x030Fc939527e9fa8A9483e9468E4040cDBD405E2",
-    "apy": 15.84340424676504,
-    "baseApr": 10.75869015021232,
-    "addyTokenApr": 3.6155903934505846
+    "apy": 16.24133895204296,
+    "baseApr": 11.102659416126128,
+    "addyTokenApr": 3.618267691623947
   },
   {
-    "name": "TRICRYPTO (Curve)",
-    "lpAddress": "0xdad97f7713ae9437fa9249920ec8507e5fbb23d3",
-    "vaultAddress": "0x3c2838d388a165a1033fa3eb0aae3f1d8b08f6d8",
-    "strategyAddress": "0xD958eCB54C25627C52Aa73148c9Eb8F9d22E2cc7",
-    "apy": 34.03285709537505,
-    "baseApr": 22.88378655774568
+    "name": "DAI/USDC LP",
+    "lpAddress": "0x4bb452b8b74864f44913f100bee280daa61ac298",
+    "vaultAddress": "0x05ba909e3cacc37a8ed4e1822d1f3b7f7d81b215",
+    "strategyAddress": "0xEae91629c666003939Bd141Dc58980007Fa0Eb8B",
+    "apy": 24.55635282799017,
+    "baseApr": 16.355596149333387,
+    "addyTokenApr": 5.330157659202553
   },
   {
     "name": "WBTC/WMATIC LP (Ape)",
     "lpAddress": "0xe82635a105c520fd58e597181cbf754961d51e3e",
     "vaultAddress": "0x7c7c1db3da23a8a2d080a54504465e1ec2641161",
     "strategyAddress": "0x24Ffb34E2c19d8Ed8eDcc87EAa586928010685A0",
-    "apy": 26.872076994416247,
-    "baseApr": 17.656208077375258,
-    "addyTokenApr": 5.9335862840201585
+    "apy": 25.705990219340308,
+    "baseApr": 17.068663329207432,
+    "addyTokenApr": 5.562540536330912
+  },
+  {
+    "name": "TRICRYPTO (Curve)",
+    "lpAddress": "0xdad97f7713ae9437fa9249920ec8507e5fbb23d3",
+    "vaultAddress": "0x3c2838d388a165a1033fa3eb0aae3f1d8b08f6d8",
+    "strategyAddress": "0xD958eCB54C25627C52Aa73148c9Eb8F9d22E2cc7",
+    "apy": 33.451702589902155,
+    "baseApr": 22.68912234608695
   },
   {
     "name": "WBTC/USDC LP",
     "lpAddress": "0xf7f07072160eb53a71a9e0ca082dc02fe75ffa9f",
     "vaultAddress": "0xa1174e0a42dca66ac3d749d873329aec92ac545b",
     "strategyAddress": "0x97DE6C12A263ae3Be278C6510B3a9d76fCfC7505",
-    "apy": 26.904583986471565,
-    "baseApr": 17.676054918953348,
-    "addyTokenApr": 5.940256059685058
+    "apy": 27.95173874795949,
+    "baseApr": 18.449284490187,
+    "addyTokenApr": 6.012473903996775
   },
   {
     "name": "WETH/DAI LP",
     "lpAddress": "0x73a7b621090b8d7584cc40d1b1f016fb831949a3",
     "vaultAddress": "0xeb96ad7650d721b4b3d36bee2d71e0a8fc86af35",
     "strategyAddress": "0x4d2d5D36dEF131A3a980F8Af074Bb659c1334a3b",
-    "apy": 49.118489926873906,
-    "baseApr": 30.513030880926227,
-    "addyTokenApr": 10.25428000879463
+    "apy": 45.12062330975444,
+    "baseApr": 28.500453974882017,
+    "addyTokenApr": 9.28806945695824
   },
   {
     "name": "WETH/LINK LP (Sushi)",
     "lpAddress": "0x74d23f21f780ca26b47db16b0504f2e3832b9321",
     "vaultAddress": "0xef4a1efcb26c77445b54b009b2ff69ec38e00fb3",
     "strategyAddress": "0xD0a63589Ca5462459F06ce5E512F9B70B8E30398",
-    "apy": 12.022367374559074,
-    "baseApr": 8.244846716810747,
-    "addyTokenApr": 2.7707823321025042
+    "apy": 12.023869263982771,
+    "baseApr": 8.31066312526555,
+    "addyTokenApr": 2.70837848438755
   },
   {
     "name": "WETH/WMATIC LP (Ape)",
     "lpAddress": "0x6cf8654e85ab489ca7e70189046d507eba233613",
     "vaultAddress": "0xd94b58c0dbdf43e2490920874e1bba1fed4cc7d6",
     "strategyAddress": "0x88FC422A4A5831cfECe7F2518Dd182eb957949c8",
-    "apy": 21.444093259861503,
-    "baseApr": 14.294683534639715,
-    "addyTokenApr": 4.803904540762301
+    "apy": 19.734047296564974,
+    "baseApr": 13.316733030501284,
+    "addyTokenApr": 4.339816531907645
   },
   {
     "name": "BANANA/WMATIC LP (Ape)",
     "lpAddress": "0x034293f21f1cce5908bc605ce5850df2b1059ac0",
     "vaultAddress": "0x140a81836d4a1adf738a783f4a580fddacfb28e3",
     "strategyAddress": "0xDC1cD13f73ff4D8C8161708d2aA1eF54323894C8",
-    "apy": 156.06388034882812,
-    "baseApr": 77.90485961604637,
-    "addyTokenApr": 26.180888016868387
-  },
-  {
-    "name": "SFI/WETH LP (Dino)",
-    "lpAddress": "0x7c07cecd8cdd65c0dad449808cc5f9ad74c22bd1",
-    "vaultAddress": "0x28579d3b5afdade204565f884e29d63d9f81adbb",
-    "strategyAddress": "0x99323a0BCe6352acbb67442E3A89eb81BC9Bb502",
-    "apy": 51.69773935377085,
-    "baseApr": 36.20395478396312,
-    "addyTokenApr": 6.083392554958613
-  },
-  {
-    "name": "WETH/DAI LP (Sushi)",
-    "lpAddress": "0x6ff62bfb8c12109e8000935a6de54dad83a4f39f",
-    "vaultAddress": "0xa51997184948a6ff835d70084e3bcd7a34ab1236",
-    "strategyAddress": "0x88Ff8769425af8c4B1914d72a3A4799D94F9DFe3",
-    "apy": 23.24989886972035,
-    "baseApr": 15.495512290331503,
-    "addyTokenApr": 5.207457840712366
+    "apy": 146.0109499637431,
+    "baseApr": 74.5790242904588,
+    "addyTokenApr": 24.304706102311293
   },
   {
     "name": "WETH/WMATIC LP (Quick)",
     "lpAddress": "0xadbf1854e5883eb8aa7baf50705338739e558e5b",
     "vaultAddress": "0xb573061faa98e2efa39d2ea98381eeab442dcf0d",
     "strategyAddress": "0x6d42df65926E49e2a24c90d5400c86c3Ea3b0dbc",
-    "apy": 16.978237682409144,
-    "baseApr": 11.638037469723233,
-    "addyTokenApr": 3.9111058954810467
+    "apy": 13.893244724649838,
+    "baseApr": 9.658020229929873,
+    "addyTokenApr": 3.147471362784416
+  },
+  {
+    "name": "WETH/DAI LP (Sushi)",
+    "lpAddress": "0x6ff62bfb8c12109e8000935a6de54dad83a4f39f",
+    "vaultAddress": "0xa51997184948a6ff835d70084e3bcd7a34ab1236",
+    "strategyAddress": "0x88Ff8769425af8c4B1914d72a3A4799D94F9DFe3",
+    "apy": 24.199659165142887,
+    "baseApr": 16.21026451866002,
+    "addyTokenApr": 5.282795245916895
+  },
+  {
+    "name": "SFI/WETH LP (Dino)",
+    "lpAddress": "0x7c07cecd8cdd65c0dad449808cc5f9ad74c22bd1",
+    "vaultAddress": "0x28579d3b5afdade204565f884e29d63d9f81adbb",
+    "strategyAddress": "0x99323a0BCe6352acbb67442E3A89eb81BC9Bb502",
+    "apy": 69.60224610856291,
+    "baseApr": 46.55157016808768,
+    "addyTokenApr": 7.585391752579152
   },
   {
     "name": "QI/WETH LP (Quick)",
     "lpAddress": "0x8c1b40ea78081b70f661c3286c74e71b4602c9c0",
     "vaultAddress": "0x0d33d598afda42135d8cb1dccdae11bae72c4685",
     "strategyAddress": "0x2116f04a100250878264cc222a8baA251dc0C742",
-    "apy": 120.12368617057709,
-    "baseApr": 64.0493839279919,
-    "addyTokenApr": 21.52458468486572
+    "apy": 122.18550568942672,
+    "baseApr": 65.24749896637674,
+    "addyTokenApr": 21.263636811772113
   },
   {
     "name": "AAVE/WETH LP",
     "lpAddress": "0x1d7c760a79ec798cbc5f6e017baaa445965daba8",
     "vaultAddress": "0x5c65c50042703cef3d4997997eeec68d686dbf36",
     "strategyAddress": "0xcCd8FdDDb33b70D359A09e26C5A523A69c7Ce4e2",
-    "apy": 21.204816977920423,
-    "baseApr": 14.144285181703536,
-    "addyTokenApr": 4.753361321051107
+    "apy": 27.66802877308773,
+    "baseApr": 18.275757434806973,
+    "addyTokenApr": 5.9559228278471945
   },
   {
     "name": "USDC/USDT LP (Sushi)",
     "lpAddress": "0x4b1f1e2435a9c96f7330faea190ef6a7c8d70001",
     "vaultAddress": "0x85130b20954ecaa2a89b33f64d937d1ff06bc433",
     "strategyAddress": "0x8E0B7d2Af28134e25df94489726515BaF5789BeA",
-    "apy": 8.049468801764675,
-    "baseApr": 5.578004252394594,
-    "addyTokenApr": 1.8745570611294533
+    "apy": 7.69023993975485,
+    "baseApr": 5.376902852648541,
+    "addyTokenApr": 1.752289532045017
   },
   {
     "name": "FRAX/USDC LP (Sushi)",
     "lpAddress": "0x9e20a8d3501bf96eda8e69b96dd84840058a1cb0",
     "vaultAddress": "0x189a634e4c8a15b9175d369216676c0c2b2e8a5a",
     "strategyAddress": "0x1139FD1Ffb662216FB85dC837402b245BEb61404",
-    "apy": 14.994302727789844,
-    "baseApr": 10.204301096715536,
-    "addyTokenApr": 3.429281120846654
+    "apy": 12.182759083969323,
+    "baseApr": 8.416961632604789,
+    "addyTokenApr": 2.7430203157144457
   },
   {
     "name": "USDC/DAI LP (Sushi)",
     "lpAddress": "0xcd578f016888b57f1b1e3f887f392f0159e26747",
     "vaultAddress": "0x964cdbf4c559e4b148289fc97614bce7d455a398",
     "strategyAddress": "0x5B806d032F0EA747Ce5aDB83CE15F2754Df5403d",
-    "apy": 3.8549634874325602,
-    "baseApr": 2.7013427980335014,
-    "addyTokenApr": 0.9078195331979239
+    "apy": 4.472273914348,
+    "baseApr": 3.154206842421727,
+    "addyTokenApr": 1.0279307220806195
   },
   {
     "name": "LINK/WETH LP",
     "lpAddress": "0x45ea5ce4e764ae027b64c8df8f457e168964e026",
     "vaultAddress": "0x501c02814fd888ca3f4e17e46d29b4e9b6739049",
     "strategyAddress": "0xfe76f3C413A088eAf8F00E6A60784ee2C4419719",
-    "apy": 16.88543446778417,
-    "baseApr": 11.396043123487075,
-    "addyTokenApr": 3.829780713576487
+    "apy": 26.946871954294558,
+    "baseApr": 17.833519047430883,
+    "addyTokenApr": 5.811800882908971
   },
   {
     "name": "WBTC/WETH LP",
     "lpAddress": "0x5356d0f2e8b22ff6133e11762600984d819b15d1",
     "vaultAddress": "0x58f6679f0bf5f8f6230e476c27becb1ff339626f",
     "strategyAddress": "0xaB44D61E7415738bF3D8e6Ca98a46617F99196D2",
-    "apy": 21.64430994991544,
-    "baseApr": 14.42038447630685,
-    "addyTokenApr": 4.8461478910952795
-  },
-  {
-    "name": "BNB/WMATIC LP (Ape)",
-    "lpAddress": "0x0359001070cf696d5993e0697335157a6f7db289",
-    "vaultAddress": "0xfd910e810c8e54e138771c3977c399192b74ff06",
-    "strategyAddress": "0xf6d4f0d1F937eb34a458E9e93f461E2B371943C0",
-    "apy": 42.881033552108406,
-    "baseApr": 27.04760718306993,
-    "addyTokenApr": 9.0896816742141
+    "apy": 21.535519691649508,
+    "baseApr": 14.461125804657911,
+    "addyTokenApr": 4.712764962194951
   },
   {
     "name": "ROUTE/WETH LP (Dino)",
     "lpAddress": "0xebc4f9b1ce66258ac3a48578ffeeba1330ddb68b",
     "vaultAddress": "0xe6cebe217de005cd14574ed77ab98ca09686536e",
     "strategyAddress": "0xAE71158b5156B0c689BbD8A6f06FBa07Ee293CbB",
-    "apy": 104.82796155024724,
-    "baseApr": 64.00157464413145,
-    "addyTokenApr": 10.754258892959452
+    "apy": 136.11699690210776,
+    "baseApr": 77.7646913147737,
+    "addyTokenApr": 12.671444722724376
   },
   {
-    "name": "DFYN/WETH LP (Dino)",
-    "lpAddress": "0x6fa867bbfdd025780a8cfe988475220aff51fb8b",
-    "vaultAddress": "0x148453b87db7b303fa9dbf161a0e558fd0e2eb22",
-    "strategyAddress": "0xFbf2B9e6464d8587184c198eeef5377568E433dA",
-    "apy": 144.29743716154076,
-    "baseApr": 80.82269382419679,
-    "addyTokenApr": 13.580731078020538
-  },
-  {
-    "name": "WUSD/USDC LP (Wault)",
-    "lpAddress": "0x7b93196cd4861f345509c2da31058ca4b1c30d63",
-    "vaultAddress": "0xd0e41ffb984110c9eb657e2494a7e677ad04976d",
-    "strategyAddress": "0x77dE88f6a7f65F4024519620285e2b4141f7aCDF",
-    "apy": 36.39384295173666,
-    "baseApr": 23.33165937812999,
-    "addyTokenApr": 7.840891626492586
+    "name": "BNB/WMATIC LP (Ape)",
+    "lpAddress": "0x0359001070cf696d5993e0697335157a6f7db289",
+    "vaultAddress": "0xfd910e810c8e54e138771c3977c399192b74ff06",
+    "strategyAddress": "0xf6d4f0d1F937eb34a458E9e93f461E2B371943C0",
+    "apy": 40.190854261586146,
+    "baseApr": 25.701448363345545,
+    "addyTokenApr": 8.375895968308601
   },
   {
     "name": "WETH/AAVE LP (Sushi)",
     "lpAddress": "0x2813d43463c374a680f235c428fb1d7f08de0b69",
     "vaultAddress": "0xecbc229e22821b3f33e9cde25d39cbf35824165b",
     "strategyAddress": "0x4bB2D0dBdbAeb315F1b793AF1E81190675052088",
-    "apy": 16.27979225279148,
-    "baseApr": 11.042685425850673,
-    "addyTokenApr": 3.711030505215781
+    "apy": 12.723793135208759,
+    "baseApr": 8.77825694864243,
+    "addyTokenApr": 2.8607635626391708
   },
   {
-    "name": "MVI/WETH LP (Sushi)",
-    "lpAddress": "0x4642dafc5281ba5a8d35b2896e0d925b23c6883c",
-    "vaultAddress": "0xc1095feb53ffbeed18285dca3b513f1f25a213ab",
-    "strategyAddress": "0xEcd6241BEfD0b6cE796f38CD09495bE6E5DCe5C8",
-    "apy": 20.556738136702304,
-    "baseApr": 13.79329367306858,
-    "addyTokenApr": 4.6354062996604934
+    "name": "WUSD/USDC LP (Wault)",
+    "lpAddress": "0x7b93196cd4861f345509c2da31058ca4b1c30d63",
+    "vaultAddress": "0xd0e41ffb984110c9eb657e2494a7e677ad04976d",
+    "strategyAddress": "0x77dE88f6a7f65F4024519620285e2b4141f7aCDF",
+    "apy": 38.81676089767608,
+    "baseApr": 24.909204679705464,
+    "addyTokenApr": 8.117710103375689
+  },
+  {
+    "name": "DFYN/WETH LP (Dino)",
+    "lpAddress": "0x6fa867bbfdd025780a8cfe988475220aff51fb8b",
+    "vaultAddress": "0x148453b87db7b303fa9dbf161a0e558fd0e2eb22",
+    "strategyAddress": "0xFbf2B9e6464d8587184c198eeef5377568E433dA",
+    "apy": 92.19040001716738,
+    "baseApr": 58.19528494671882,
+    "addyTokenApr": 9.482688400840434
   },
   {
     "name": "WMATIC/WETH LP",
     "lpAddress": "0x64ac1107923413b6faf0168e2063c1d4cb01bc9b",
     "vaultAddress": "0xf20cbe300f04cb63f12b3acd419f865453856df7",
     "strategyAddress": "0xe2Ed6BD412DEf5f17a69Fc55931901462c29Fe60",
-    "apy": 28.339551895419646,
-    "baseApr": 18.548861296718307,
-    "addyTokenApr": 6.233573397644373
+    "apy": 22.077173408280576,
+    "baseApr": 14.803058740124525,
+    "addyTokenApr": 4.824198164523395
+  },
+  {
+    "name": "MVI/WETH LP (Sushi)",
+    "lpAddress": "0x4642dafc5281ba5a8d35b2896e0d925b23c6883c",
+    "vaultAddress": "0xc1095feb53ffbeed18285dca3b513f1f25a213ab",
+    "strategyAddress": "0xEcd6241BEfD0b6cE796f38CD09495bE6E5DCe5C8",
+    "apy": 20.06611513493553,
+    "baseApr": 13.582959175473524,
+    "addyTokenApr": 4.426577498169434
   },
   {
     "name": "QUICK/WMATIC LP (Quick)",
     "lpAddress": "0x019ba0325f1988213d448b3472fa1cf8d07618d7",
     "vaultAddress": "0x1cc3b45b0e21b633d683fcc306486fcd5257aac6",
     "strategyAddress": "0x3e1995dA30A08767c879cCBa3c3697CBB4b43CEA",
-    "apy": 33.399734205552626,
-    "baseApr": 22.31657860200745,
-    "addyTokenApr": 7.4997612238614995
+    "apy": 28.833439174166127,
+    "baseApr": 19.574384093502587,
+    "addyTokenApr": 6.379134844583935
   },
   {
     "name": "GRT/WETH LP (Sushi)",
     "lpAddress": "0x1ceda73c034218255f50ef8a2c282e6b4c301d60",
     "vaultAddress": "0x4581b1b38be2d72f4964e742444ed39aaaccceb2",
     "strategyAddress": "0xef551F08257c147053B9F5a0C72485549d8cD02a",
-    "apy": 27.196033061806133,
-    "baseApr": 17.949435127418848,
-    "addyTokenApr": 6.0321288473280665
+    "apy": 24.404378748800823,
+    "baseApr": 16.338984947376275,
+    "addyTokenApr": 5.324744201659835
   },
   {
     "name": "UNI/WETH LP (Quick)",
     "lpAddress": "0xf7135272a5584eb116f5a77425118a8b4a2ddfdb",
     "vaultAddress": "0x74508204c9a88493716f8050944b06df5d8deb93",
     "strategyAddress": "0x2aF08D578E1ED210E62294A2CdE4C85683C80C6c",
-    "apy": 11.644575699874286,
-    "baseApr": 7.9739393256330775,
-    "addyTokenApr": 2.679740565179101
-  },
-  {
-    "name": "WETH/USDC LP",
-    "lpAddress": "0x93054d6e998294097e9676d8af1c26db28c40652",
-    "vaultAddress": "0x1125cad68b79ad96336150b57b3bc6922dfb3fe1",
-    "strategyAddress": "0x984902b8168614CF292fC5d7aC89b691861543cA",
-    "apy": 60.851092614518066,
-    "baseApr": 36.76612278337109,
-    "addyTokenApr": 12.355708593146707
+    "apy": 11.35131183751525,
+    "baseApr": 7.841112516575504,
+    "addyTokenApr": 2.5553557054902805
   },
   {
     "name": "WETH/USDC LP (Sushi)",
     "lpAddress": "0x34965ba0ac2451a34a0471f04cca3f990b8dea27",
     "vaultAddress": "0xbd1062f727a23d3934e3dd7a849c74128fd65267",
     "strategyAddress": "0x61a1Cb654B2135d7E4E1EEd432E096885b51d0AA",
-    "apy": 15.692721918055572,
-    "baseApr": 10.660482169693806,
-    "addyTokenApr": 3.5825863914795906
+    "apy": 15.752187637460391,
+    "baseApr": 10.781947071316525,
+    "addyTokenApr": 3.513750109661189
+  },
+  {
+    "name": "WETH/USDC LP",
+    "lpAddress": "0x93054d6e998294097e9676d8af1c26db28c40652",
+    "vaultAddress": "0x1125cad68b79ad96336150b57b3bc6922dfb3fe1",
+    "strategyAddress": "0x984902b8168614CF292fC5d7aC89b691861543cA",
+    "apy": 46.3794751470023,
+    "baseApr": 29.20459910241257,
+    "addyTokenApr": 9.517544708757613
   },
   {
     "name": "GFI",
     "lpAddress": "0x874e178a2f3f3f9d34db862453cd756e7eab0381",
     "vaultAddress": "0x5f9ddfad9ef50a7a3dbc03b54d1be2da4e819b27",
     "strategyAddress": "0xb380Ace536D91945f80F29d072C1915fb0898E37",
-    "apy": 52.88716897592322,
-    "baseApr": 32.55827478371231,
-    "addyTokenApr": 10.941609423800676
-  },
-  {
-    "name": "UST/USDT LP (Dino)",
-    "lpAddress": "0x39bed7f1c412ab64443196a6fecb2ac20c707224",
-    "vaultAddress": "0x8d94f558111bea3bdf43f8a5c8308d33aab7d982",
-    "strategyAddress": "0x2C761Ea0dC47A24bFC8DdF8106CD439958f1B193",
-    "apy": 30.998244197282954,
-    "baseApr": 23.10490734805314,
-    "addyTokenApr": 3.8823444063745134
+    "apy": 51.8639263597204,
+    "baseApr": 32.22379036942847,
+    "addyTokenApr": 10.501474937258529
   },
   {
     "name": "GFI/USDC LP",
     "lpAddress": "0x96d6f7afff161e7152bec4272b51cc007e4417ae",
     "vaultAddress": "0x5f2550664afd9c49ae815b080eb8783df56c6693",
     "strategyAddress": "0xdB99360Af1D6B3953eBa8EBE9a9A543685D2222B",
-    "apy": 296.30523722262853,
-    "baseApr": 119.9061791509105,
-    "addyTokenApr": 40.295948986396006
+    "apy": 313.04977980807075,
+    "baseApr": 124.4690644899032,
+    "addyTokenApr": 40.563470225551775
   },
   {
-    "name": "USDT/USDC LP (Wault)",
-    "lpAddress": "0x7242e19a0937ac33472febd69462668a4cf5bbc5",
-    "vaultAddress": "0xa2939fa1bf7cfdd8a76f2c0e7cbfe5d1ffb6cf7a",
-    "strategyAddress": "0xd602fa7c864BE5a041a2d1648643062bf69A40B3",
-    "apy": 11.878423299016713,
-    "baseApr": 8.128747165619332,
-    "addyTokenApr": 2.731765647347128
+    "name": "UST/USDT LP (Dino)",
+    "lpAddress": "0x39bed7f1c412ab64443196a6fecb2ac20c707224",
+    "vaultAddress": "0x8d94f558111bea3bdf43f8a5c8308d33aab7d982",
+    "strategyAddress": "0x2C761Ea0dC47A24bFC8DdF8106CD439958f1B193",
+    "apy": 28.64312898430171,
+    "baseApr": 21.5999225423473,
+    "addyTokenApr": 3.5196207929714256
   },
   {
     "name": "LINK/WETH LP (Quick)",
     "lpAddress": "0x5ca6ca6c3709e1e6cfe74a50cf6b2b6ba2dadd67",
     "vaultAddress": "0x4998e78e97598c053885c1de0a84325e78ff121f",
     "strategyAddress": "0x0fc333ec5eD16627883C1E9d1654fA2F0FFC0C3d",
-    "apy": 6.856621439597359,
-    "baseApr": 4.7593408338402075,
-    "addyTokenApr": 1.599435131761849
-  },
-  {
-    "name": "USDT/WMATIC LP (Ape)",
-    "lpAddress": "0x65d43b64e3b31965cd5ea367d4c2b94c03084797",
-    "vaultAddress": "0x3236fb44e8953ce5048db00c91f9d2b6e0fc6313",
-    "strategyAddress": "0xa2bDbC8BA38967467ba2002F3ec867f8aa4AFa02",
-    "apy": 61.443709716502774,
-    "baseApr": 37.07326386252086,
-    "addyTokenApr": 12.458927137384274
+    "apy": 6.670514316072147,
+    "baseApr": 4.670041089750553,
+    "addyTokenApr": 1.521928950559169
   },
   {
     "name": "AVAX/WETH LP (Sushi)",
     "lpAddress": "0x1274de0de2e9d9b1d0e06313c0e5edd01cc335ef",
     "vaultAddress": "0x78b8848d05aa7ee1cc77536639b224741ce4241e",
     "strategyAddress": "0xCDd91b82e61A4B33c761200a505d210bC7627f95",
-    "apy": 26.864650936262148,
-    "baseApr": 17.745168236731395,
-    "addyTokenApr": 5.963482441737976
+    "apy": 26.928685583050864,
+    "baseApr": 17.915544972848764,
+    "addyTokenApr": 5.838532474385513
+  },
+  {
+    "name": "USDT/WMATIC LP (Ape)",
+    "lpAddress": "0x65d43b64e3b31965cd5ea367d4c2b94c03084797",
+    "vaultAddress": "0x3236fb44e8953ce5048db00c91f9d2b6e0fc6313",
+    "strategyAddress": "0xa2bDbC8BA38967467ba2002F3ec867f8aa4AFa02",
+    "apy": 54.10662399333566,
+    "baseApr": 33.43624588301858,
+    "addyTokenApr": 10.896604468655527
+  },
+  {
+    "name": "USDT/USDC LP (Wault)",
+    "lpAddress": "0x7242e19a0937ac33472febd69462668a4cf5bbc5",
+    "vaultAddress": "0xa2939fa1bf7cfdd8a76f2c0e7cbfe5d1ffb6cf7a",
+    "strategyAddress": "0xd602fa7c864BE5a041a2d1648643062bf69A40B3",
+    "apy": 12.75466054219424,
+    "baseApr": 8.77558001432035,
+    "addyTokenApr": 2.8598911712050867
   },
   {
     "name": "DAI/WETH LP (Quick)",
     "lpAddress": "0x4a35582a710e1f4b2030a3f826da20bfb6703c09",
     "vaultAddress": "0x957bc77bc6200890b2d9179e23a8ee2305cd7db1",
     "strategyAddress": "0x8d96dFF0FA6b885f32049143AE2de442De380da2",
-    "apy": 9.47483763024061,
-    "baseApr": 6.527905649328007,
-    "addyTokenApr": 2.193783130244378
+    "apy": 11.238342059159272,
+    "baseApr": 7.765567052373527,
+    "addyTokenApr": 2.530736044368934
   },
   {
     "name": "ELK/MATIC LP (Elk)",
     "lpAddress": "0x7Cb0703aa37601a02798BDFF63A18aF2dD082572",
     "vaultAddress": "0x56f082c635bccb290a35c65e0be9af6b2da83d75",
     "strategyAddress": "0x1d7fDE152F4CCD66f14C815D0590CD2431049da4",
-    "apy": 143.9403999406881,
-    "baseApr": 73.41673799551948,
-    "addyTokenApr": 24.672599443700896
-  },
-  {
-    "name": "WMATIC/USDT LP (Wault)",
-    "lpAddress": "0xf7bc741b2086ca344e78225d06224ffdcd86d110",
-    "vaultAddress": "0x7b82ba7f41e6c78ee7f18b1615d5b3d69f541bbc",
-    "strategyAddress": "0x0Bd78b15Ce9709A1017274510a5Bed9658229fD9",
-    "apy": 27.87793256724963,
-    "baseApr": 18.26878727545931,
-    "addyTokenApr": 6.139451071731017
+    "apy": 144.0252432895059,
+    "baseApr": 73.82989818246199,
+    "addyTokenApr": 24.060571909598877
   },
   {
     "name": "GFI/WETH LP",
     "lpAddress": "0x2aabda501253b3aeeb4bee0bf7b0d5fd87b038eb",
     "vaultAddress": "0x9483521b7a521bed4eb52c71e1906fc203b53d6d",
     "strategyAddress": "0xD832EB88a540947911e83A70E51aF96C33BD9A7c",
-    "apy": 172.04924995146422,
-    "baseApr": 83.56382783855251,
-    "addyTokenApr": 28.082654017791054
+    "apy": 163.2265138701025,
+    "baseApr": 80.87420501786656,
+    "addyTokenApr": 26.356255031735323
   },
   {
-    "name": "DINO/USDC LP (Dino)",
-    "lpAddress": "0x3324af8417844e70b81555a6d1568d78f4d4bf1f",
-    "vaultAddress": "0x4682e06a9566fc00803873805b0576e520d5b030",
-    "strategyAddress": "0xB2c22cdAF425dE18985b23B6Bf7eb2549B95408E",
-    "apy": 669.7982409456943,
-    "baseApr": 195.5545576094166,
-    "addyTokenApr": 32.859259352967435
+    "name": "WMATIC/USDT LP (Wault)",
+    "lpAddress": "0xf7bc741b2086ca344e78225d06224ffdcd86d110",
+    "vaultAddress": "0x7b82ba7f41e6c78ee7f18b1615d5b3d69f541bbc",
+    "strategyAddress": "0x0Bd78b15Ce9709A1017274510a5Bed9658229fD9",
+    "apy": 28.637372186596174,
+    "baseApr": 18.8675902585022,
+    "addyTokenApr": 6.148796400255326
   },
   {
     "name": "WETH/USDT LP (Sushi)",
     "lpAddress": "0xc2755915a85c6f6c1c0f3a86ac8c058f11caa9c9",
     "vaultAddress": "0xc143be16e9ff4a16b4a10a74d5d32b6fcdf86ba9",
     "strategyAddress": "0x299e734565c8Ef0d0cA786263300D04ecB2eFef7",
-    "apy": 20.30093786571554,
-    "baseApr": 13.630431173793532,
-    "addyTokenApr": 4.580674349989037
+    "apy": 21.118160301778843,
+    "baseApr": 14.256810383189384,
+    "addyTokenApr": 4.646180204373204
+  },
+  {
+    "name": "DINO/USDC LP (Dino)",
+    "lpAddress": "0x3324af8417844e70b81555a6d1568d78f4d4bf1f",
+    "vaultAddress": "0x4682e06a9566fc00803873805b0576e520d5b030",
+    "strategyAddress": "0xB2c22cdAF425dE18985b23B6Bf7eb2549B95408E",
+    "apy": 722.9581092097629,
+    "baseApr": 202.6062014241084,
+    "addyTokenApr": 33.01386835620362
   },
   {
     "name": "QUICK/WETH LP (Quick)",
     "lpAddress": "0x1bd06b96dd42ada85fdd0795f3b4a79db914add5",
     "vaultAddress": "0x50d22ab4b65592c3c875cae630f33c67916b80d7",
     "strategyAddress": "0x98e99E0229a37eA6795e7e8A31AA5F2b0dF8C13B",
-    "apy": 20.88774299588621,
-    "baseApr": 13.944692636363472,
-    "addyTokenApr": 4.686285786812243
+    "apy": 20.176890960190583,
+    "baseApr": 13.599079459607454,
+    "addyTokenApr": 4.431830969529356
   },
   {
     "name": "LINK/WETH LP",
     "lpAddress": "0x436803355d26943dd0bc9826d39f9079199a890a",
     "vaultAddress": "0x4b50a376c16e52f436eb957c9177bc979ff18f83",
     "strategyAddress": "0x6D71B0C3A63Ab1e81000C439279794d9594e5346",
-    "apy": 31.634636502362476,
-    "baseApr": 20.529017870359784,
-    "addyTokenApr": 6.899029413685961
-  },
-  {
-    "name": "USDC/DAI LP (Ape)",
-    "lpAddress": "0x5b13b583d4317ab15186ed660a1e4c65c10da659",
-    "vaultAddress": "0x75472c558f5db7a06bb22ca29effbc99d5af5497",
-    "strategyAddress": "0x15edCcBb2e2747421efEE87FbFdF1189571326bb",
-    "apy": 14.750545029828064,
-    "baseApr": 10.013880543313622,
-    "addyTokenApr": 3.3652879475157986
+    "apy": 24.12029304662578,
+    "baseApr": 16.083997381029388,
+    "addyTokenApr": 5.241645798070268
   },
   {
     "name": "UNI/DFYN LP",
     "lpAddress": "0xE8c9bB82443c55d1c0Bdd12f7e9cbEc5974eCf43",
     "vaultAddress": "0xb82bc39674ce5c7370b33f82bb3dc54c59cb46be",
     "strategyAddress": "0x5B9126A94Bf8ee1B6AEACd38F66f17Cb87D0BFB9",
-    "apy": 244.12237659091903,
-    "baseApr": 106.05084750864444,
-    "addyTokenApr": 35.63969406275547
+    "apy": 236.03237439256247,
+    "baseApr": 104.18039851187726,
+    "addyTokenApr": 33.95155664133278
+  },
+  {
+    "name": "USDC/DAI LP (Ape)",
+    "lpAddress": "0x5b13b583d4317ab15186ed660a1e4c65c10da659",
+    "vaultAddress": "0x75472c558f5db7a06bb22ca29effbc99d5af5497",
+    "strategyAddress": "0x15edCcBb2e2747421efEE87FbFdF1189571326bb",
+    "apy": 14.736396126574107,
+    "baseApr": 10.082782280137474,
+    "addyTokenApr": 3.2858979095504854
   },
   {
     "name": "ELK/DAI LP (Elk)",
     "lpAddress": "0x878365b7faeb16dbefc7adab6d7dd768cd8e7007",
     "vaultAddress": "0x145ee80634104c6f7e48393fc7cdc62afb174a5a",
     "strategyAddress": "0xa89bD7530D1705Be730fd3E0c57411Ca3A2BC58d",
-    "apy": 163.36665628989797,
-    "baseApr": 80.5251994460044,
-    "addyTokenApr": 27.06148550452679
-  },
-  {
-    "name": "CGG/WMATIC LP (Dino)",
-    "lpAddress": "0xd74d23d2f23cd06a7d94f740a74c6e906f0c9005",
-    "vaultAddress": "0x6836ed4f7a12152980545e404e5d7627b6731afa",
-    "strategyAddress": "0xd627569f7632eFF3366922C680625e5c9fF8402E",
-    "apy": 89.35952387328676,
-    "baseApr": 56.618210171822035,
-    "addyTokenApr": 9.513623588628308
-  },
-  {
-    "name": "UST/USDC LP",
-    "lpAddress": "0xfccabd913df5a17721c30bf23feb7ea865422f45",
-    "vaultAddress": "0xbfdd8b58c217792ed2c0357e69b89064e0d0b21b",
-    "strategyAddress": "0x655Cbee46215f30ea787A82Ca494708588f067B8",
-    "apy": 36.79005255844613,
-    "baseApr": 23.562007099218004,
-    "addyTokenApr": 7.918302816506514
+    "apy": 167.6743496582252,
+    "baseApr": 82.44525304668278,
+    "addyTokenApr": 26.868246988941433
   },
   {
     "name": "LINK/DFYN LP",
     "lpAddress": "0x2F653881b6865a41cBf2d7fFB4aF1A959BA057D3",
     "vaultAddress": "0x6b6b2437abd79cf49fd8691373483ad7f3406268",
     "strategyAddress": "0xCEbCD41b42AAc322f1c8cb3847F67B4A3C250a74",
-    "apy": 228.53791838630525,
-    "baseApr": 101.55559047867803,
-    "addyTokenApr": 34.129007547323376
-  },
-  {
-    "name": "WMATIC/USDC LP",
-    "lpAddress": "0xe0ce1d5380681d0d944b91c5a56d2b56e3cc93dc",
-    "vaultAddress": "0xd9364ec633f6e2e7a5d3b23456a3c0c32ff0b04f",
-    "strategyAddress": "0x4164eDF6734a343A51E18D47ce7d8ba249E559de",
-    "apy": 35.419867088503736,
-    "baseApr": 22.763490050829333,
-    "addyTokenApr": 7.6499513230764675
+    "apy": 219.47978232313275,
+    "baseApr": 99.29107450142752,
+    "addyTokenApr": 32.35816514494983
   },
   {
     "name": "GFI/WBTC LP",
     "lpAddress": "0x4a56edb9f7ecf3fc710917265de58d9018309c1c",
     "vaultAddress": "0xf88aceac789356e95e3cb99e33f68b82f095fff1",
     "strategyAddress": "0x38Da7B4dcC412C0f83D227d4F5A53E1Bf4703a1E",
-    "apy": 145.76080646157274,
-    "baseApr": 74.10205549510174,
-    "addyTokenApr": 24.902908833910846
+    "apy": 150.79004566370367,
+    "baseApr": 76.36195536777983,
+    "addyTokenApr": 24.885749046319187
   },
   {
-    "name": "DG/USDC LP (Dino)",
-    "lpAddress": "0x27ce41b9eeb94cc122ef3b5e409b2900d3e0a629",
-    "vaultAddress": "0x76e2c4f29f0a7bd42666c897de8f54b737e58408",
-    "strategyAddress": "0xDb776Ed0968E22a37bF58980727B0BF0E988Ed9B",
-    "apy": 93.30179375235815,
-    "baseApr": 52.493528652282414,
-    "addyTokenApr": 17.64109712833116
+    "name": "UST/USDC LP",
+    "lpAddress": "0xfccabd913df5a17721c30bf23feb7ea865422f45",
+    "vaultAddress": "0xbfdd8b58c217792ed2c0357e69b89064e0d0b21b",
+    "strategyAddress": "0x655Cbee46215f30ea787A82Ca494708588f067B8",
+    "apy": 31.93098999830819,
+    "baseApr": 20.856575151842907,
+    "addyTokenApr": 6.796990630932159
+  },
+  {
+    "name": "WMATIC/USDC LP",
+    "lpAddress": "0xe0ce1d5380681d0d944b91c5a56d2b56e3cc93dc",
+    "vaultAddress": "0xd9364ec633f6e2e7a5d3b23456a3c0c32ff0b04f",
+    "strategyAddress": "0x4164eDF6734a343A51E18D47ce7d8ba249E559de",
+    "apy": 36.27805105561927,
+    "baseApr": 23.431268058246705,
+    "addyTokenApr": 7.636062407335859
   },
   {
     "name": "CRV/WETH LP",
     "lpAddress": "0xce4eb53cdf8bbc07c8dcc2f7a39984cc929af15d",
     "vaultAddress": "0x8d10b10c9897d3020b9dec1e3e6977c925e71469",
     "strategyAddress": "0x2A4A8613D104bfb0c557379AF94c0369467D6529",
-    "apy": 71.50851100118874,
-    "baseApr": 42.16970624949204,
-    "addyTokenApr": 14.171649399837728
+    "apy": 70.5347279392916,
+    "baseApr": 41.95221578071374,
+    "addyTokenApr": 13.671890784195197
+  },
+  {
+    "name": "DG/USDC LP (Dino)",
+    "lpAddress": "0x27ce41b9eeb94cc122ef3b5e409b2900d3e0a629",
+    "vaultAddress": "0x76e2c4f29f0a7bd42666c897de8f54b737e58408",
+    "strategyAddress": "0xDb776Ed0968E22a37bF58980727B0BF0E988Ed9B",
+    "apy": 92.84507054729715,
+    "baseApr": 52.59785618916293,
+    "addyTokenApr": 17.14121964522386
   },
   {
     "name": "WBTC/ETH LP (Cometh)",
     "lpAddress": "0x4282C6b1c21CD1A0C363a70e4292f8Bf4D7c898c",
     "vaultAddress": "0xe519980e4d898c9e3c9e0ae8f936f8807684681f",
     "strategyAddress": "0x362acECE14fc7B834c396ee1Ab7a39A84613864B",
-    "apy": 8.68739154109679,
-    "baseApr": 5.9987453424426995,
-    "addyTokenApr": 2.0159522888075956
-  },
-  {
-    "name": "IRON-IS3USD",
-    "lpAddress": "0x985d40fedaa3208dabacdfdca00cbeaac9543949",
-    "vaultAddress": "0x91ff74d41e9c1de0da0070f463258a49b074281d",
-    "strategyAddress": "0x68BE3c196187515188FDd9b5f5b8A63560A56cc2",
-    "apy": 11.831456724949273,
-    "baseApr": 8.09767127050539,
-    "addyTokenApr": 2.721322209877221
-  },
-  {
-    "name": "UNI/QUICK LP (Quick)",
-    "lpAddress": "0x4b4c614b9219397c02296f6f4e2351259840b3c7",
-    "vaultAddress": "0x8109f810f8c24033cffa7170af6d86a5de2f5abc",
-    "strategyAddress": "0x838CE2910F9d666751dC1B725C0bE1789Ca2eA1D",
-    "apy": 14.066408748757965,
-    "baseApr": 9.567542513045877,
-    "addyTokenApr": 3.2152905526716062
+    "apy": 13.967154063887207,
+    "baseApr": 9.577079637259763,
+    "addyTokenApr": 3.1210934725490573
   },
   {
     "name": "WETH/CRV LP (Sushi)",
     "lpAddress": "0x396e655c309676caf0acf4607a868e0cded876db",
     "vaultAddress": "0xd26463cd8e85915a982be32b094fdca6d739508b",
     "strategyAddress": "0x1869021c2455Df985d2238C02381F4DED97ADb4E",
-    "apy": 10.966933019582683,
-    "baseApr": 7.541739642122193,
-    "addyTokenApr": 2.534494535975119
+    "apy": 11.089696204560662,
+    "baseApr": 7.683903351109358,
+    "addyTokenApr": 2.5041224988400677
   },
   {
-    "name": "ELK/USDT LP (Elk)",
-    "lpAddress": "0x05B0EB68e5b32a09a92b25b833AB2E6B65fC1291",
-    "vaultAddress": "0x93090b37bf17099d19e6ebb26d9000bb73e3bf4b",
-    "strategyAddress": "0x9913b79c0Ea0AC59940E51e20663Dc71C55027D1",
-    "apy": 178.0695601516183,
-    "baseApr": 85.62385906417902,
-    "addyTokenApr": 28.774952894846862
+    "name": "IRON-IS3USD",
+    "lpAddress": "0x985d40fedaa3208dabacdfdca00cbeaac9543949",
+    "vaultAddress": "0x91ff74d41e9c1de0da0070f463258a49b074281d",
+    "strategyAddress": "0x68BE3c196187515188FDd9b5f5b8A63560A56cc2",
+    "apy": 10.742475652250366,
+    "baseApr": 7.433400614684403,
+    "addyTokenApr": 2.42248566536634
   },
   {
-    "name": "CRYSTL/WMATIC LP",
-    "lpAddress": "0xb8e54c9ea1616beebe11505a419dd8df1000e02a",
-    "vaultAddress": "0x7920130df165e0bab745e9eb1491039a3a333fc3",
-    "strategyAddress": "0x67f4A0BB3dbff781a2bb1Cc1B7DC000081724896",
-    "apy": 321.13367086913775,
-    "baseApr": 134.46102778376525,
-    "addyTokenApr": 22.593642607082597
+    "name": "UNI/QUICK LP (Quick)",
+    "lpAddress": "0x4b4c614b9219397c02296f6f4e2351259840b3c7",
+    "vaultAddress": "0x8109f810f8c24033cffa7170af6d86a5de2f5abc",
+    "strategyAddress": "0x838CE2910F9d666751dC1B725C0bE1789Ca2eA1D",
+    "apy": 13.476443977529874,
+    "baseApr": 9.253355244826615,
+    "addyTokenApr": 3.0155942884139337
   },
   {
     "name": "NEXO/WETH LP (Quick)",
     "lpAddress": "0x10062ec62c0be26cc9e2f50a1cf784a89ded075f",
     "vaultAddress": "0xfcbd8bd04d7bae095a6b7ac81cbbed14e68acf96",
     "strategyAddress": "0x5247eFC7152d4528A77219c0945631Eddc2B4e30",
-    "apy": 17.112509447007476,
-    "baseApr": 11.542114921051267,
-    "addyTokenApr": 3.878869941043153
+    "apy": 15.9535818392652,
+    "baseApr": 10.878585155273502,
+    "addyTokenApr": 3.5452436864572223
+  },
+  {
+    "name": "ELK/USDT LP (Elk)",
+    "lpAddress": "0x05B0EB68e5b32a09a92b25b833AB2E6B65fC1291",
+    "vaultAddress": "0x93090b37bf17099d19e6ebb26d9000bb73e3bf4b",
+    "strategyAddress": "0x9913b79c0Ea0AC59940E51e20663Dc71C55027D1",
+    "apy": 185.96574865110546,
+    "baseApr": 88.68548512884975,
+    "addyTokenApr": 28.90188859541503
   },
   {
     "name": "UGT/WETH LP (Quick)",
     "lpAddress": "0x15551bedc20b01b473da93e6cfa29b1eb7baeabb",
     "vaultAddress": "0xc97fd55e68c805ed77429e8edc4458d857435f74",
     "strategyAddress": "0xF32FAaE4bDf303741112269319F22077267cd783",
-    "apy": 152.64432826418022,
-    "baseApr": 76.65677266107363,
-    "addyTokenApr": 25.7614530167349
+    "apy": 85.67844381299754,
+    "baseApr": 49.28407617551875,
+    "addyTokenApr": 16.061285305969726
   },
   {
     "name": "ANGEL/QUICK LP (Quick)",
     "lpAddress": "0x5701026955d90e9d9ea79eba2cc70596a6a7accd",
     "vaultAddress": "0x3b82bc7fbe9e4b353a62457fb6010de6f3705c65",
     "strategyAddress": "0x31F8d04A96C56bf8475713902C9d7dF56A652717",
-    "apy": 405.5577411576123,
-    "baseApr": 144.28099398752613,
-    "addyTokenApr": 48.48740585846375
+    "apy": 210.38325308078652,
+    "baseApr": 96.51020958614153,
+    "addyTokenApr": 31.451903563770877
   },
   {
     "name": "SOL/WMATIC LP (Quick)",
     "lpAddress": "0x898386dd8756779a4ba4f1462891b92dd76b78ef",
     "vaultAddress": "0xa4a27ac07b6dc76ae6e57c8c40995e98bdbb61b7",
     "strategyAddress": "0xC5A368bA9bA93503e29aE53B888Cc2b1CB8d6Ce8",
-    "apy": 13.902260006668332,
-    "baseApr": 9.460200801512999,
-    "addyTokenApr": 3.1792170478474935
+    "apy": 12.411352679641737,
+    "baseApr": 8.547655249276445,
+    "addyTokenApr": 2.7856123175926353
   },
   {
     "name": "GFI/WMATIC LP",
     "lpAddress": "0xf08c4ebae711242ca26c6c29116badbc9af123ee",
     "vaultAddress": "0x18abb0255e0a664526d34e7e6a634c5e8f6cefda",
     "strategyAddress": "0x0137b4eF343F1d7a87455DB67e6B51da43F1348B",
-    "apy": 156.87505863566633,
-    "baseApr": 78.19892639897932,
-    "addyTokenApr": 26.279712782760942
+    "apy": 155.99009881112605,
+    "baseApr": 78.27058888034605,
+    "addyTokenApr": 25.50775740619363
   },
   {
     "name": "UMA/WETH LP (Sushi)",
     "lpAddress": "0x6be10c5c7178af8c49997d07d6a5444c15e58170",
     "vaultAddress": "0xbc2135d96953387eaa633ca3c7a964670a333321",
     "strategyAddress": "0x4618a3c7BFc815d4673a18E7A1ED0EEd6e18d9F0",
-    "apy": 12.679203457828976,
-    "baseApr": 8.680486891505835,
-    "addyTokenApr": 2.917184580762636
+    "apy": 13.37565308591623,
+    "baseApr": 9.212209746624339,
+    "addyTokenApr": 3.0021853004209467
   },
   {
     "name": "DINO/WETH LP (Dino)",
     "lpAddress": "0x9f03309a588e33a239bf49ed8d68b2d45c7a1f11",
     "vaultAddress": "0xf72475c0914db383671956b3647ffc49b81d058f",
     "strategyAddress": "0x01367071c1a1b71cAB5F9843C4A5cDa43515C2F7",
-    "apy": 1048.9944246683658,
-    "baseApr": 236.52983773662325,
-    "addyTokenApr": 39.744383244835966
-  },
-  {
-    "name": "CRV (Curve)",
-    "lpAddress": "0xe7a24ef0c5e95ffb0f6684b813a78f2a3ad7d171",
-    "vaultAddress": "0xbcd92b36e2b6066c82bd85b210086c7c44814b81",
-    "strategyAddress": "0x47e93231C4F77Cc786D97EE463EA0A9E4f62aDa1",
-    "apy": 10.454893200799695,
-    "baseApr": 7.797135062988898
+    "apy": 991.6406181597483,
+    "baseApr": 231.49925635001796,
+    "addyTokenApr": 37.72187583587515
   },
   {
     "name": "WETH/SNX LP (Sushi)",
     "lpAddress": "0x116ff0d1caa91a6b94276b3471f33dbeb52073e7",
     "vaultAddress": "0xeab393563a68d6c6eebdcf5d1623e2f149bb5279",
     "strategyAddress": "0x873aF5F2B0199b9D657C93a5Cdc839428fe8C920",
-    "apy": 9.550589202996058,
-    "baseApr": 6.5921355984356635,
-    "addyTokenApr": 2.2153683960827926
+    "apy": 9.560655605819225,
+    "baseApr": 6.651369825281806,
+    "addyTokenApr": 2.1676281007867475
   },
   {
-    "name": "IS3USD",
-    "lpAddress": "0xb4d09ff3da7f9e9a2ba029cb0a81a989fd7b8f17",
-    "vaultAddress": "0xcf0c29e0f7d1d6db1d5e907c4265838a46179a12",
-    "strategyAddress": "0x0273ca543D4350d530035cA4B796769CEbc178BF",
-    "apy": 9.933798644631068,
-    "baseApr": 7.944066264361824,
-    "addyTokenApr": 1.334850677421668
+    "name": "CRV (Curve)",
+    "lpAddress": "0xe7a24ef0c5e95ffb0f6684b813a78f2a3ad7d171",
+    "vaultAddress": "0xbcd92b36e2b6066c82bd85b210086c7c44814b81",
+    "strategyAddress": "0x47e93231C4F77Cc786D97EE463EA0A9E4f62aDa1",
+    "apy": 4.718801970123528,
+    "baseApr": 3.5996271307455707
+  },
+  {
+    "name": "CRYSTL/WMATIC LP",
+    "lpAddress": "0xb8e54c9ea1616beebe11505a419dd8df1000e02a",
+    "vaultAddress": "0x7920130df165e0bab745e9eb1491039a3a333fc3",
+    "strategyAddress": "0x67f4A0BB3dbff781a2bb1Cc1B7DC000081724896",
+    "apy": 291.44758823964577,
+    "baseApr": 127.40128576818988,
+    "addyTokenApr": 20.759528815990226
   },
   {
     "name": "ELK/WETH LP (Elk)",
     "lpAddress": "0x244c98CB5E82671c556dA02Fe4802Cfc6f573faD",
     "vaultAddress": "0x109b9cfa93b61f5acdb5e8a313489ad20c9f8bc6",
     "strategyAddress": "0x5A17D2f1c8C8Be70665FA1D7927fAbC3C3C7fF92",
-    "apy": 105.21462598540909,
-    "baseApr": 57.7698180543479,
-    "addyTokenApr": 19.41425919628017
+    "apy": 112.68183627592717,
+    "baseApr": 61.301121947797284,
+    "addyTokenApr": 19.977544180257762
   },
   {
     "name": "ADDY/WMATIC LP (Wault)",
     "lpAddress": "0x48063376eac95806a59ee00b901b6104da960b98",
     "vaultAddress": "0x885c1bde0bc254c2059b3a951094d89e14228c1b",
     "strategyAddress": "0x311138e089Dbe862f40442498fB56D16D92e4769",
-    "apy": 13.882246556542853,
-    "baseApr": 9.447106797089216,
-    "addyTokenApr": 3.1748166463166907
+    "apy": 13.8669602036196,
+    "baseApr": 9.511052859989594,
+    "addyTokenApr": 3.099575875185699
   },
   {
-    "name": "CRV/DFYN LP",
-    "lpAddress": "0x4Ea3e2cfC39FA51Df85ebcfa366d7f0eED448a1C",
-    "vaultAddress": "0x918b6f3566c41eb000e0d44c45036b2cdd1cdf48",
-    "strategyAddress": "0xBF1136A9a2150aA7f92cD4E4F9d7FF1C3F519009",
-    "apy": 264.21380164307607,
-    "baseApr": 111.5913715125824,
-    "addyTokenApr": 37.50165542455982
+    "name": "IS3USD",
+    "lpAddress": "0xb4d09ff3da7f9e9a2ba029cb0a81a989fd7b8f17",
+    "vaultAddress": "0xcf0c29e0f7d1d6db1d5e907c4265838a46179a12",
+    "strategyAddress": "0x0273ca543D4350d530035cA4B796769CEbc178BF",
+    "apy": 9.331167305892038,
+    "baseApr": 7.51251205995911,
+    "addyTokenApr": 1.2241337255650766
   },
   {
     "name": "AAVE/WETH LP (Quick)",
     "lpAddress": "0x90bc3e68ba8393a3bf2d79309365089975341a43",
     "vaultAddress": "0x427818d2659ef4f3bc6cbbe82d750ff9ab482093",
     "strategyAddress": "0x4b0483728F364cAc59EF6D83ffCe43c885744803",
-    "apy": 21.438027758541956,
-    "baseApr": 14.290873385671285,
-    "addyTokenApr": 4.802624093252843
+    "apy": 21.191919213862707,
+    "baseApr": 14.243705237867552,
+    "addyTokenApr": 4.641909342579214
+  },
+  {
+    "name": "CRV/DFYN LP",
+    "lpAddress": "0x4Ea3e2cfC39FA51Df85ebcfa366d7f0eED448a1C",
+    "vaultAddress": "0x918b6f3566c41eb000e0d44c45036b2cdd1cdf48",
+    "strategyAddress": "0xBF1136A9a2150aA7f92cD4E4F9d7FF1C3F519009",
+    "apy": 234.2898004468283,
+    "baseApr": 103.67564304890149,
+    "addyTokenApr": 33.78706088266768
   },
   {
     "name": "OM/QUICK LP (Quick)",
     "lpAddress": "0xdfa81e266ff54a7d9d26c5083f9631e685d833d7",
     "vaultAddress": "0x6f8d8d667b0e107caf8b9ca396188a993917c4f7",
     "strategyAddress": "0xB3f56db54376A6b5307c789Faf3D06935F515B9b",
-    "apy": 242.67291387710176,
-    "baseApr": 105.64029597007321,
-    "addyTokenApr": 35.50172315940668
+    "apy": 190.87578785767462,
+    "baseApr": 90.30333340104033,
+    "addyTokenApr": 29.42913237673056
   },
   {
     "name": "WOO/WETH LP (Quick)",
     "lpAddress": "0x70294d7aa244bd342c536f9b502152564057162e",
     "vaultAddress": "0x1da81a8d92c336f67532f1bb7dda93f2b0c045f4",
     "strategyAddress": "0xF1072642a734cf3069bFAa70CECd4A41377Ed6ab",
-    "apy": 18.925940981268155,
-    "baseApr": 12.702256575493113,
-    "addyTokenApr": 4.2687498392721235
+    "apy": 17.501841022787357,
+    "baseApr": 11.883185564412521,
+    "addyTokenApr": 3.872634905726757
+  },
+  {
+    "name": "GFARM2/QUICK LP (Quick)",
+    "lpAddress": "0x065d609ff57e8ce4ee5fbc3c040a442354e8a2e4",
+    "vaultAddress": "0xd6af3cc61577cdb937f75df91e88c0cb09314c12",
+    "strategyAddress": "0x9ca89E19C802d83B6C3EEEE79cf044c27A7B24Ba",
+    "apy": 166.51225605742752,
+    "baseApr": 82.03688655142982,
+    "addyTokenApr": 26.73516362208886
+  },
+  {
+    "name": "CGG/WMATIC LP (Dino)",
+    "lpAddress": "0xd74d23d2f23cd06a7d94f740a74c6e906f0c9005",
+    "vaultAddress": "0x6836ed4f7a12152980545e404e5d7627b6731afa",
+    "strategyAddress": "0xd627569f7632eFF3366922C680625e5c9fF8402E",
+    "apy": 70.8628298681148,
+    "baseApr": 47.235506373241726,
+    "addyTokenApr": 7.696836415586937
   },
   {
     "name": "WEXPOLY/WMATIC LP (Wault)",
     "lpAddress": "0xc46991072c7eac184f7bd69d3122cd1750300b27",
     "vaultAddress": "0xbb03eaecd46dc433c87cbc4fb218ebf71d467d9c",
     "strategyAddress": "0x5942a835A00e481AC6EFf12cE0d9CE3F430e8120",
-    "apy": 34.12543409930676,
-    "baseApr": 22.00412000020579,
-    "addyTokenApr": 7.394755660614307
-  },
-  {
-    "name": "ICE/ETH LP",
-    "lpAddress": "0xf1ee78544a1118f2efb87f7eacd9f1e6e80e1ea5",
-    "vaultAddress": "0x1378cd20fc0b6b4a07c62afc7f162e50d31979b2",
-    "strategyAddress": "0xB1Dcd2bF68A7AC190dDC4Cef3c91516d5997bdA7",
-    "apy": 286.88599369982984,
-    "baseApr": 121.64905515270829,
-    "addyTokenApr": 30.661247956875528
+    "apy": 34.12675906929764,
+    "baseApr": 22.164142209433372,
+    "addyTokenApr": 7.223116251991885
   },
   {
     "name": "DAI/WMATIC LP (Ape)",
     "lpAddress": "0xd32f3139a214034a0f9777c87ee0a064c1ff6ae2",
     "vaultAddress": "0xa64771e2480f88dcc6011586eb5908a5713cc73e",
     "strategyAddress": "0xBe7026217Acb3097B2273D7AbB89E437A7129CEF",
-    "apy": 41.852763150096735,
-    "baseApr": 26.466370791387483,
-    "addyTokenApr": 8.894350022800246
-  },
-  {
-    "name": "ICE/USDC LP",
-    "lpAddress": "0x34832d9ac4127a232c1919d840f7aae0fcb7315b",
-    "vaultAddress": "0x58f98cb76da68f4400b6b4ae9baba73bb7bcfb1c",
-    "strategyAddress": "0x901dbA5005E9A5fd5532e32f02655c91cC680e6a",
-    "apy": 111.96178160850265,
-    "baseApr": 63.80352806030436,
-    "addyTokenApr": 16.081471343321848
+    "apy": 43.50229781224998,
+    "baseApr": 27.58896417353767,
+    "addyTokenApr": 8.991022238283879
   },
   {
     "name": "WBTC (Curve)",
     "lpAddress": "0xf8a57c1d3b9629b77b6726a042ca48990a84fb49",
     "vaultAddress": "0xe6e860fac053c6a4abd2eab6bbdf897e41543a56",
     "strategyAddress": "0x9c09DF991793a1284B79426BEFF0BBA9d208B07E",
-    "apy": 2.9191945428080075,
-    "baseApr": 2.218906881412358
+    "apy": 2.9963479676112406,
+    "baseApr": 2.292417136002909
   },
   {
-    "name": "CNTR/QUICK LP (Quick)",
-    "lpAddress": "0xb56843b5550e3f78613ca5abf6bd6ae6f84cd11e",
-    "vaultAddress": "0x12098c8e5bed138016b632c917abda5c9d1f7e39",
-    "strategyAddress": "0xDb404CC6B73C5125FEeeeeDa75035f038c33e987",
-    "apy": 313.5746778232937,
-    "baseApr": 124.13554479123928,
-    "addyTokenApr": 41.71727942402934
+    "name": "ICE/ETH LP",
+    "lpAddress": "0xf1ee78544a1118f2efb87f7eacd9f1e6e80e1ea5",
+    "vaultAddress": "0x1378cd20fc0b6b4a07c62afc7f162e50d31979b2",
+    "strategyAddress": "0xB1Dcd2bF68A7AC190dDC4Cef3c91516d5997bdA7",
+    "apy": 259.8318416253212,
+    "baseApr": 114.82672546118792,
+    "addyTokenApr": 28.06583193039306
   },
   {
-    "name": "ZUSD/USDC LP (Quick)",
-    "lpAddress": "0xca8e44fdf749a7c5c28bc927726ea21ccd669969",
-    "vaultAddress": "0x5cc0f11de2cc8b729eedbd40da6711444a9808d8",
-    "strategyAddress": "0xDBb752Da885a6B5e692745900605375D4C39cF34",
-    "apy": 123.03431607538903,
-    "baseApr": 65.23619693644534,
-    "addyTokenApr": 21.923427820254446
+    "name": "ICE/USDC LP",
+    "lpAddress": "0x34832d9ac4127a232c1919d840f7aae0fcb7315b",
+    "vaultAddress": "0x58f98cb76da68f4400b6b4ae9baba73bb7bcfb1c",
+    "strategyAddress": "0x901dbA5005E9A5fd5532e32f02655c91cC680e6a",
+    "apy": 108.08654532698856,
+    "baseApr": 62.38058381368646,
+    "addyTokenApr": 15.246999111077931
   },
   {
     "name": "MUST/WETH LP (Cometh)",
     "lpAddress": "0x8826C072657983939c26E684edcfb0e4133f0B3d",
     "vaultAddress": "0x62e774a618309c2b86da82f78fcc09544588111e",
     "strategyAddress": "0xB4cb90B011Fa45e142E7C124ceB973b5e1E3611a",
-    "apy": 84.70486513186077,
-    "baseApr": 48.53021628787968,
-    "addyTokenApr": 16.30917717237856
-  },
-  {
-    "name": "ELK/USDC LP (Elk)",
-    "lpAddress": "0x7e95f968489382E695B2DA320ca005B8D617b459",
-    "vaultAddress": "0x2b18384fc9fb412d1bb70f51617adc0dad38bc8f",
-    "strategyAddress": "0x5127d8f484076237a566243AE5E8b4000E49F3D9",
-    "apy": 134.2807703639129,
-    "baseApr": 69.70962989577481,
-    "addyTokenApr": 23.426780087833006
+    "apy": 83.1423233993313,
+    "baseApr": 48.088192885020014,
+    "addyTokenApr": 15.6715565292156
   },
   {
     "name": "SWAP/QUICK LP (Quick)",
     "lpAddress": "0xfcb980cfd282027b7a0544802a03b8af63ee9cc4",
     "vaultAddress": "0x199cd69d35831d727f63b417b0b61ff564858669",
     "strategyAddress": "0x9168d89B02b13D0E4C763C4458a832a2d1326Ba1",
-    "apy": 112.50346829007515,
-    "baseApr": 60.88274244745302,
-    "addyTokenApr": 20.460395796006182
+    "apy": 73.87691291982914,
+    "baseApr": 43.61078829728498,
+    "addyTokenApr": 14.212406270260516
+  },
+  {
+    "name": "CNTR/QUICK LP (Quick)",
+    "lpAddress": "0xb56843b5550e3f78613ca5abf6bd6ae6f84cd11e",
+    "vaultAddress": "0x12098c8e5bed138016b632c917abda5c9d1f7e39",
+    "strategyAddress": "0xDb404CC6B73C5125FEeeeeDa75035f038c33e987",
+    "apy": 265.9358217573158,
+    "baseApr": 112.50378733011993,
+    "addyTokenApr": 36.66408232703732
+  },
+  {
+    "name": "ZUSD/USDC LP (Quick)",
+    "lpAddress": "0xca8e44fdf749a7c5c28bc927726ea21ccd669969",
+    "vaultAddress": "0x5cc0f11de2cc8b729eedbd40da6711444a9808d8",
+    "strategyAddress": "0xDBb752Da885a6B5e692745900605375D4C39cF34",
+    "apy": 76.54565741674574,
+    "baseApr": 44.918308022898586,
+    "addyTokenApr": 14.638516466208456
+  },
+  {
+    "name": "ELK/USDC LP (Elk)",
+    "lpAddress": "0x7e95f968489382E695B2DA320ca005B8D617b459",
+    "vaultAddress": "0x2b18384fc9fb412d1bb70f51617adc0dad38bc8f",
+    "strategyAddress": "0x5127d8f484076237a566243AE5E8b4000E49F3D9",
+    "apy": 132.62606692624757,
+    "baseApr": 69.43116032696005,
+    "addyTokenApr": 22.627058507992697
   },
   {
     "name": "AAVE/DFYN LP",
     "lpAddress": "0xCb1E67CcF171E284e1CeC0f344b6593319c77eBC",
     "vaultAddress": "0xf8b7efd6e6525a0ca3d8ce3a2636bb309cb38ccc",
     "strategyAddress": "0xf4a55a12F68bceA3D4F6cc726D708d52b4679700",
-    "apy": 252.26525258289223,
-    "baseApr": 108.32963013794141,
-    "addyTokenApr": 36.40550704446733
-  },
-  {
-    "name": "ARPA/WETH LP (Dino)",
-    "lpAddress": "0x590f5e967d73ea06dae9aed2788108dcf52da269",
-    "vaultAddress": "0xfb9524db5e68bdb25dee2f21bc71ebf7277623d4",
-    "strategyAddress": "0x65A6c3084cB751fCB60f509dAE3d9810668aCf0f",
-    "apy": 45.73119470734205,
-    "baseApr": 32.586602974327484,
-    "addyTokenApr": 5.475564730658292
-  },
-  {
-    "name": "START/QUICK LP (Quick)",
-    "lpAddress": "0x9e2b254c7d6ad24afb334a75ce21e216a9aa25fc",
-    "vaultAddress": "0x01fcac068c4a884c08da8578fdbc1ffffe64007d",
-    "strategyAddress": "0x5b66bd747d0B64ff20fCecC256054Cb46B99d074",
-    "apy": 61.66095013552463,
-    "baseApr": 37.18565285349511,
-    "addyTokenApr": 12.496696842657185
+    "apy": 246.2178779991378,
+    "baseApr": 107.08588384338859,
+    "addyTokenApr": 34.89843101705445
   },
   {
     "name": "COMBO/WMATIC LP (Sushi)",
     "lpAddress": "0xcb60e17ea720ef331446e434be5de5f35fae8bc8",
     "vaultAddress": "0x0ed67ae53c9613839e2a5b48a3b96b8cfe3ba954",
     "strategyAddress": "0x19747a953bfbE8f38466BF39d99a10F2F2a09f18",
-    "apy": 53.11827997009891,
-    "baseApr": 32.988076706553244,
-    "addyTokenApr": 11.086049655986342
-  },
-  {
-    "name": "XMARK/USDC LP (Dino)",
-    "lpAddress": "0x97a95deb56d689802f02f50c25ebcda5d0a49591",
-    "vaultAddress": "0x584c695e4bc56a8d3b6f858828bcee0368638a0e",
-    "strategyAddress": "0x8C7777b55eBc916ade9579330d6710800Ca4C88D",
-    "apy": 100.28923259244961,
-    "baseApr": 61.887060056962135,
-    "addyTokenApr": 10.398954551936596
+    "apy": 53.352518633180594,
+    "baseApr": 33.33478772688559,
+    "addyTokenApr": 10.863540068980747
   },
   {
     "name": "MATIC/ETH LP (Cometh)",
     "lpAddress": "0x462390EA53F70F7570EEB2002c0150aF519f93A9",
     "vaultAddress": "0x37702ce44bef87236f9cc1802481dda66e372838",
     "strategyAddress": "0x17B53723Ac6Db3560830810d1789b348465e2e73",
-    "apy": 26.85575530010714,
-    "baseApr": 17.646241763474816,
-    "addyTokenApr": 5.930236981429095
-  },
-  {
-    "name": "DNXC/USDC LP (Dino)",
-    "lpAddress": "0xe169a660d720917b4fb7e95f045b6f60a64eb10a",
-    "vaultAddress": "0xf4e95a3da49fc5b28cdaefb31d4409239c37196f",
-    "strategyAddress": "0x2C0F6EFC03ED16f9d2549a41dfc17b17983C958d",
-    "apy": 1004.3515295066884,
-    "baseApr": 232.46917195647245,
-    "addyTokenApr": 39.0620648593847
+    "apy": 27.41090558533407,
+    "baseApr": 18.11827081170791,
+    "addyTokenApr": 5.904599199978843
   },
   {
     "name": "MANA/WETH LP (Sushi)",
     "lpAddress": "0xc48ae82ca34c63887b975f20aba91a38f2a900b8",
     "vaultAddress": "0x4ccd7df32dc5bb00319d5b72e624a2daef7e263f",
     "strategyAddress": "0x242E692996B3aeAF9248a165F0162197ED607ed3",
-    "apy": 26.896651896856987,
-    "baseApr": 17.764908188635594,
-    "addyTokenApr": 5.970116295810872
+    "apy": 24.738851120909437,
+    "baseApr": 16.549009046528703,
+    "addyTokenApr": 5.393189371771231
   },
   {
-    "name": "PBREW/USDC LP",
-    "lpAddress": "0x723e866989cacc8efc346e1dcf5a9d73572bcfc8",
-    "vaultAddress": "0x66cd417edace6a5d5677b21d91ec6bff5b759467",
-    "strategyAddress": "0x1c046A573d8Ec32094EC22842519E32E29e5DecD",
-    "apy": 130414.67697619146,
-    "baseApr": 716.0303063787632,
-    "addyTokenApr": 240.63080737681105
+    "name": "DNXC/USDC LP (Dino)",
+    "lpAddress": "0xe169a660d720917b4fb7e95f045b6f60a64eb10a",
+    "vaultAddress": "0xf4e95a3da49fc5b28cdaefb31d4409239c37196f",
+    "strategyAddress": "0x2C0F6EFC03ED16f9d2549a41dfc17b17983C958d",
+    "apy": 1067.1335468731022,
+    "baseApr": 238.3468869520876,
+    "addyTokenApr": 38.837669793116476
   },
   {
     "name": "WOOFY/WMATIC LP (Sushi)",
     "lpAddress": "0x211f8e61113edaf00cf37a804b0ba721875ef560",
     "vaultAddress": "0xcfff9396735fad6fbfaf3766883a148c64e9afa2",
     "strategyAddress": "0xE213D093B3A3e3d1b26dabE5d893A4FDbD1f0153",
-    "apy": 16.406738532795885,
-    "baseApr": 11.1251825409227,
-    "addyTokenApr": 3.7387546772643567
-  },
-  {
-    "name": "MUST/MATIC LP (Cometh)",
-    "lpAddress": "0x80676b414a905De269D0ac593322Af821b683B92",
-    "vaultAddress": "0x5dcd84d5e3e1f3b488254eb3acf234f0df6e1eb1",
-    "strategyAddress": "0x393051604799E2D4b8C3609382F28A09e5162D5F",
-    "apy": 59.67639099666859,
-    "baseApr": 36.154900098095844,
-    "addyTokenApr": 12.150299678280184
+    "apy": 16.79984640132904,
+    "baseApr": 11.467862740359168,
+    "addyTokenApr": 3.7372845270883213
   },
   {
     "name": "WMATIC/USDT LP (Quick)",
     "lpAddress": "0x604229c960e5cacf2aaeac8be68ac07ba9df81c3",
     "vaultAddress": "0x24e76d0fcab19e689606a7c6019f3281deea3672",
     "strategyAddress": "0x21aF04CaBc23253B40611D31A74fC238aaC76Cde",
-    "apy": 39.34016280410809,
-    "baseApr": 26.329516215025397,
-    "addyTokenApr": 8.848358356093055
+    "apy": 38.520979333374356,
+    "baseApr": 26.00117984619707,
+    "addyTokenApr": 8.473576055566705
   },
   {
     "name": "MONA/QUICK LP (Quick)",
     "lpAddress": "0x82f1676ef298db09da935f4cb7bd3c44fb73d83a",
     "vaultAddress": "0x0c7a9b03e3c8be8e647c76fe7c9c386386c3c66b",
     "strategyAddress": "0xf37002e91438Edd2b93686bDD126Be30E93493A0",
-    "apy": 425.4398670500707,
-    "baseApr": 148.1892269254849,
-    "addyTokenApr": 49.80081569447171
+    "apy": 409.36681038987865,
+    "baseApr": 145.50706390976265,
+    "addyTokenApr": 47.41958557091832
+  },
+  {
+    "name": "MUST/MATIC LP (Cometh)",
+    "lpAddress": "0x80676b414a905De269D0ac593322Af821b683B92",
+    "vaultAddress": "0x5dcd84d5e3e1f3b488254eb3acf234f0df6e1eb1",
+    "strategyAddress": "0x393051604799E2D4b8C3609382F28A09e5162D5F",
+    "apy": 59.2776572873267,
+    "baseApr": 36.18466726423295,
+    "addyTokenApr": 11.792292962186403
   },
   {
     "name": "USDC/DAI LP (Jet)",
     "lpAddress": "0x4a53119dd905fd39ccc532c68e69505dfb47fc2c",
     "vaultAddress": "0xefee4d000ebc9266879ee77c6a16d79946bf642a",
     "strategyAddress": "0xdc20047953eE9556DaF3f7CfE517E14e5e5FC85A",
-    "apy": 9.815997024272802,
-    "baseApr": 7.853128466911563,
-    "addyTokenApr": 1.3195702937377756
-  },
-  {
-    "name": "LUNA/DFYN LP",
-    "lpAddress": "0x7E2cE68E76E94cB4C35b3Ab66d03e66efd7641a7",
-    "vaultAddress": "0x9652a69363c8849b66158dd989f76eef58f6a153",
-    "strategyAddress": "0x6D65C4bF788e7bF35c5BFD8e7d2A30F4f62959C3",
-    "apy": 214.31871256363647,
-    "baseApr": 97.29053533233319,
-    "addyTokenApr": 32.695683211427614
-  },
-  {
-    "name": "RELAY/QUICK LP (Quick)",
-    "lpAddress": "0x7ca8e540df6326005b72661e50f1350c84c0e55d",
-    "vaultAddress": "0xc190b7b682f36350a05f089e5746819474763fa8",
-    "strategyAddress": "0xd0b25c7d08a3072FcA373Ce20Ea7168695D1AB07",
-    "apy": 148.56539583139664,
-    "baseApr": 75.14987287926927,
-    "addyTokenApr": 25.255040777055605
-  },
-  {
-    "name": "PYQ/USDC LP",
-    "lpAddress": "0xd3924Ad8F881514efF89503Be9027B877E9e2bd0",
-    "vaultAddress": "0x7af340a34133c1266cd6974bae5ffc1c928548af",
-    "strategyAddress": "0xEa1fde955B056e1Db6ec4DEba8e0E5a424caaef1",
-    "apy": 393.3867226991952,
-    "baseApr": 148.61635113328987,
-    "addyTokenApr": 29.966613628514853
-  },
-  {
-    "name": "ETHA/QUICK LP (Quick)",
-    "lpAddress": "0x8167d3156fccdbaf3e43ae019a0e842e5d1f1ac1",
-    "vaultAddress": "0x114fc6ad7c69ea0e05de91b71555b6ee930aba8a",
-    "strategyAddress": "0x2B804E41F4989a09B54c764dD3826464B137Cc4f",
-    "apy": 435.3012075231875,
-    "baseApr": 150.07709115295697,
-    "addyTokenApr": 50.43525573035772
-  },
-  {
-    "name": "AAVE/WETH LP",
-    "lpAddress": "0x80f93221e875d14aeddfdfc778ca755ab3562ce3",
-    "vaultAddress": "0x7142ecf3da5873238c87f14b28d0e081bcece695",
-    "strategyAddress": "0x596aDeA5C3EB960a439A454630A946d2c5133b61",
-    "apy": 44.35784825526176,
-    "baseApr": 27.87738928110053,
-    "addyTokenApr": 9.368540172823943
+    "apy": 10.067276475280009,
+    "baseApr": 8.083931114126825,
+    "addyTokenApr": 1.3172441698551325
   },
   {
     "name": "MITX/QUICK LP (Quick)",
     "lpAddress": "0x5938dc50094e151c7dd64e5b774a2a91cd414daf",
     "vaultAddress": "0x2257d95a5bcc26f2156dc99162f7f6ee36e16e44",
     "strategyAddress": "0xD64E3Ac168f0D9558B7fa777176693a2625CEE96",
-    "apy": 397.27097523586224,
-    "baseApr": 142.60998382237463,
-    "addyTokenApr": 47.92584230229415
+    "apy": 226.5749125078082,
+    "baseApr": 101.41310235272329,
+    "addyTokenApr": 33.049717008994
+  },
+  {
+    "name": "RELAY/QUICK LP (Quick)",
+    "lpAddress": "0x7ca8e540df6326005b72661e50f1350c84c0e55d",
+    "vaultAddress": "0xc190b7b682f36350a05f089e5746819474763fa8",
+    "strategyAddress": "0xd0b25c7d08a3072FcA373Ce20Ea7168695D1AB07",
+    "apy": 89.60373790312183,
+    "baseApr": 51.11089344365947,
+    "addyTokenApr": 16.656630407721984
+  },
+  {
+    "name": "LUNA/DFYN LP",
+    "lpAddress": "0x7E2cE68E76E94cB4C35b3Ab66d03e66efd7641a7",
+    "vaultAddress": "0x9652a69363c8849b66158dd989f76eef58f6a153",
+    "strategyAddress": "0x6D65C4bF788e7bF35c5BFD8e7d2A30F4f62959C3",
+    "apy": 197.61939948509843,
+    "baseApr": 92.48805284320093,
+    "addyTokenApr": 30.141114927627406
+  },
+  {
+    "name": "AAVE/WETH LP",
+    "lpAddress": "0x80f93221e875d14aeddfdfc778ca755ab3562ce3",
+    "vaultAddress": "0x7142ecf3da5873238c87f14b28d0e081bcece695",
+    "strategyAddress": "0x596aDeA5C3EB960a439A454630A946d2c5133b61",
+    "apy": 24.312806318384176,
+    "baseApr": 16.203980846818702,
+    "addyTokenApr": 5.280747447641179
   },
   {
     "name": "GMEE/QUICK LP (Quick)",
     "lpAddress": "0xfe4ba2ab8562b6204a17f19651c760818a361571",
     "vaultAddress": "0x95bd0ae7d639cfaac8141e98bf459e8eb730b9e8",
     "strategyAddress": "0x5123e71E3298bEd419954Ecb28baFC0b11d79d23",
-    "apy": 237.86061708316458,
-    "baseApr": 104.2663260396683,
-    "addyTokenApr": 35.039983634250454
+    "apy": 237.52249020712873,
+    "baseApr": 104.61022243071903,
+    "addyTokenApr": 34.091632810504784
+  },
+  {
+    "name": "PYQ/USDC LP",
+    "lpAddress": "0xd3924Ad8F881514efF89503Be9027B877E9e2bd0",
+    "vaultAddress": "0x7af340a34133c1266cd6974bae5ffc1c928548af",
+    "strategyAddress": "0xEa1fde955B056e1Db6ec4DEba8e0E5a424caaef1",
+    "apy": 375.2826525436084,
+    "baseApr": 145.1433133263128,
+    "addyTokenApr": 28.380625303216977
+  },
+  {
+    "name": "PBREW/USDC LP",
+    "lpAddress": "0x723e866989cacc8efc346e1dcf5a9d73572bcfc8",
+    "vaultAddress": "0x66cd417edace6a5d5677b21d91ec6bff5b759467",
+    "strategyAddress": "0x1c046A573d8Ec32094EC22842519E32E29e5DecD",
+    "apy": 70020.32848033427,
+    "baseApr": 653.3217943207926,
+    "addyTokenApr": 212.9123349664548
+  },
+  {
+    "name": "ETHA/QUICK LP (Quick)",
+    "lpAddress": "0x8167d3156fccdbaf3e43ae019a0e842e5d1f1ac1",
+    "vaultAddress": "0x114fc6ad7c69ea0e05de91b71555b6ee930aba8a",
+    "strategyAddress": "0x2B804E41F4989a09B54c764dD3826464B137Cc4f",
+    "apy": 408.9476957500268,
+    "baseApr": 145.42373450356487,
+    "addyTokenApr": 47.39242918550587
+  },
+  {
+    "name": "XMARK/USDC LP (Dino)",
+    "lpAddress": "0x97a95deb56d689802f02f50c25ebcda5d0a49591",
+    "vaultAddress": "0x584c695e4bc56a8d3b6f858828bcee0368638a0e",
+    "strategyAddress": "0x8C7777b55eBc916ade9579330d6710800Ca4C88D",
+    "apy": 47.60399480994311,
+    "baseApr": 33.864368121350104,
+    "addyTokenApr": 5.518063036895963
   },
   {
     "name": "WMATIC/USDC LP",
     "lpAddress": "0xbb0dbc0e2b6fbef902bc046ecfc2d664658baafc",
     "vaultAddress": "0xbd566a837a20e48e0b9a33671c1cb4e60b4768b4",
     "strategyAddress": "0x6D68b9C4F6549978F3356F8Ed0230877AFBCaab2",
-    "apy": 35.212856652179866,
-    "baseApr": 22.64237678006784,
-    "addyTokenApr": 7.609249716080564
-  },
-  {
-    "name": "PBREW/WMATIC LP",
-    "lpAddress": "0x4f03233c742ea20e73b46d5e33242b7770274ab8",
-    "vaultAddress": "0x3234e65ec591a3975d353c74af781f2f3b6ffdfb",
-    "strategyAddress": "0x5e3005B7000218016AF24D511556b20f3EFF027C",
-    "apy": 94538.8023621779,
-    "baseApr": 683.5814619706504,
-    "addyTokenApr": 229.72597337913055
-  },
-  {
-    "name": "XED/QUICK LP (Quick)",
-    "lpAddress": "0x222789b185a145ccbd19803a448143252612d012",
-    "vaultAddress": "0x455351793b2432f5f4763ae4fdc90e784f4d60e3",
-    "strategyAddress": "0x789b6fA80D0bbDD9AD5055a28ac54c284a5F1178",
-    "apy": 201.50522997815364,
-    "baseApr": 93.30322072306967,
-    "addyTokenApr": 31.355697005334125
-  },
-  {
-    "name": "WEXPOLY/USDC LP (Wault)",
-    "lpAddress": "0x5de6a3cca10d3f788eedbd4923e31d4658bf6f9a",
-    "vaultAddress": "0x18f862536c135862c56fd3650a1e672209d71afb",
-    "strategyAddress": "0xbEce40102f4cB80FbB0b9b0531e5Fb377aDd4CfB",
-    "apy": 464.59994574412406,
-    "baseApr": 155.5009956897712,
-    "addyTokenApr": 52.25802568325123
-  },
-  {
-    "name": "DAI/USDC LP (Wault)",
-    "lpAddress": "0x8e5c5ae2542116b5715b12bb2d391a770a607075",
-    "vaultAddress": "0x76d381dbd5400a86ab9149630e704973721c7f5d",
-    "strategyAddress": "0x6ed3324FB25b00EA2B06136Ccd0CeB673566a064",
-    "apy": 13.073069072504996,
-    "baseApr": 8.916485213213532,
-    "addyTokenApr": 2.996494724741452
-  },
-  {
-    "name": "RENDOGE/WETH LP (Quick)",
-    "lpAddress": "0xab1403de66519b898b38028357b74df394a54a37",
-    "vaultAddress": "0x55dd8ca5ac60542d1070fd31ce2c201051911727",
-    "strategyAddress": "0xac3F66aDf82d06372cB94a634294C01C91c0Bdab",
-    "apy": 31.792331849186304,
-    "baseApr": 20.622956791642256,
-    "addyTokenApr": 6.930598745697377
+    "apy": 28.261588415675952,
+    "baseApr": 18.63850806205294,
+    "addyTokenApr": 6.074140349027211
   },
   {
     "name": "WETH/WBTC LP (Sushi)",
     "lpAddress": "0xe62ec2e799305e0d367b0cc3ee2cda135bf89816",
     "vaultAddress": "0xe001886fcec8b5ddd0af9d011533849b6ba5c3e1",
     "strategyAddress": "0x9F230A155106d7ff28674b566cDD5B5bF57dC985",
-    "apy": 4.3144829223901064,
-    "baseApr": 3.0196260995726294,
-    "addyTokenApr": 1.0147825585637857
+    "apy": 4.437779122261328,
+    "baseApr": 3.130171464351961,
+    "addyTokenApr": 1.0200977850637922
   },
   {
-    "name": "ADDY/USDC LP (Sushi)",
-    "lpAddress": "0x5fcb390b4422f4ff7940c23618a62bf5f69658a8",
-    "vaultAddress": "0x6959d03be3858c41aaa6a86f7411d2f8746dec5c",
-    "strategyAddress": "0xa8B31080615666d052A844af2962EBb6D28758ae",
-    "apy": 96.64675410672963,
-    "baseApr": 49.49171207830948,
-    "addyTokenApr": 24.948449520440924
-  },
-  {
-    "name": "WBTC/USDC LP (Wault)",
-    "lpAddress": "0x30eef213d4b9c809f5776ae56cc39f02f19f742f",
-    "vaultAddress": "0xbf33dbcc0c1e355330e84ccb8399013a5f9b2d93",
-    "strategyAddress": "0xE9460aa8c4dd50aa0bA2BC83D4c792441B9b4F34",
-    "apy": 20.48880387397678,
-    "baseApr": 13.69308974020474,
-    "addyTokenApr": 4.6017315333097475
-  },
-  {
-    "name": "SNX/ETH LP (Wault)",
-    "lpAddress": "0x2857ec555c1e4fa20982acbf985b8b8807157a5b",
-    "vaultAddress": "0x4c9d952cbcd7d571547cd09b75da9306eab949d8",
-    "strategyAddress": "0xFCbEc7DA13adcd582A4D2612180C101E6d4b23E6",
-    "apy": 16.99932177273659,
-    "baseApr": 11.469326474338015,
-    "addyTokenApr": 3.8544084866266575
-  },
-  {
-    "name": "SX/WMATIC LP",
-    "lpAddress": "0xf90331cb67f9ae85739f5aedfa93dec68b7ce32e",
-    "vaultAddress": "0xe98991195a467a37f3233f241304c63f279d39dc",
-    "strategyAddress": "0x6D26B0bE697b722987A3D353c6Bad6650b075469",
-    "apy": 67.50606736874033,
-    "baseApr": 40.169646378359104,
-    "addyTokenApr": 13.499504635425907
-  },
-  {
-    "name": "AXS/WETH LP (Sushi)",
-    "lpAddress": "0x7ba331a8b360f4c31e6014abdd6852f92fb21557",
-    "vaultAddress": "0x20f96ceef84fbd143662521978ef1d61c13d66f3",
-    "strategyAddress": "0x95082d7b8e838776e3a4520998Cc3151E05cB857",
-    "apy": 48.757832812617735,
-    "baseApr": 30.580293563583783,
-    "addyTokenApr": 10.2768844621118
-  },
-  {
-    "name": "PWING/WMATIC LP (Jet)",
-    "lpAddress": "0xa0a6e9a5185d5737cf6f7920cb417ea2f07f03b3",
-    "vaultAddress": "0xd4e515cb09b40b6da2846fab6f0a5c3db48c51a0",
-    "strategyAddress": "0x8F3b596b7052A90D4d95177ef28be4A428840804",
-    "apy": 517.2011729968175,
-    "baseApr": 173.05445251187373,
-    "addyTokenApr": 29.078540570918538
-  },
-  {
-    "name": "PYD/USDC LP",
-    "lpAddress": "0x77bcd2b9d087f4d4a33ae299fcb8e47c701299d9",
-    "vaultAddress": "0xc929618b61c51288ca5058b12407fc05acaa21d8",
-    "strategyAddress": "0x7986436cd7A24d8E5BA12ee04FF7fa01D62b3d54",
-    "apy": 54.86771981197307,
-    "baseApr": 33.61895894754641,
-    "addyTokenApr": 11.298065406796717
-  },
-  {
-    "name": "RUSD/USDC LP (Quick)",
-    "lpAddress": "0x5ef8747d1dc4839e92283794a10d448357973ac0",
-    "vaultAddress": "0x980280793212b5cfb7934445a1db0f235f96e374",
-    "strategyAddress": "0xBb17F8694c7Ff5A4C04131C26194dd4A8577a8cD",
-    "apy": 22.288721260325687,
-    "baseApr": 14.824060023792237,
-    "addyTokenApr": 4.981808032913777
-  },
-  {
-    "name": "AAVE/ETH LP (Wault)",
-    "lpAddress": "0x58401db5ed194cba60f2b7d59b9619d54e0b493c",
-    "vaultAddress": "0x4772a0ce2e825f466c2e6d2695082ddfe4201ea5",
-    "strategyAddress": "0x915880A7252ADb96a7cFE81c8d88b610c8f32795",
-    "apy": 20.028469755349537,
-    "baseApr": 13.402102152001119,
-    "addyTokenApr": 4.503941568747788
-  },
-  {
-    "name": "MAI/WMATIC LP (Quick)",
-    "lpAddress": "0x7805b64e2d99412d3b8f10dfe8fc55217c5cc954",
-    "vaultAddress": "0x2c4b651f84712c01ea49a4bf00fc4383f415b16b",
-    "strategyAddress": "0xB75e5a741483Ddcb2d16b892E615457F1eb9952F",
-    "apy": 33.93876120711826,
-    "baseApr": 21.89420522590767,
-    "addyTokenApr": 7.35781744634268
-  },
-  {
-    "name": "DHT/WETH LP (Sushi)",
-    "lpAddress": "0xa375d23a751124359568f3a22576528bd1c8c3e3",
-    "vaultAddress": "0xf46d6efe61c08f4abdfc583161e331190bd8f346",
-    "strategyAddress": "0x75EA4D3709d6125cA00430c84Ac13f746d4a2b2E",
-    "apy": 47.50515787493506,
-    "baseApr": 29.879983528246278,
-    "addyTokenApr": 10.041536645523426
-  },
-  {
-    "name": "UGT/QUICK LP (Quick)",
-    "lpAddress": "0x29429e4099ed88884729b8fa800b9c65dbe57b63",
-    "vaultAddress": "0xcfe84b6ef561a1e3bd0c431e4afe4aab50b7e3dd",
-    "strategyAddress": "0x2930a319Fc814a2163D5dc7AFBB8FA5ca79DF8D9",
-    "apy": 195.51379877297128,
-    "baseApr": 91.38917179433844,
-    "addyTokenApr": 30.712457277942363
-  },
-  {
-    "name": "EROWAN/QUICK LP (Quick)",
-    "lpAddress": "0x631f39d22430e889a3cfbea4fd73ed101059075f",
-    "vaultAddress": "0xf88d32207b501f29660d2ad53881ce613302e7ec",
-    "strategyAddress": "0x01A7Ef2265787a4D53554Dec75e1274544A483fD",
-    "apy": 401.91912890786705,
-    "baseApr": 143.55040908643375,
-    "addyTokenApr": 48.24188380019185
-  },
-  {
-    "name": "FIL/WETH LP (Sushi)",
-    "lpAddress": "0x21ef14b5580a852477ef31e7ea9373485bf50377",
-    "vaultAddress": "0x3aa027f0407a37dd6f82220dd5ee4b603969eacc",
-    "strategyAddress": "0x13a4BB9b7014efFa8D50Ba23BA81222D49f8ae71",
-    "apy": 5.559111613183997,
-    "baseApr": 3.8778015636553866,
-    "addyTokenApr": 1.3031829976982265
-  },
-  {
-    "name": "WMATIC/PAUTO LP (Jet)",
-    "lpAddress": "0x5ea7253d8c9c2e2fdb535ad3767e249b0df6442f",
-    "vaultAddress": "0x8f2da36acf88852484039a981cab7ac6731f1a9d",
-    "strategyAddress": "0xa98abCe3a87E93D0B0054b4E344697C7B422e23f",
-    "apy": 11.44613201058264,
-    "baseApr": 9.104915499810126,
-    "addyTokenApr": 1.5299095221941656
+    "name": "XED/QUICK LP (Quick)",
+    "lpAddress": "0x222789b185a145ccbd19803a448143252612d012",
+    "vaultAddress": "0x455351793b2432f5f4763ae4fdc90e784f4d60e3",
+    "strategyAddress": "0x789b6fA80D0bbDD9AD5055a28ac54c284a5F1178",
+    "apy": 194.66251674491957,
+    "baseApr": 91.53534174896654,
+    "addyTokenApr": 29.830634020078975
   },
   {
     "name": "IMUSD",
     "lpAddress": "0x5290ad3d83476ca6a2b178cd9727ee1ef72432af",
     "vaultAddress": "0x55c1436f93d91073c96b92f9b5a1109eaaa9e093",
     "strategyAddress": "0xABf94c1f5f2bdcf20f29fde4279D189b77910B3F",
-    "apy": 32.31098676903778,
-    "baseApr": 25.265681443836694,
-    "addyTokenApr": 4.245421786336875
+    "apy": 33.636409567640165,
+    "baseApr": 26.35795446267427,
+    "addyTokenApr": 4.294923021373987
+  },
+  {
+    "name": "PBREW/WMATIC LP",
+    "lpAddress": "0x4f03233c742ea20e73b46d5e33242b7770274ab8",
+    "vaultAddress": "0x3234e65ec591a3975d353c74af781f2f3b6ffdfb",
+    "strategyAddress": "0x5e3005B7000218016AF24D511556b20f3EFF027C",
+    "apy": 55684.571381767666,
+    "baseApr": 630.1670086515331,
+    "addyTokenApr": 205.36637595307894
+  },
+  {
+    "name": "RENDOGE/WETH LP (Quick)",
+    "lpAddress": "0xab1403de66519b898b38028357b74df394a54a37",
+    "vaultAddress": "0x55dd8ca5ac60542d1070fd31ce2c201051911727",
+    "strategyAddress": "0xac3F66aDf82d06372cB94a634294C01C91c0Bdab",
+    "apy": 30.159271468242917,
+    "baseApr": 19.79082887605616,
+    "addyTokenApr": 6.449672463939948
+  },
+  {
+    "name": "WEXPOLY/USDC LP (Wault)",
+    "lpAddress": "0x5de6a3cca10d3f788eedbd4923e31d4658bf6f9a",
+    "vaultAddress": "0x18f862536c135862c56fd3650a1e672209d71afb",
+    "strategyAddress": "0xbEce40102f4cB80FbB0b9b0531e5Fb377aDd4CfB",
+    "apy": 453.2441013600874,
+    "baseApr": 153.8966893108938,
+    "addyTokenApr": 50.153697227955185
+  },
+  {
+    "name": "WBTC/USDC LP (Wault)",
+    "lpAddress": "0x30eef213d4b9c809f5776ae56cc39f02f19f742f",
+    "vaultAddress": "0xbf33dbcc0c1e355330e84ccb8399013a5f9b2d93",
+    "strategyAddress": "0xE9460aa8c4dd50aa0bA2BC83D4c792441B9b4F34",
+    "apy": 21.460205534277293,
+    "baseApr": 14.413503364481691,
+    "addyTokenApr": 4.697245190739508
+  },
+  {
+    "name": "SNX/ETH LP (Wault)",
+    "lpAddress": "0x2857ec555c1e4fa20982acbf985b8b8807157a5b",
+    "vaultAddress": "0x4c9d952cbcd7d571547cd09b75da9306eab949d8",
+    "strategyAddress": "0xFCbEc7DA13adcd582A4D2612180C101E6d4b23E6",
+    "apy": 16.69247212162461,
+    "baseApr": 11.359082683003352,
+    "addyTokenApr": 3.7018339785060728
+  },
+  {
+    "name": "ADDY/USDC LP (Sushi)",
+    "lpAddress": "0x5fcb390b4422f4ff7940c23618a62bf5f69658a8",
+    "vaultAddress": "0x6959d03be3858c41aaa6a86f7411d2f8746dec5c",
+    "strategyAddress": "0xa8B31080615666d052A844af2962EBb6D28758ae",
+    "apy": 103.93268410275813,
+    "baseApr": 52.983477035407546,
+    "addyTokenApr": 25.900335581131085
+  },
+  {
+    "name": "SX/WMATIC LP",
+    "lpAddress": "0xf90331cb67f9ae85739f5aedfa93dec68b7ce32e",
+    "vaultAddress": "0xe98991195a467a37f3233f241304c63f279d39dc",
+    "strategyAddress": "0x6D26B0bE697b722987A3D353c6Bad6650b075469",
+    "apy": 54.069656531227366,
+    "baseApr": 33.416362246428704,
+    "addyTokenApr": 10.89012455090171
+  },
+  {
+    "name": "AXS/WETH LP (Sushi)",
+    "lpAddress": "0x7ba331a8b360f4c31e6014abdd6852f92fb21557",
+    "vaultAddress": "0x20f96ceef84fbd143662521978ef1d61c13d66f3",
+    "strategyAddress": "0x95082d7b8e838776e3a4520998Cc3151E05cB857",
+    "apy": 50.45672357023609,
+    "baseApr": 31.734420740141413,
+    "addyTokenApr": 10.341993298441478
+  },
+  {
+    "name": "PWING/WMATIC LP (Jet)",
+    "lpAddress": "0xa0a6e9a5185d5737cf6f7920cb417ea2f07f03b3",
+    "vaultAddress": "0xd4e515cb09b40b6da2846fab6f0a5c3db48c51a0",
+    "strategyAddress": "0x8F3b596b7052A90D4d95177ef28be4A428840804",
+    "apy": 510.87864070823287,
+    "baseApr": 172.254960796812,
+    "addyTokenApr": 28.06825536176449
+  },
+  {
+    "name": "MAI/WMATIC LP (Quick)",
+    "lpAddress": "0x7805b64e2d99412d3b8f10dfe8fc55217c5cc954",
+    "vaultAddress": "0x2c4b651f84712c01ea49a4bf00fc4383f415b16b",
+    "strategyAddress": "0xB75e5a741483Ddcb2d16b892E615457F1eb9952F",
+    "apy": 33.6611597498808,
+    "baseApr": 21.888092905938617,
+    "addyTokenApr": 7.133153997121703
+  },
+  {
+    "name": "AAVE/ETH LP (Wault)",
+    "lpAddress": "0x58401db5ed194cba60f2b7d59b9619d54e0b493c",
+    "vaultAddress": "0x4772a0ce2e825f466c2e6d2695082ddfe4201ea5",
+    "strategyAddress": "0x915880A7252ADb96a7cFE81c8d88b610c8f32795",
+    "apy": 19.76785969814688,
+    "baseApr": 13.338314778914446,
+    "addyTokenApr": 4.3468498506905915
+  },
+  {
+    "name": "PYD/USDC LP",
+    "lpAddress": "0x77bcd2b9d087f4d4a33ae299fcb8e47c701299d9",
+    "vaultAddress": "0xc929618b61c51288ca5058b12407fc05acaa21d8",
+    "strategyAddress": "0x7986436cd7A24d8E5BA12ee04FF7fa01D62b3d54",
+    "apy": 50.89832048032558,
+    "baseApr": 31.697854757585016,
+    "addyTokenApr": 10.330076737882651
+  },
+  {
+    "name": "DHT/WETH LP (Sushi)",
+    "lpAddress": "0xa375d23a751124359568f3a22576528bd1c8c3e3",
+    "vaultAddress": "0xf46d6efe61c08f4abdfc583161e331190bd8f346",
+    "strategyAddress": "0x75EA4D3709d6125cA00430c84Ac13f746d4a2b2E",
+    "apy": 47.2647998466687,
+    "baseApr": 29.94636147410182,
+    "addyTokenApr": 9.759279118843843
+  },
+  {
+    "name": "FIL/WETH LP (Sushi)",
+    "lpAddress": "0x21ef14b5580a852477ef31e7ea9373485bf50377",
+    "vaultAddress": "0x3aa027f0407a37dd6f82220dd5ee4b603969eacc",
+    "strategyAddress": "0x13a4BB9b7014efFa8D50Ba23BA81222D49f8ae71",
+    "apy": 5.521156913099486,
+    "baseApr": 3.88291495535291,
+    "addyTokenApr": 1.2654108538960223
+  },
+  {
+    "name": "RUSD/USDC LP (Quick)",
+    "lpAddress": "0x5ef8747d1dc4839e92283794a10d448357973ac0",
+    "vaultAddress": "0x980280793212b5cfb7934445a1db0f235f96e374",
+    "strategyAddress": "0xBb17F8694c7Ff5A4C04131C26194dd4A8577a8cD",
+    "apy": 24.58736633477924,
+    "baseApr": 16.37488905460059,
+    "addyTokenApr": 5.336445062354315
+  },
+  {
+    "name": "WMATIC/PAUTO LP (Jet)",
+    "lpAddress": "0x5ea7253d8c9c2e2fdb535ad3767e249b0df6442f",
+    "vaultAddress": "0x8f2da36acf88852484039a981cab7ac6731f1a9d",
+    "strategyAddress": "0xa98abCe3a87E93D0B0054b4E344697C7B422e23f",
+    "apy": 10.977285715452865,
+    "baseApr": 8.786268811520786,
+    "addyTokenApr": 1.431687282259314
+  },
+  {
+    "name": "UGT/QUICK LP (Quick)",
+    "lpAddress": "0x29429e4099ed88884729b8fa800b9c65dbe57b63",
+    "vaultAddress": "0xcfe84b6ef561a1e3bd0c431e4afe4aab50b7e3dd",
+    "strategyAddress": "0x2930a319Fc814a2163D5dc7AFBB8FA5ca79DF8D9",
+    "apy": 140.12158885079327,
+    "baseApr": 72.34263888597472,
+    "addyTokenApr": 23.57588602850888
+  },
+  {
+    "name": "EROWAN/QUICK LP (Quick)",
+    "lpAddress": "0x631f39d22430e889a3cfbea4fd73ed101059075f",
+    "vaultAddress": "0xf88d32207b501f29660d2ad53881ce613302e7ec",
+    "strategyAddress": "0x01A7Ef2265787a4D53554Dec75e1274544A483fD",
+    "apy": 499.53083025368846,
+    "baseApr": 162.09789644767642,
+    "addyTokenApr": 52.826404883225216
   },
   {
     "name": "USDC/WETH LP (Jet)",
     "lpAddress": "0xfeff91c350bb564ca5dc7d6f7dcd12ac092f94ff",
     "vaultAddress": "0xb7ca1ae1955efe265a6d2dc86d6850b1993b01d1",
     "strategyAddress": "0x2d9a3CEC7AF85F7aE48D09CEF6ccdE997a9BfeA7",
-    "apy": 29.591509671487394,
-    "baseApr": 22.155090228522884,
-    "addyTokenApr": 3.7227455330469494
+    "apy": 28.51217737727623,
+    "baseApr": 21.51024305240469,
+    "addyTokenApr": 3.505007879573877
+  },
+  {
+    "name": "DAI/USDC LP (Wault)",
+    "lpAddress": "0x8e5c5ae2542116b5715b12bb2d391a770a607075",
+    "vaultAddress": "0x76d381dbd5400a86ab9149630e704973721c7f5d",
+    "strategyAddress": "0x6ed3324FB25b00EA2B06136Ccd0CeB673566a064",
+    "apy": 14.434707911928424,
+    "baseApr": 9.884708176703844,
+    "addyTokenApr": 3.2213471472385
   },
   {
     "name": "POLYDOGE/QUICK LP (Quick)",
     "lpAddress": "0xbedee6a7c572aa855a0c84d2f504311d482862f4",
     "vaultAddress": "0x43c5a0215766dbb8980f08e94de054d3b73460cf",
     "strategyAddress": "0x548A6EEE8bD6ec4Da7185d6710872d57e45d8504",
-    "apy": 207.79082004717247,
-    "baseApr": 95.27685434494151,
-    "addyTokenApr": 32.018960903057774
-  },
-  {
-    "name": "DG/WMATIC LP (Sushi)",
-    "lpAddress": "0xfb659315e36ae39917014da60f362b600e8cd0ca",
-    "vaultAddress": "0x27151a869e497164b6d0cf0d347be0a3c61e4221",
-    "strategyAddress": "0x0e44eCDB1264c6Ce1CF30071B1f43A8ABDe7B051",
-    "apy": 16.77037428107121,
-    "baseApr": 11.361201391757199,
-    "addyTokenApr": 3.818071720309195
+    "apy": 150.37737478247857,
+    "baseApr": 76.20910200359326,
+    "addyTokenApr": 24.83593536038472
   },
   {
     "name": "RENDGB/WETH LP (Quick)",
     "lpAddress": "0xbf453e64ee7f43513afdc801f6c0fab250fbcf09",
     "vaultAddress": "0x5fcbd9d7de2e5733f599d8ab7a57a001bb476dfe",
     "strategyAddress": "0x375046D207b3031E89Bb900Db0Ebf45b9ecc52a5",
-    "apy": 67.93786862161281,
-    "baseApr": 40.387083346954284,
-    "addyTokenApr": 13.572577007978454
+    "apy": 64.36374092231047,
+    "baseApr": 38.826047086481665,
+    "addyTokenApr": 12.65309746982252
   },
   {
-    "name": "WMATIC/USDC LP (Jet)",
-    "lpAddress": "0x5e58e0ced3a272caeb8ba00f4a4c2805df6be495",
-    "vaultAddress": "0x49b076aa4faac7ff9f64c12c02077afd56571e8c",
-    "strategyAddress": "0x51013dB56f50a8Bc0748bb306286AEc3e44D3D33",
-    "apy": 12.542095010400633,
-    "baseApr": 9.938595847702654,
-    "addyTokenApr": 1.6699937989492355
-  },
-  {
-    "name": "IRON/ICE LP",
-    "lpAddress": "0x7e2cc09d3d36b3af6edff55b214fd62885234e95",
-    "vaultAddress": "0x7e9c694325646f58aeb78d91d2cef4f6c7347541",
-    "strategyAddress": "0x6266158E5B1d6a2E2a608325D9284BF62B77ff4C",
-    "apy": 257.2102911718764,
-    "baseApr": 109.69112947768767,
-    "addyTokenApr": 36.863055673970216
-  },
-  {
-    "name": "EROWAN/ATOM LP (Quick)",
-    "lpAddress": "0x7051810a53030171f01d89e9aebd8a599de1b530",
-    "vaultAddress": "0xd281c96034fe1c2ea37eb9eeb3785a4dda192ee2",
-    "strategyAddress": "0x39cfCD3F3171F4fde6da960d494E1dC23c8d5192",
-    "apy": 503.8892378034864,
-    "baseApr": 162.3750946283466,
-    "addyTokenApr": 54.56815133413743
+    "name": "DG/WMATIC LP (Sushi)",
+    "lpAddress": "0xfb659315e36ae39917014da60f362b600e8cd0ca",
+    "vaultAddress": "0x27151a869e497164b6d0cf0d347be0a3c61e4221",
+    "strategyAddress": "0x0e44eCDB1264c6Ce1CF30071B1f43A8ABDe7B051",
+    "apy": 17.72235109820517,
+    "baseApr": 12.068801308134331,
+    "addyTokenApr": 3.9331255884896543
   },
   {
     "name": "REVV/QUICK LP (Quick)",
     "lpAddress": "0xc52f4e49c7fb3ffceb48ad06c3f3a17ad5c0dbfe",
     "vaultAddress": "0xb805e90ecfae9b1055d0ac8c9c5267398349ca16",
     "strategyAddress": "0x8FfcEd14ef742f0AD4314c4642944bE88C646d27",
-    "apy": 183.6570190840419,
-    "baseApr": 87.50276118628281,
-    "addyTokenApr": 29.406381104792878
-  },
-  {
-    "name": "FXS/FRAX LP (Sushi)",
-    "lpAddress": "0xd53a56ae0f48c9a03660cd36c2e4ae20493a1eca",
-    "vaultAddress": "0x19bbacb424bf3bfe2b47575b2871c1f282023a71",
-    "strategyAddress": "0x99b396E11c5b343922791535C3D223FA0ad264bF",
-    "apy": 24.440672816132682,
-    "baseApr": 16.240980567609355,
-    "addyTokenApr": 5.4579816409441975
-  },
-  {
-    "name": "BEL/WETH LP (Dino)",
-    "lpAddress": "0x49cecfa5c62b3a97f58cad6b4acc7c74810e1dda",
-    "vaultAddress": "0x06eca915fa24da256b859da60eefa405fca5cd5f",
-    "strategyAddress": "0x00B96343c98c4dbE43C9AE452703F660E04fB166",
-    "apy": 77.51944422304783,
-    "baseApr": 50.60471561063744,
-    "addyTokenApr": 8.503169115875542
-  },
-  {
-    "name": "ATOM/QUICK LP (Quick)",
-    "lpAddress": "0xf7e659966196f069a23ce9b84b9586a809c4cd9a",
-    "vaultAddress": "0x4d7906e12d14c74aeacb7c278b0ad8a15a6b5075",
-    "strategyAddress": "0xc1c2124dBbE8A2403fd6E53A7f51af03Da422A02",
-    "apy": 86.84821539387994,
-    "baseApr": 49.531118424949916,
-    "addyTokenApr": 16.645542668647074
-  },
-  {
-    "name": "USDT/WETH LP (Jet)",
-    "lpAddress": "0xc7f1b47f4ed069e9b34e6bd59792b8abf5a66339",
-    "vaultAddress": "0xa98eee1c6fc4870d1a1bc9d59bee5ed9ffdcb6d2",
-    "strategyAddress": "0x9d5D7530445938EC5908181c84A2F1Cc066dC111",
-    "apy": 37.12241444664808,
-    "baseApr": 27.146537874220623,
-    "addyTokenApr": 4.5614642759991355
-  },
-  {
-    "name": "EZ/QUICK LP (Quick)",
-    "lpAddress": "0xf745a6358790f7a2ef5da0538b714cbbcc635c40",
-    "vaultAddress": "0xad36d302f830036c26346ef0eb25ca48d57b4bc1",
-    "strategyAddress": "0x252116c742B33df11fF5B0022cBc0d5DDDc5b600",
-    "apy": 105.58113199148839,
-    "baseApr": 57.928374960095404,
-    "addyTokenApr": 19.467544198193217
-  },
-  {
-    "name": "BNB/USDC LP (Quick)",
-    "lpAddress": "0x40a5df3e37152d4daf279e0450289af76472b02e",
-    "vaultAddress": "0x1828cfb1e59d22829b989399df81461b4a12de3a",
-    "strategyAddress": "0x6AC6d3af22ACDC0515E80715E1ED2FDDC009DAe0",
-    "apy": 58.542645490255445,
-    "baseApr": 35.56193792639913,
-    "addyTokenApr": 11.951027434007594
-  },
-  {
-    "name": "LINK/ETH LP (Wault)",
-    "lpAddress": "0x70bf5ffcc6090a8d243fd05485ec4c084bd10ae5",
-    "vaultAddress": "0x3f6d21fde702b479157c9cc99f989d6eb281e59a",
-    "strategyAddress": "0x47Cb27b918083bC98ee0aA075974Cd1a31249b45",
-    "apy": 15.486822742872812,
-    "baseApr": 10.492374340324318,
-    "addyTokenApr": 3.526091683996993
-  },
-  {
-    "name": "KOM/QUICK LP (Quick)",
-    "lpAddress": "0x082b58350a04d8d38b4bcae003bb1191b9aae565",
-    "vaultAddress": "0x6ba0b855b77e492dfcde4391bbc1a47660f89413",
-    "strategyAddress": "0xBf7F9E4C7FC233B060be5904FB6388c4199BBA76",
-    "apy": 285.20324852012425,
-    "baseApr": 117.09951336559254,
-    "addyTokenApr": 39.352734365532356
-  },
-  {
-    "name": "TRADE/QUICK LP (Quick)",
-    "lpAddress": "0x36d906b17371678ba39de21b8631854c9490e87e",
-    "vaultAddress": "0xa845afca4793b363f384ab501846bf3cb03cb1f9",
-    "strategyAddress": "0x3aF7F6d26EDe3EAb699e093e2D6b431EfbBf867e",
-    "apy": 355.9348174090467,
-    "baseApr": 133.87228392858577,
-    "addyTokenApr": 44.98943058713627
-  },
-  {
-    "name": "YAMP/QUICK LP (Quick)",
-    "lpAddress": "0x66ff795535cf162d29f6b15ed546a3e148eff0fb",
-    "vaultAddress": "0xab912648db268e5d7879cbd69ced6224f0512056",
-    "strategyAddress": "0xA1A388a0571a8dB2D3A1790aD227f139614546B8",
-    "apy": 710.4059645989679,
-    "baseApr": 192.71274207149298,
-    "addyTokenApr": 64.76349157759319
-  },
-  {
-    "name": "CIOTX/USDC LP (Quick)",
-    "lpAddress": "0xcddf91a44c579765227722da371136a4f12dc81b",
-    "vaultAddress": "0xf52bf197b01f9c9c80de21e8424047e627dbe4f3",
-    "strategyAddress": "0x6DA41FeC0a51cAdB30B0700D078e79fa9beF3011",
-    "apy": 253.60778240901107,
-    "baseApr": 108.7009101602041,
-    "addyTokenApr": 36.5302802708574
-  },
-  {
-    "name": "DNXC/QUICK LP (Quick)",
-    "lpAddress": "0xb61fbe5aac9e91c16f477c8505cf21fb919048f6",
-    "vaultAddress": "0xc7e2ea28625e7ba96439ca545a3ae1a5c009050d",
-    "strategyAddress": "0x23F8Bf96E4ADc0842d5a419b245D05D0f59bBC65",
-    "apy": 666.5786005272485,
-    "baseApr": 186.94908952482425,
-    "addyTokenApr": 62.82654511961649
-  },
-  {
-    "name": "WEXPOLY (Wault)",
-    "lpAddress": "0x4c4bf319237d98a30a929a96112effa8da3510eb",
-    "vaultAddress": "0x041cf837daff1e9fc74b61b7a98a2cba9a26cb9e",
-    "strategyAddress": "0x3E5d018Fe6D982d1e144A3869e037E5a9170b6d1",
-    "apy": 68.19814781769159,
-    "baseApr": 45.62370585190801,
-    "addyTokenApr": 7.666204263188973
-  },
-  {
-    "name": "QUICK/USDC LP (Quick)",
-    "lpAddress": "0x1f1e4c845183ef6d50e9609f16f6f9cae43bc9cb",
-    "vaultAddress": "0xe0abd0333b13aa0b9f45216251836ea67ff608a5",
-    "strategyAddress": "0xC9959a134F854a5aE257119357b524fa5D5Ca10a",
-    "apy": 30.03245685648541,
-    "baseApr": 19.570342667284038,
-    "addyTokenApr": 6.576854798906153
-  },
-  {
-    "name": "CZDIAMOND/WMATIC LP",
-    "lpAddress": "0x9e15322796d96dbfcf03bdb535f83e070fa5de4e",
-    "vaultAddress": "0xba8879c5cdb1cebbd81e7043d6d557a319f6fe62",
-    "strategyAddress": "0x31Ef7347cA73D354051f079142b2f17972d41c58",
-    "apy": 52891.00538872775,
-    "baseApr": 626.1375398037624,
-    "addyTokenApr": 105.21061775575858
-  },
-  {
-    "name": "MOONED/USDC LP (Quick)",
-    "lpAddress": "0x2d252d4a903a450afa9dac54cb696f0690259a62",
-    "vaultAddress": "0x8c050d3dc2e536713cb475ded3c06e8ffb6331a3",
-    "strategyAddress": "0xC159EF6A5931eDb6f0c1328de6B5E5E25d3a0A16",
-    "apy": 539.5668163841119,
-    "baseApr": 168.26181104863818,
-    "addyTokenApr": 56.54645492323688
-  },
-  {
-    "name": "DAI/USDC LP",
-    "lpAddress": "0x815c2d1894daf25935fa909be35ee1fed67b2b97",
-    "vaultAddress": "0x41d09f99c522afc75b516db72757a537275e8007",
-    "strategyAddress": "0x2952224DD37Af8e9fAfD7DCe43Df374FeDD54CE9",
-    "apy": 20.980502277099603,
-    "baseApr": 14.00311772455903,
-    "addyTokenApr": 4.70592025761371
-  },
-  {
-    "name": "WMATIC/WETH LP (Jet)",
-    "lpAddress": "0x951e38875a93df95bbd24fe31f409b7933b35bed",
-    "vaultAddress": "0xd7e53ff635142f0462d4bd3e56176d20ea077bff",
-    "strategyAddress": "0xE4F2106e0Be2F03b65CC342f8Ff5F0005E57ae8a",
-    "apy": 9.368892286578436,
-    "baseApr": 7.50729948552729,
-    "addyTokenApr": 1.261460248490069
-  },
-  {
-    "name": "MOCHA/USDC LP",
-    "lpAddress": "0x79a73a8370fa09ff363d8ee1ebb5ce0a9b6085b9",
-    "vaultAddress": "0x928f7e3fafae20f7311a6c6cef525ff428422b61",
-    "strategyAddress": "0x7472Eb764c890109A0AA86bE1db70eE488E31Ccb",
-    "apy": 2021.7700364141597,
-    "baseApr": 293.39609362026584,
-    "addyTokenApr": 98.59937248480261
-  },
-  {
-    "name": "XCASH/QUICK LP (Quick)",
-    "lpAddress": "0x30167fea9499c11795bfd104667240bdac939d3a",
-    "vaultAddress": "0x08c6d749abb425eccd8770220c3c9c5cd3b4a18a",
-    "strategyAddress": "0x60137A4B64Cd6F8dE4545Ba003Ba57d8A6B31E5A",
-    "apy": 342.69559469751914,
-    "baseApr": 130.92040921176616,
-    "addyTokenApr": 43.99741671557848
-  },
-  {
-    "name": "TCP/USDC LP (Quick)",
-    "lpAddress": "0xad431d0bde99e21d9848691615a0756a09ed3dce",
-    "vaultAddress": "0x9e699c199dcfc27526bfe81521815279d077df6b",
-    "strategyAddress": "0xF3D15b801FA00872614A1dAa1636f8B8502Ba3ca",
-    "apy": 323.10749440734855,
-    "baseApr": 126.4027716684542,
-    "addyTokenApr": 42.47920895286418
-  },
-  {
-    "name": "CIOTX/QUICK LP (Quick)",
-    "lpAddress": "0x7de19d534c6ecc2f5e236349d36b7d5bb645bfef",
-    "vaultAddress": "0x50d077c51fb0058a653522115f43cb9a414de09e",
-    "strategyAddress": "0xbEf00092fFd79b07968887B01C2ABBD613e7754b",
-    "apy": 233.2080165267341,
-    "baseApr": 102.92170805613192,
-    "addyTokenApr": 34.58810819251379
-  },
-  {
-    "name": "DAI/USDT LP (Quick)",
-    "lpAddress": "0x59153f27eefe07e5ece4f9304ebba1da6f53ca88",
-    "vaultAddress": "0xde76dfb48b84efaa56d03d79ebd3f8fe559fd783",
-    "strategyAddress": "0x70a3267Aa53647ccf8Da22791cb91d9F9A8E84D1",
-    "apy": 15.852699930136126,
-    "baseApr": 10.729437945126838,
-    "addyTokenApr": 3.6057598294862316
-  },
-  {
-    "name": "DINO (Dino)",
-    "lpAddress": "0xaa9654becca45b5bdfa5ac646c939c62b527d394",
-    "vaultAddress": "0x1ead46345db8fac731ddb8d6a839c399c3d3990c",
-    "strategyAddress": "0xc3a217E1eD1B9bD9a944C54aFAeab53000bEF6C0",
-    "apy": 47.62637688184378,
-    "baseApr": 33.748656760131276,
-    "addyTokenApr": 5.670825977425501
-  },
-  {
-    "name": "ODDZ/WMATIC LP (Quick)",
-    "lpAddress": "0x972d0c9d46742d04a35e2521e8ff1657e8107b2c",
-    "vaultAddress": "0x486ce253a1fd61b1f07d4f7f6dbf65699825762a",
-    "strategyAddress": "0x2E5187e312949239d9Dcb2e5573F55fFC74Ba6be",
-    "apy": 284.6469965304648,
-    "baseApr": 116.95700476796186,
-    "addyTokenApr": 39.304842595309054
-  },
-  {
-    "name": "MONA/USDT LP (Quick)",
-    "lpAddress": "0x856ad56defbb685db8392d9e54441df609bc5ce1",
-    "vaultAddress": "0x2c6a0aa1261f52988339155d9ff6fab78284fcd1",
-    "strategyAddress": "0x62cc48120Be9e50C485C2d6B45BF876aE8f04a67",
-    "apy": 608.2428853295528,
-    "baseApr": 178.76518677081367,
-    "addyTokenApr": 60.07624375716389
-  },
-  {
-    "name": "PAUTO/USDC LP (Sushi)",
-    "lpAddress": "0xd8d51ea2edca2c2ea15a053a5730f559d79a1570",
-    "vaultAddress": "0xf2119061ef771bf57e9ad6a3624ebb23d68f6817",
-    "strategyAddress": "0x12d3e796313B60A3a91CbD529282652E76223bA5",
-    "apy": 12.669870299249455,
-    "baseApr": 10.068761870380554,
-    "addyTokenApr": 1.6918657468619
-  },
-  {
-    "name": "ARPA/WETH LP (Sushi)",
-    "lpAddress": "0x590f5e967d73ea06dae9aed2788108dcf52da269",
-    "vaultAddress": "0x4739113e228cccbceb91465e7513fcbe719e00c5",
-    "strategyAddress": "0x100Bd58318c816FB3Be16C7d10672C1ECB44e63b",
-    "apy": 6.740718166786504,
-    "baseApr": 4.687289785271254,
-    "addyTokenApr": 1.575221489077957
-  },
-  {
-    "name": "OOE/QUICK LP (Quick)",
-    "lpAddress": "0x23e93ce78d7fb5287e4b6a8d91403bc5e7ac845a",
-    "vaultAddress": "0xbe3106fab57d55092269cc3d2d2fb8ae2e00dbf2",
-    "strategyAddress": "0x0788F04EBd4AD0E9bB96dD8c0532EDeA7363EB9B",
-    "apy": 289.9423934339902,
-    "baseApr": 118.30629624864129,
-    "addyTokenApr": 39.75828862334742
-  },
-  {
-    "name": "FOR/USDC LP (Dino)",
-    "lpAddress": "0xa1c3eb6fe2bb452aac4d9247478594bf04750017",
-    "vaultAddress": "0x0fefa7b33e498a15998f59e99700d29072da1e63",
-    "strategyAddress": "0x96B85feD676DeaACe7ca566aa50A68c8E46a8198",
-    "apy": 231.67750981872405,
-    "baseApr": 110.68882634212352,
-    "addyTokenApr": 18.599171999437306
-  },
-  {
-    "name": "GBNT/WMATIC LP",
-    "lpAddress": "0xd883c361d1e8a7e1f77d38e0a6e45d897006b798",
-    "vaultAddress": "0x282d5e50bbd5fa3b658e8c9b3dd3cd2237426df5",
-    "strategyAddress": "0xBDB54F4956bBE2b3A6bfDC66eCA0ce678553f4e6",
-    "apy": 3538.5275982867365,
-    "baseApr": 354.6169368287746,
-    "addyTokenApr": 59.58669560381788
-  },
-  {
-    "name": "PHX/WMATIC LP (Quick)",
-    "lpAddress": "0x666dd949db4f3807c6e8e360a79473a5f0c7075a",
-    "vaultAddress": "0x66abf161e886dbcf74f762e29d70f3d812e2a353",
-    "strategyAddress": "0xc2bE945e9736591B37d7e2eDA370a338FfF1483F",
-    "apy": 485.1417547223358,
-    "baseApr": 159.14908859282724,
-    "addyTokenApr": 53.48401225508725
-  },
-  {
-    "name": "BIFI/USDC LP (Sushi)",
-    "lpAddress": "0x180237bd326d5245d0898336f54b3c8012c5c62f",
-    "vaultAddress": "0x0b1399c5783a8e8608e381d7c97fb7e41895925e",
-    "strategyAddress": "0xbFA65BCD738A1084A7fA73495adD6Db8Ec667c29",
-    "apy": 6.9332284435591545,
-    "baseApr": 5.614666429983008,
-    "addyTokenApr": 0.9434389188295117
+    "apy": 103.77292028786692,
+    "baseApr": 57.47384726120545,
+    "addyTokenApr": 18.73026604387256
   },
   {
     "name": "DFYN/WMATIC LP",
     "lpAddress": "0x740d668883b0fAEf5eeF7E84BE28C7152D6f609D",
     "vaultAddress": "0xc5a0dceba66a15aaa9c02b0d027e88b376ab68dd",
     "strategyAddress": "0x7195B2a8320801081c212E9C9B114dC4f0853F1d",
-    "apy": 98.54129004084854,
-    "baseApr": 54.843954118478685,
-    "addyTokenApr": 18.430986568165352
+    "apy": 94.68439280241846,
+    "baseApr": 53.43317797601948,
+    "addyTokenApr": 17.413444318629832
   },
   {
-    "name": "CZDIAMOND/USDC LP",
-    "lpAddress": "0xd4b829db6e1ea8e85e9f8e55185e0a52474a575a",
-    "vaultAddress": "0x76488e167ef8f23fea03134e3f873e2649213365",
-    "strategyAddress": "0x697C7a3D8D9546748F0Ca1F11C86495828cE65b7",
-    "apy": 324769.39176189114,
-    "baseApr": 808.32810130523,
-    "addyTokenApr": 135.82430932717511
+    "name": "WMATIC/USDC LP (Jet)",
+    "lpAddress": "0x5e58e0ced3a272caeb8ba00f4a4c2805df6be495",
+    "vaultAddress": "0x49b076aa4faac7ff9f64c12c02077afd56571e8c",
+    "strategyAddress": "0x51013dB56f50a8Bc0748bb306286AEc3e44D3D33",
+    "apy": 18.68943866479991,
+    "baseApr": 14.564971858938383,
+    "addyTokenApr": 2.3733037793658847
+  },
+  {
+    "name": "EROWAN/ATOM LP (Quick)",
+    "lpAddress": "0x7051810a53030171f01d89e9aebd8a599de1b530",
+    "vaultAddress": "0xd281c96034fe1c2ea37eb9eeb3785a4dda192ee2",
+    "strategyAddress": "0x39cfCD3F3171F4fde6da960d494E1dC23c8d5192",
+    "apy": 378.2864973891828,
+    "baseApr": 139.14869887601913,
+    "addyTokenApr": 45.34744538261984
+  },
+  {
+    "name": "IRON/ICE LP",
+    "lpAddress": "0x7e2cc09d3d36b3af6edff55b214fd62885234e95",
+    "vaultAddress": "0x7e9c694325646f58aeb78d91d2cef4f6c7347541",
+    "strategyAddress": "0x6266158E5B1d6a2E2a608325D9284BF62B77ff4C",
+    "apy": 272.09933962084074,
+    "baseApr": 114.14454444936702,
+    "addyTokenApr": 37.198791917944064
+  },
+  {
+    "name": "FXS/FRAX LP (Sushi)",
+    "lpAddress": "0xd53a56ae0f48c9a03660cd36c2e4ae20493a1eca",
+    "vaultAddress": "0x19bbacb424bf3bfe2b47575b2871c1f282023a71",
+    "strategyAddress": "0x99b396E11c5b343922791535C3D223FA0ad264bF",
+    "apy": 26.93359677305074,
+    "baseApr": 17.918593249842303,
+    "addyTokenApr": 5.839525883419103
+  },
+  {
+    "name": "ATOM/QUICK LP (Quick)",
+    "lpAddress": "0xf7e659966196f069a23ce9b84b9586a809c4cd9a",
+    "vaultAddress": "0x4d7906e12d14c74aeacb7c278b0ad8a15a6b5075",
+    "strategyAddress": "0xc1c2124dBbE8A2403fd6E53A7f51af03Da422A02",
+    "apy": 86.28198182350107,
+    "baseApr": 49.56685131116327,
+    "addyTokenApr": 16.153439455615263
+  },
+  {
+    "name": "USDT/WETH LP (Jet)",
+    "lpAddress": "0xc7f1b47f4ed069e9b34e6bd59792b8abf5a66339",
+    "vaultAddress": "0xa98eee1c6fc4870d1a1bc9d59bee5ed9ffdcb6d2",
+    "strategyAddress": "0x9d5D7530445938EC5908181c84A2F1Cc066dC111",
+    "apy": 36.38503419449816,
+    "baseApr": 26.77518358067249,
+    "addyTokenApr": 4.362908833649963
+  },
+  {
+    "name": "EZ/QUICK LP (Quick)",
+    "lpAddress": "0xf745a6358790f7a2ef5da0538b714cbbcc635c40",
+    "vaultAddress": "0xad36d302f830036c26346ef0eb25ca48d57b4bc1",
+    "strategyAddress": "0x252116c742B33df11fF5B0022cBc0d5DDDc5b600",
+    "apy": 98.20397974117506,
+    "baseApr": 55.01486283585088,
+    "addyTokenApr": 17.928902733786323
+  },
+  {
+    "name": "START/QUICK LP (Quick)",
+    "lpAddress": "0x9e2b254c7d6ad24afb334a75ce21e216a9aa25fc",
+    "vaultAddress": "0x01fcac068c4a884c08da8578fdbc1ffffe64007d",
+    "strategyAddress": "0x5b66bd747d0B64ff20fCecC256054Cb46B99d074",
+    "apy": 56.25845096876457,
+    "baseApr": 34.58783870606068,
+    "addyTokenApr": 11.271899337150476
+  },
+  {
+    "name": "BNB/USDC LP (Quick)",
+    "lpAddress": "0x40a5df3e37152d4daf279e0450289af76472b02e",
+    "vaultAddress": "0x1828cfb1e59d22829b989399df81461b4a12de3a",
+    "strategyAddress": "0x6AC6d3af22ACDC0515E80715E1ED2FDDC009DAe0",
+    "apy": 64.134659191011,
+    "baseApr": 38.70835935640529,
+    "addyTokenApr": 12.614743982115115
+  },
+  {
+    "name": "ARPA/WETH LP (Dino)",
+    "lpAddress": "0x590f5e967d73ea06dae9aed2788108dcf52da269",
+    "vaultAddress": "0xfb9524db5e68bdb25dee2f21bc71ebf7277623d4",
+    "strategyAddress": "0x65A6c3084cB751fCB60f509dAE3d9810668aCf0f",
+    "apy": 75.54350027305298,
+    "baseApr": 49.73785283486266,
+    "addyTokenApr": 8.10458374061889
+  },
+  {
+    "name": "LINK/ETH LP (Wault)",
+    "lpAddress": "0x70bf5ffcc6090a8d243fd05485ec4c084bd10ae5",
+    "vaultAddress": "0x3f6d21fde702b479157c9cc99f989d6eb281e59a",
+    "strategyAddress": "0x47Cb27b918083bC98ee0aA075974Cd1a31249b45",
+    "apy": 15.183562409344319,
+    "baseApr": 10.375763152165991,
+    "addyTokenApr": 3.381378026862277
+  },
+  {
+    "name": "KOM/QUICK LP (Quick)",
+    "lpAddress": "0x082b58350a04d8d38b4bcae003bb1191b9aae565",
+    "vaultAddress": "0x6ba0b855b77e492dfcde4391bbc1a47660f89413",
+    "strategyAddress": "0xBf7F9E4C7FC233B060be5904FB6388c4199BBA76",
+    "apy": 156.96874412597444,
+    "baseApr": 78.62622262077974,
+    "addyTokenApr": 25.623655591018935
+  },
+  {
+    "name": "YAMP/QUICK LP (Quick)",
+    "lpAddress": "0x66ff795535cf162d29f6b15ed546a3e148eff0fb",
+    "vaultAddress": "0xab912648db268e5d7879cbd69ced6224f0512056",
+    "strategyAddress": "0xA1A388a0571a8dB2D3A1790aD227f139614546B8",
+    "apy": 157.91944807640496,
+    "baseApr": 78.97063582722497,
+    "addyTokenApr": 25.73589709377451
+  },
+  {
+    "name": "FTM/WMATIC LP (Quick)",
+    "lpAddress": "0xd2b61a42d3790533fedc2829951a65120624034a",
+    "vaultAddress": "0x0b1f6ac2481d2fb5810396a525cd381f1cbc9121",
+    "strategyAddress": "0x855f3FCc5E09539eDAdD8dD7F6C9D3A73F55EE00",
+    "apy": 868.4968555215395,
+    "baseApr": 211.68617672174452,
+    "addyTokenApr": 68.98682786605117
+  },
+  {
+    "name": "TRADE/QUICK LP (Quick)",
+    "lpAddress": "0x36d906b17371678ba39de21b8631854c9490e87e",
+    "vaultAddress": "0xa845afca4793b363f384ab501846bf3cb03cb1f9",
+    "strategyAddress": "0x3aF7F6d26EDe3EAb699e093e2D6b431EfbBf867e",
+    "apy": 223.74217629123507,
+    "baseApr": 100.5707063278557,
+    "addyTokenApr": 32.77518689813572
+  },
+  {
+    "name": "CIOTX/USDC LP (Quick)",
+    "lpAddress": "0xcddf91a44c579765227722da371136a4f12dc81b",
+    "vaultAddress": "0xf52bf197b01f9c9c80de21e8424047e627dbe4f3",
+    "strategyAddress": "0x6DA41FeC0a51cAdB30B0700D078e79fa9beF3011",
+    "apy": 357.4730092009976,
+    "baseApr": 134.67463186973535,
+    "addyTokenApr": 43.889382814701705
+  },
+  {
+    "name": "WEXPOLY (Wault)",
+    "lpAddress": "0x4c4bf319237d98a30a929a96112effa8da3510eb",
+    "vaultAddress": "0x041cf837daff1e9fc74b61b7a98a2cba9a26cb9e",
+    "strategyAddress": "0x3E5d018Fe6D982d1e144A3869e037E5a9170b6d1",
+    "apy": 67.64883193510803,
+    "baseApr": 45.4831242128647,
+    "addyTokenApr": 7.41129276714083
+  },
+  {
+    "name": "DNXC/QUICK LP (Quick)",
+    "lpAddress": "0xb61fbe5aac9e91c16f477c8505cf21fb919048f6",
+    "vaultAddress": "0xc7e2ea28625e7ba96439ca545a3ae1a5c009050d",
+    "strategyAddress": "0x23F8Bf96E4ADc0842d5a419b245D05D0f59bBC65",
+    "apy": 144.99894561593496,
+    "baseApr": 74.19785430059483,
+    "addyTokenApr": 24.180485858525532
+  },
+  {
+    "name": "QUICK/USDC LP (Quick)",
+    "lpAddress": "0x1f1e4c845183ef6d50e9609f16f6f9cae43bc9cb",
+    "vaultAddress": "0xe0abd0333b13aa0b9f45216251836ea67ff608a5",
+    "strategyAddress": "0xC9959a134F854a5aE257119357b524fa5D5Ca10a",
+    "apy": 23.220556233870333,
+    "baseApr": 15.52161625867235,
+    "addyTokenApr": 5.05837029900847
+  },
+  {
+    "name": "WMATIC/WETH LP (Jet)",
+    "lpAddress": "0x951e38875a93df95bbd24fe31f409b7933b35bed",
+    "vaultAddress": "0xd7e53ff635142f0462d4bd3e56176d20ea077bff",
+    "strategyAddress": "0xE4F2106e0Be2F03b65CC342f8Ff5F0005E57ae8a",
+    "apy": 10.677156092983017,
+    "baseApr": 8.555126068201252,
+    "addyTokenApr": 1.3940234987926403
+  },
+  {
+    "name": "CZDIAMOND/WMATIC LP",
+    "lpAddress": "0x9e15322796d96dbfcf03bdb535f83e070fa5de4e",
+    "vaultAddress": "0xba8879c5cdb1cebbd81e7043d6d557a319f6fe62",
+    "strategyAddress": "0x31Ef7347cA73D354051f079142b2f17972d41c58",
+    "apy": 28730.76264962209,
+    "baseApr": 564.81801911958,
+    "addyTokenApr": 92.03483208982713
+  },
+  {
+    "name": "DAI/USDC LP",
+    "lpAddress": "0x815c2d1894daf25935fa909be35ee1fed67b2b97",
+    "vaultAddress": "0x41d09f99c522afc75b516db72757a537275e8007",
+    "strategyAddress": "0x2952224DD37Af8e9fAfD7DCe43Df374FeDD54CE9",
+    "apy": 17.310816011241062,
+    "baseApr": 11.759697142886896,
+    "addyTokenApr": 3.832391019181266
+  },
+  {
+    "name": "MOCHA/USDC LP",
+    "lpAddress": "0x79a73a8370fa09ff363d8ee1ebb5ce0a9b6085b9",
+    "vaultAddress": "0x928f7e3fafae20f7311a6c6cef525ff428422b61",
+    "strategyAddress": "0x7472Eb764c890109A0AA86bE1db70eE488E31Ccb",
+    "apy": 1236.4448084597354,
+    "baseApr": 245.32719431950957,
+    "addyTokenApr": 79.95016579484954
+  },
+  {
+    "name": "CIOTX/QUICK LP (Quick)",
+    "lpAddress": "0x7de19d534c6ecc2f5e236349d36b7d5bb645bfef",
+    "vaultAddress": "0x50d077c51fb0058a653522115f43cb9a414de09e",
+    "strategyAddress": "0xbEf00092fFd79b07968887B01C2ABBD613e7754b",
+    "apy": 74.14570197431067,
+    "baseApr": 43.743149442395364,
+    "addyTokenApr": 14.255541706288001
+  },
+  {
+    "name": "XCASH/QUICK LP (Quick)",
+    "lpAddress": "0x30167fea9499c11795bfd104667240bdac939d3a",
+    "vaultAddress": "0x08c6d749abb425eccd8770220c3c9c5cd3b4a18a",
+    "strategyAddress": "0x60137A4B64Cd6F8dE4545Ba003Ba57d8A6B31E5A",
+    "apy": 257.42720425184217,
+    "baseApr": 110.19817435094835,
+    "addyTokenApr": 35.912701541654634
+  },
+  {
+    "name": "BEL/WETH LP (Dino)",
+    "lpAddress": "0x49cecfa5c62b3a97f58cad6b4acc7c74810e1dda",
+    "vaultAddress": "0x06eca915fa24da256b859da60eefa405fca5cd5f",
+    "strategyAddress": "0x00B96343c98c4dbE43C9AE452703F660E04fB166",
+    "apy": 654.5346427066809,
+    "baseApr": 193.74840433857435,
+    "addyTokenApr": 31.5705258284216
+  },
+  {
+    "name": "TCP/USDC LP (Quick)",
+    "lpAddress": "0xad431d0bde99e21d9848691615a0756a09ed3dce",
+    "vaultAddress": "0x9e699c199dcfc27526bfe81521815279d077df6b",
+    "strategyAddress": "0xF3D15b801FA00872614A1dAa1636f8B8502Ba3ca",
+    "apy": 216.7971529051936,
+    "baseApr": 98.4781377821037,
+    "addyTokenApr": 32.093235585587514
+  },
+  {
+    "name": "DAI/USDT LP (Quick)",
+    "lpAddress": "0x59153f27eefe07e5ece4f9304ebba1da6f53ca88",
+    "vaultAddress": "0xde76dfb48b84efaa56d03d79ebd3f8fe559fd783",
+    "strategyAddress": "0x70a3267Aa53647ccf8Da22791cb91d9F9A8E84D1",
+    "apy": 15.498490064413577,
+    "baseApr": 10.581668438006426,
+    "addyTokenApr": 3.44848090873659
+  },
+  {
+    "name": "ODDZ/WMATIC LP (Quick)",
+    "lpAddress": "0x972d0c9d46742d04a35e2521e8ff1657e8107b2c",
+    "vaultAddress": "0x486ce253a1fd61b1f07d4f7f6dbf65699825762a",
+    "strategyAddress": "0x2E5187e312949239d9Dcb2e5573F55fFC74Ba6be",
+    "apy": 139.87973808406943,
+    "baseApr": 72.24985195793307,
+    "addyTokenApr": 23.545647512550218
+  },
+  {
+    "name": "MONA/USDT LP (Quick)",
+    "lpAddress": "0x856ad56defbb685db8392d9e54441df609bc5ce1",
+    "vaultAddress": "0x2c6a0aa1261f52988339155d9ff6fab78284fcd1",
+    "strategyAddress": "0x62cc48120Be9e50C485C2d6B45BF876aE8f04a67",
+    "apy": 287.2318961911702,
+    "baseApr": 118.072858406385,
+    "addyTokenApr": 38.478997942510475
+  },
+  {
+    "name": "MOONED/USDC LP (Quick)",
+    "lpAddress": "0x2d252d4a903a450afa9dac54cb696f0690259a62",
+    "vaultAddress": "0x8c050d3dc2e536713cb475ded3c06e8ffb6331a3",
+    "strategyAddress": "0xC159EF6A5931eDb6f0c1328de6B5E5E25d3a0A16",
+    "apy": 329.4162555773725,
+    "baseApr": 128.33991072679376,
+    "addyTokenApr": 41.824947980858084
+  },
+  {
+    "name": "PAUTO/USDC LP (Sushi)",
+    "lpAddress": "0xd8d51ea2edca2c2ea15a053a5730f559d79a1570",
+    "vaultAddress": "0xf2119061ef771bf57e9ad6a3624ebb23d68f6817",
+    "strategyAddress": "0x12d3e796313B60A3a91CbD529282652E76223bA5",
+    "apy": 13.244375370472696,
+    "baseApr": 10.552502530360712,
+    "addyTokenApr": 1.719487986631687
+  },
+  {
+    "name": "ARPA/WETH LP (Sushi)",
+    "lpAddress": "0x590f5e967d73ea06dae9aed2788108dcf52da269",
+    "vaultAddress": "0x4739113e228cccbceb91465e7513fcbe719e00c5",
+    "strategyAddress": "0x100Bd58318c816FB3Be16C7d10672C1ECB44e63b",
+    "apy": 69.53283634773439,
+    "baseApr": 41.91751743327103,
+    "addyTokenApr": 13.660582870946742
+  },
+  {
+    "name": "DINO (Dino)",
+    "lpAddress": "0xaa9654becca45b5bdfa5ac646c939c62b527d394",
+    "vaultAddress": "0x1ead46345db8fac731ddb8d6a839c399c3d3990c",
+    "strategyAddress": "0xc3a217E1eD1B9bD9a944C54aFAeab53000bEF6C0",
+    "apy": 58.51601279006645,
+    "baseApr": 40.34307809606116,
+    "addyTokenApr": 6.573742856761948
+  },
+  {
+    "name": "DES/QUICK LP (Quick)",
+    "lpAddress": "0xdfb3d129f32b32852e74322e699580d75ca4521e",
+    "vaultAddress": "0x8f27c0b31300b739c87327667f13feb0d0535072",
+    "strategyAddress": "0x4C6a82b0ba8d56732f91168f9746E7F31984073e",
+    "apy": 3129768.7083630217,
+    "baseApr": 1035.1893579640605,
+    "addyTokenApr": 337.3599124543069
+  },
+  {
+    "name": "GBNT/WMATIC LP",
+    "lpAddress": "0xd883c361d1e8a7e1f77d38e0a6e45d897006b798",
+    "vaultAddress": "0x282d5e50bbd5fa3b658e8c9b3dd3cd2237426df5",
+    "strategyAddress": "0xBDB54F4956bBE2b3A6bfDC66eCA0ce678553f4e6",
+    "apy": 3356.485682671461,
+    "baseApr": 349.5100501660692,
+    "addyTokenApr": 56.9512616309272
+  },
+  {
+    "name": "OOE/QUICK LP (Quick)",
+    "lpAddress": "0x23e93ce78d7fb5287e4b6a8d91403bc5e7ac845a",
+    "vaultAddress": "0xbe3106fab57d55092269cc3d2d2fb8ae2e00dbf2",
+    "strategyAddress": "0x0788F04EBd4AD0E9bB96dD8c0532EDeA7363EB9B",
+    "apy": 202.80962311736442,
+    "baseApr": 94.14104176730652,
+    "addyTokenApr": 30.67981076567288
+  },
+  {
+    "name": "FOR/USDC LP (Dino)",
+    "lpAddress": "0xa1c3eb6fe2bb452aac4d9247478594bf04750017",
+    "vaultAddress": "0x0fefa7b33e498a15998f59e99700d29072da1e63",
+    "strategyAddress": "0x96B85feD676DeaACe7ca566aa50A68c8E46a8198",
+    "apy": 224.00716128470054,
+    "baseApr": 108.62319148780463,
+    "addyTokenApr": 17.699713626743748
+  },
+  {
+    "name": "BIFI/USDC LP (Sushi)",
+    "lpAddress": "0x180237bd326d5245d0898336f54b3c8012c5c62f",
+    "vaultAddress": "0x0b1399c5783a8e8608e381d7c97fb7e41895925e",
+    "strategyAddress": "0xbFA65BCD738A1084A7fA73495adD6Db8Ec667c29",
+    "apy": 7.363976500187402,
+    "baseApr": 5.982452204374597,
+    "addyTokenApr": 0.9748166054852151
   },
   {
     "name": "WAULTX/WMATIC LP (Wault)",
     "lpAddress": "0xae74c0ab6f76bcf9995784d337ba98e02eb2db75",
     "vaultAddress": "0xed357c1ca62c9ed87e8e4a8bf1f623b407f7cbd0",
     "strategyAddress": "0xCA9dAb36d2A41584482c59AAd94223C80238eE58",
-    "apy": 30.60337038833457,
-    "baseApr": 19.912845384810353,
-    "addyTokenApr": 6.69195705744591
+    "apy": 33.77134539148042,
+    "baseApr": 21.95347948217182,
+    "addyTokenApr": 7.1544629580997245
+  },
+  {
+    "name": "PHX/WMATIC LP (Quick)",
+    "lpAddress": "0x666dd949db4f3807c6e8e360a79473a5f0c7075a",
+    "vaultAddress": "0x66abf161e886dbcf74f762e29d70f3d812e2a353",
+    "strategyAddress": "0xc2bE945e9736591B37d7e2eDA370a338FfF1483F",
+    "apy": 396.7518261531581,
+    "baseApr": 142.97068303032157,
+    "addyTokenApr": 46.59299937694711
+  },
+  {
+    "name": "CZDIAMOND/USDC LP",
+    "lpAddress": "0xd4b829db6e1ea8e85e9f8e55185e0a52474a575a",
+    "vaultAddress": "0x76488e167ef8f23fea03134e3f873e2649213365",
+    "strategyAddress": "0x697C7a3D8D9546748F0Ca1F11C86495828cE65b7",
+    "apy": 226362.81834342884,
+    "baseApr": 772.1413001385172,
+    "addyTokenApr": 125.8173296571546
   },
   {
     "name": "GHST/WMATIC LP (Sushi)",
     "lpAddress": "0xf69e93771f11aecd8e554aa165c3fe7fd811530c",
     "vaultAddress": "0xb1f6489076644a0ea9dc60f0f7432f311431c99e",
     "strategyAddress": "0x882a0fdc29f72a94c1f005aae5da8b1c30ceb1e7",
-    "apy": 46.232398080161055,
-    "baseApr": 29.164438545403502,
-    "addyTokenApr": 9.801068937101038
-  },
-  {
-    "name": "MEEB/WETH LP (Quick)",
-    "lpAddress": "0xd0a4bbb49ddd36b0d832d485974a2387d81dbdd3",
-    "vaultAddress": "0x82a60c78eac4ea9e30ea584b756cf5afde1442cf",
-    "strategyAddress": "0x13EF116753263CDbdBA3cDdC5975D1c394d41F9d",
-    "apy": 319.9850948029972,
-    "baseApr": 125.665265228958,
-    "addyTokenApr": 42.231360826324554
+    "apy": 48.08168771444845,
+    "baseApr": 30.40640308698886,
+    "addyTokenApr": 9.909202992244303
   },
   {
     "name": "GPUL/WMATIC LP",
     "lpAddress": "0xc6fcd85ddd4a301c9babffefc07dadddf7b413a4",
     "vaultAddress": "0x5d2cec62672742003a6f7fc60a03c21d37dd2d7d",
     "strategyAddress": "0x081c50868564a7a6A770B0eCC71B3cBaeF41f22E",
-    "apy": 7652.647017550198,
-    "baseApr": 431.7326620236598,
-    "addyTokenApr": 72.54454043928328
+    "apy": 1562.1137086790213,
+    "baseApr": 274.5721842579599,
+    "addyTokenApr": 44.7404367766255
+  },
+  {
+    "name": "MEEB/WETH LP (Quick)",
+    "lpAddress": "0xd0a4bbb49ddd36b0d832d485974a2387d81dbdd3",
+    "vaultAddress": "0x82a60c78eac4ea9e30ea584b756cf5afde1442cf",
+    "strategyAddress": "0x13EF116753263CDbdBA3cDdC5975D1c394d41F9d",
+    "apy": 315.4805780282731,
+    "baseApr": 125.05263463237628,
+    "addyTokenApr": 40.75365105639306
   },
   {
     "name": "WBTC/USDC LP (Quick)",
     "lpAddress": "0xf6a637525402643b0654a54bead2cb9a83c8b498",
     "vaultAddress": "0x048c090a3919026b914ddfe04e38908ee17b2f10",
     "strategyAddress": "0x78f6B0Aa1076E4d119e5688Fbbc79E367cAb58D1",
-    "apy": 9.820580375956933,
-    "baseApr": 6.7595044775941275,
-    "addyTokenApr": 2.2716147702416385
+    "apy": 10.485415654689493,
+    "baseApr": 7.260837528285925,
+    "addyTokenApr": 2.366248738979529
   },
   {
     "name": "WETH/USDC LP (Cometh)",
     "lpAddress": "0x1Edb2D8f791D2a51D56979bf3A25673D6E783232",
     "vaultAddress": "0x45f9febda01894a627cd58f69308c1200f326df2",
     "strategyAddress": "0xFDa8715473d8324Ae53b091b47a95F0f34eA3be1",
-    "apy": 17.85378704850876,
-    "baseApr": 12.017715689224733,
-    "addyTokenApr": 4.038701439535725
+    "apy": 18.040467034409737,
+    "baseApr": 12.230689419463845,
+    "addyTokenApr": 3.9858836260847563
   },
   {
     "name": "WBTC/WETH LP (Quick)",
     "lpAddress": "0xdc9232e2df177d7a12fdff6ecbab114e2231198d",
     "vaultAddress": "0xa551a5a5466cef35ed59af38d4f55f9579bd94ee",
     "strategyAddress": "0x6701802602903dc02746D39cb39F3d5Cc2494b55",
-    "apy": 7.001930067855167,
-    "baseApr": 4.858183553546641,
-    "addyTokenApr": 1.6326524456581932
-  },
-  {
-    "name": "BREW/USDC LP",
-    "lpAddress": "0x248c328b1048f9b6e7e00d61a02e9ca3f8c2bf50",
-    "vaultAddress": "0xdf207f0f1ae6f9feaceb37a8309244ef1bd67345",
-    "strategyAddress": "0x4B022F6C8907e537227B5a05A2d1Def38E13A05f",
-    "apy": 1524.8577089234605,
-    "baseApr": 265.4174053784241,
-    "addyTokenApr": 89.19678954801681
-  },
-  {
-    "name": "DARKCOIN/USDC LP",
-    "lpAddress": "0xc7d21537454ed4462c31bbf5a41dcf495549aee2",
-    "vaultAddress": "0x144f2dec740bd7c8d8db8cf56abf7b4f105d33a0",
-    "strategyAddress": "0xFd44a3140C213468140b8BCe0135481EE2611c34",
-    "apy": 3071003.2686438006,
-    "baseApr": 1033.4126356002203,
-    "addyTokenApr": 173.6455249467738
-  },
-  {
-    "name": "USDC/USDT LP (Jet)",
-    "lpAddress": "0x20bf018fddba3b352f3d913fe1c81b846fe0f490",
-    "vaultAddress": "0x515aaa6511e05ce01d82da29f64d2e6130aaeb5f",
-    "strategyAddress": "0x644666f19c50fEF21E01500b0E15f2C63E01a3E4",
-    "apy": 3.7415755814347853,
-    "baseApr": 3.0594948860373403,
-    "addyTokenApr": 0.5140904777590186
+    "apy": 6.462537156633355,
+    "baseApr": 4.527164418267136,
+    "addyTokenApr": 1.47536658879165
   },
   {
     "name": "MITX/WETH LP (Quick)",
     "lpAddress": "0xa28864af52aedcef717c34bffca2ccf9d6aa23cc",
     "vaultAddress": "0x339035da4d9fd5aad605c06d6f27e9f78d3ba4e9",
     "strategyAddress": "0x101fF78086B07BcBF8399742776bbBCdA23A8Ca9",
-    "apy": 340.0985599467204,
-    "baseApr": 130.33197498625063,
-    "addyTokenApr": 43.7996661434134
+    "apy": 290.3916047328555,
+    "baseApr": 118.875810871545,
+    "addyTokenApr": 38.74067371348642
   },
   {
-    "name": "YAMP/USDC LP (Quick)",
-    "lpAddress": "0x87d68f797623590e45982ad0f21228557207fdda",
-    "vaultAddress": "0xf3311256042181c4ad6657a2c20918f6fa5e319c",
-    "strategyAddress": "0xA31D4969264565D91c3276E843137fa880F12D4B",
-    "apy": 253.3351003924713,
-    "baseApr": 108.62559917055223,
-    "addyTokenApr": 36.50497108480364
+    "name": "BREW/USDC LP",
+    "lpAddress": "0x248c328b1048f9b6e7e00d61a02e9ca3f8c2bf50",
+    "vaultAddress": "0xdf207f0f1ae6f9feaceb37a8309244ef1bd67345",
+    "strategyAddress": "0x4B022F6C8907e537227B5a05A2d1Def38E13A05f",
+    "apy": 1003.224692239977,
+    "baseApr": 225.27408300893762,
+    "addyTokenApr": 73.4150175882681
   },
   {
-    "name": "DARKCOIN/WMATIC LP",
-    "lpAddress": "0x163c45fb7f84848786a16d8cdb396f78787d6d99",
-    "vaultAddress": "0x564f8336e73d4e86bd04d8adda9746e2e034dedb",
-    "strategyAddress": "0x619b08FEfa6725C9E5D1883BFD59e8c956D5a555",
-    "apy": 4496566.439685231,
-    "baseApr": 1071.5907112628875,
-    "addyTokenApr": 180.06063132492548
+    "name": "USDC/USDT LP (Jet)",
+    "lpAddress": "0x20bf018fddba3b352f3d913fe1c81b846fe0f490",
+    "vaultAddress": "0x515aaa6511e05ce01d82da29f64d2e6130aaeb5f",
+    "strategyAddress": "0x644666f19c50fEF21E01500b0E15f2C63E01a3E4",
+    "apy": 3.8316181709905175,
+    "baseApr": 3.146958290480641,
+    "addyTokenApr": 0.5127842385580063
   },
   {
-    "name": "WETH/WBTC LP (Jet)",
-    "lpAddress": "0x173e90f2a94af3b075deec7e64df4d70efb4ac3d",
-    "vaultAddress": "0x495c5452695f2d2c51a26fe8efc7e9c22d50dab1",
-    "strategyAddress": "0x626d5dBe1FeBa73604A6B0354044524FbDfC6191",
-    "apy": 12.966699487335545,
-    "baseApr": 10.25989904524514,
-    "addyTokenApr": 1.7239827482636945
+    "name": "DARKCOIN/USDC LP",
+    "lpAddress": "0xc7d21537454ed4462c31bbf5a41dcf495549aee2",
+    "vaultAddress": "0x144f2dec740bd7c8d8db8cf56abf7b4f105d33a0",
+    "strategyAddress": "0xFd44a3140C213468140b8BCe0135481EE2611c34",
+    "apy": 1693521.188489021,
+    "baseApr": 973.8149465834183,
+    "addyTokenApr": 158.67924191773002
   },
   {
     "name": "ANRX/WETH LP (Quick)",
     "lpAddress": "0x3dd6a0d31818fdacd2724f2b0b3b220f14a54215",
     "vaultAddress": "0xf6e66fc7a0bf32adeb9de2adf01136bb846dc38c",
     "strategyAddress": "0xe76938Af018239Ea88E69eadeA40d29cDD018270",
-    "apy": 81.55696837213215,
-    "baseApr": 47.044342788261645,
-    "addyTokenApr": 15.809831073913616
+    "apy": 52.52396488401987,
+    "baseApr": 32.581933633186615,
+    "addyTokenApr": 10.618190955615956
   },
   {
-    "name": "D11/WMATIC LP (Quick)",
-    "lpAddress": "0x4c27eee5f50eeee292ef438a87a42292bd629e70",
-    "vaultAddress": "0xe00bad8be8fa817d08603b2a67c74e83f823569d",
-    "strategyAddress": "0x4fD596b38a001C80882B3fAB0a9aab81781fc638",
-    "apy": 539.2671740376309,
-    "baseApr": 168.21367685255638,
-    "addyTokenApr": 56.530278833534524
+    "name": "WETH/WBTC LP (Jet)",
+    "lpAddress": "0x173e90f2a94af3b075deec7e64df4d70efb4ac3d",
+    "vaultAddress": "0x495c5452695f2d2c51a26fe8efc7e9c22d50dab1",
+    "strategyAddress": "0x626d5dBe1FeBa73604A6B0354044524FbDfC6191",
+    "apy": 8.487583187980785,
+    "baseApr": 6.853997159258205,
+    "addyTokenApr": 1.1168313622142614
   },
   {
     "name": "WETH/USDC LP (Quick)",
     "lpAddress": "0x853ee4b2a13f8a742d64c8f088be7ba2131f670d",
     "vaultAddress": "0x597abc1bdf422681b4375245bccb61f7753a259d",
     "strategyAddress": "0x02E305A0FF5D5e60EAc9a7FFfa4229782D9ddE7C",
-    "apy": 9.792590674804556,
-    "baseApr": 6.740772033799027,
-    "addyTokenApr": 2.2653195016833116
+    "apy": 12.644043093219665,
+    "baseApr": 8.702187993765659,
+    "addyTokenApr": 2.835973300103831
   },
   {
     "name": "ELET/QUICK LP (Quick)",
     "lpAddress": "0x592d8faea9e740facbd6115abd92d2e6acb2f8f1",
     "vaultAddress": "0x35989d15b9e4521561c46901447592b9cd0a8a47",
     "strategyAddress": "0xEBc66343519d53b39Ab10bA7A0e003a6784e3359",
-    "apy": 799.5159168261301,
-    "baseApr": 203.55584123979048,
-    "addyTokenApr": 68.40744866165838
+    "apy": 391.9476868313178,
+    "baseApr": 141.9890817955861,
+    "addyTokenApr": 46.27310340422701
   },
   {
     "name": "AZUKI/ETH LP (Cometh)",
     "lpAddress": "0x92Bb3233F59561FC1fEC53EfC3339E4Af8E917F4",
     "vaultAddress": "0x539f41633a450fc22074db3ad75f43d3110346a7",
     "strategyAddress": "0xd93AfB1bC76f75ab77c2d15DD3944848851C0d0B",
-    "apy": 31.587864473701735,
-    "baseApr": 20.50114145900228,
-    "addyTokenApr": 6.889661202156412
-  },
-  {
-    "name": "ETH/USDC LP (Wault)",
-    "lpAddress": "0xd928ce1d0f2642e44615768761c0f00c23e0d588",
-    "vaultAddress": "0x9c563911636f5432fb8703e0bd4217d3f1a0fe50",
-    "strategyAddress": "0x7203768D5985509b890d28aBabeadF6a5Bc723Fd",
-    "apy": 19.040069661869406,
-    "baseApr": 12.774892946898126,
-    "addyTokenApr": 4.293160186907415
+    "apy": 32.39257117380058,
+    "baseApr": 21.132653438337385,
+    "addyTokenApr": 6.886962331129589
   },
   {
     "name": "ETHA/USDC LP (Quick)",
     "lpAddress": "0xb417da294ae7c5cbd9176d1a7a0c7d7364ae1c4e",
     "vaultAddress": "0x2c4909538719b9fd8df3e8df9badfd2714458bb6",
     "strategyAddress": "0xB3AcdFf7EC9E33BE76362A217A2c36B84583ab83",
-    "apy": 207.10266459242132,
-    "baseApr": 95.06245890397476,
-    "addyTokenApr": 31.946910673342437
+    "apy": 167.36911434218928,
+    "baseApr": 82.33813448159223,
+    "addyTokenApr": 26.83333790736794
   },
   {
     "name": "WMATIC",
@@ -1887,220 +1878,473 @@
     "addyTokenApr": null
   },
   {
-    "name": "WEXPOLY/WUSD LP (Wault)",
-    "lpAddress": "0x3b537f1b6b4f2119f0b088e4937f589e408228f1",
-    "vaultAddress": "0x00f8abc2e54e2880f24e9008818379e2ac4a6e9b",
-    "strategyAddress": "0x955f13B63cc32740C120a7Ac9Aa1ac4292B690b8",
-    "apy": 518.9830622393305,
-    "baseApr": 164.90458831033496,
-    "addyTokenApr": 55.41821885436531
-  },
-  {
     "name": "MCASH/WETH LP (Quick)",
     "lpAddress": "0x1fef1ce437bb025c08609e0c14ab916622bd09f4",
     "vaultAddress": "0x6d14d6458d95265db318e0e1c212259731bbf085",
     "strategyAddress": "0x48c6F21836f88F1618e166a0e601d97e5e1726F7",
-    "apy": 1089.0346169148145,
-    "baseApr": 232.691809883609,
-    "addyTokenApr": 78.19894993752594
-  },
-  {
-    "name": "WATCH/QUICK LP (Quick)",
-    "lpAddress": "0x8000fe11cffa3ced146d98f091d95c9bc2c55c97",
-    "vaultAddress": "0x4506fb2bc34372ad9f77cdd6ee9bf0e46fa5272d",
-    "strategyAddress": "0xE9b70b9Fe3F2e6aCB0D305178730eB01318d8490",
-    "apy": 488.6218379203112,
-    "baseApr": 159.75520407279856,
-    "addyTokenApr": 53.68770483068046
-  },
-  {
-    "name": "WMATIC/USDC LP (Wault)",
-    "lpAddress": "0x8312a29a91d9fac706f4d2adeb1fa4540fad1673",
-    "vaultAddress": "0x15cc1dfe160ff7f6763addacf75e2796fbd8685a",
-    "strategyAddress": "0x042a1496CF38E8600BAca63c740706c6Ae627508",
-    "apy": 15.636969064134574,
-    "baseApr": 10.589716107856455,
-    "addyTokenApr": 3.558804584420447
+    "apy": 868.3951583056912,
+    "baseApr": 211.67523554450932,
+    "addyTokenApr": 68.98326222410768
   },
   {
     "name": "FEAR/QUICK LP (Quick)",
     "lpAddress": "0xbea282f98df962c54be80a2050a211b64ff1aee0",
     "vaultAddress": "0xa2ae7c371b2daddc2bd70682a8bd95e090123ed4",
     "strategyAddress": "0xcc802Ebaf4Bb2ddF67D9cD422E931480f2a99943",
-    "apy": 355.9784636374933,
-    "baseApr": 133.88188587884994,
-    "addyTokenApr": 44.992657440837675
+    "apy": 80.86747346364916,
+    "baseApr": 47.00486203718051,
+    "addyTokenApr": 15.31850769117019
+  },
+  {
+    "name": "WEXPOLY/WUSD LP (Wault)",
+    "lpAddress": "0x3b537f1b6b4f2119f0b088e4937f589e408228f1",
+    "vaultAddress": "0x00f8abc2e54e2880f24e9008818379e2ac4a6e9b",
+    "strategyAddress": "0x955f13B63cc32740C120a7Ac9Aa1ac4292B690b8",
+    "apy": 457.3429294024705,
+    "baseApr": 154.64841355385008,
+    "addyTokenApr": 50.39867813202116
+  },
+  {
+    "name": "WATCH/QUICK LP (Quick)",
+    "lpAddress": "0x8000fe11cffa3ced146d98f091d95c9bc2c55c97",
+    "vaultAddress": "0x4506fb2bc34372ad9f77cdd6ee9bf0e46fa5272d",
+    "strategyAddress": "0xE9b70b9Fe3F2e6aCB0D305178730eB01318d8490",
+    "apy": 464.9696553627399,
+    "baseApr": 156.03348377741537,
+    "addyTokenApr": 50.85006141351474
   },
   {
     "name": "ETH/WMATIC LP (Wault)",
     "lpAddress": "0x679b8ab80f298bf802fb294137765c6386d43dca",
     "vaultAddress": "0x697a83393b12be9e598aa8b9a348f4efc7bf1b6b",
     "strategyAddress": "0xef0e14eEDa4Eec6d22Eaa9cDa9E504a37b6f5489",
-    "apy": 17.035633319495382,
-    "baseApr": 11.492682466617332,
-    "addyTokenApr": 3.862257555624423
+    "apy": 18.265688241193914,
+    "baseApr": 12.37569294399183,
+    "addyTokenApr": 4.033139112208122
   },
   {
-    "name": "TRADE/WETH LP (Quick)",
-    "lpAddress": "0x12909209228cedad659a6e13d41f82a4d53ee8d1",
-    "vaultAddress": "0x270bdd986e53df9e667f1687217ef69654d1c09c",
-    "strategyAddress": "0x17E493391493283A0F425f35FCFFCfE5b43de419",
-    "apy": 185.26205831179522,
-    "baseApr": 88.0367610348572,
-    "addyTokenApr": 29.58583833384706
+    "name": "WMATIC/USDC LP (Wault)",
+    "lpAddress": "0x8312a29a91d9fac706f4d2adeb1fa4540fad1673",
+    "vaultAddress": "0x15cc1dfe160ff7f6763addacf75e2796fbd8685a",
+    "strategyAddress": "0x042a1496CF38E8600BAca63c740706c6Ae627508",
+    "apy": 19.659910221165347,
+    "baseApr": 13.269399102263916,
+    "addyTokenApr": 4.324390784180019
+  },
+  {
+    "name": "DARKCOIN/WMATIC LP",
+    "lpAddress": "0x163c45fb7f84848786a16d8cdb396f78787d6d99",
+    "vaultAddress": "0x564f8336e73d4e86bd04d8adda9746e2e034dedb",
+    "strategyAddress": "0x619b08FEfa6725C9E5D1883BFD59e8c956D5a555",
+    "apy": 3997451.3723851293,
+    "baseApr": 1059.8140682702153,
+    "addyTokenApr": 172.69245406109346
   },
   {
     "name": "REVV/USDC LP (Quick)",
     "lpAddress": "0xe4139dbf19e9c8d880f915711c8674022979d432",
     "vaultAddress": "0x093737c820036925af64ab058d5336096b75a01d",
     "strategyAddress": "0x7668b92b0c675809647d0AbC5877470B06B19699",
-    "apy": 67.27722484286663,
-    "baseApr": 40.05424605107259,
-    "addyTokenApr": 13.460722933479602
+    "apy": 49.36728864318654,
+    "baseApr": 30.859060966858593,
+    "addyTokenApr": 10.05672056625119
+  },
+  {
+    "name": "TRADE/WETH LP (Quick)",
+    "lpAddress": "0x12909209228cedad659a6e13d41f82a4d53ee8d1",
+    "vaultAddress": "0x270bdd986e53df9e667f1687217ef69654d1c09c",
+    "strategyAddress": "0x17E493391493283A0F425f35FCFFCfE5b43de419",
+    "apy": 116.45224750749799,
+    "baseApr": 62.88312524793258,
+    "addyTokenApr": 20.4931063725563
+  },
+  {
+    "name": "D11/WMATIC LP (Quick)",
+    "lpAddress": "0x4c27eee5f50eeee292ef438a87a42292bd629e70",
+    "vaultAddress": "0xe00bad8be8fa817d08603b2a67c74e83f823569d",
+    "strategyAddress": "0x4fD596b38a001C80882B3fAB0a9aab81781fc638",
+    "apy": 521.3838384527296,
+    "baseApr": 165.76462896913287,
+    "addyTokenApr": 54.02136361508927
   },
   {
     "name": "USDT/WBTC LP (Jet)",
     "lpAddress": "0x7641d6b873877007697d526ef3c50908779a6993",
     "vaultAddress": "0x35416e18049e06a38f2833aa2d58f5e324173329",
     "strategyAddress": "0x615d3583a109625037897893A89C1dB2A81B5516",
-    "apy": 25.769649721360732,
-    "baseApr": 19.53227438487329,
-    "addyTokenApr": 3.2820307417625143
+    "apy": 25.92196674028153,
+    "baseApr": 19.721119698398187,
+    "addyTokenApr": 3.213477400906348
   },
   {
     "name": "AVAX/WMATIC LP (Quick)",
     "lpAddress": "0xeb477ae74774b697b5d515ef8ca09e24fee413b5",
     "vaultAddress": "0x8b7dc41e0ea8862fcafef19ab9a21213100d5f73",
     "strategyAddress": "0xbAA505ABEe6a4126dd7A47D6Aff810B10A53Ae95",
-    "apy": 15.853689356928781,
-    "baseApr": 10.730078386799676,
-    "addyTokenApr": 3.605975057801905
+    "apy": 15.181476869484575,
+    "baseApr": 10.374398396728452,
+    "addyTokenApr": 3.3809332640066816
   },
   {
     "name": "WMATIC/USDT LP (Jet)",
     "lpAddress": "0x101640e107c4a72dec79826768c239f1eb48cc85",
     "vaultAddress": "0x59d0d32420b9f5209bcc0f9938f418c59f074a71",
     "strategyAddress": "0xEC00dAFc42814c6f9C6F34C604c5cd80d8ef8865",
-    "apy": 19.82188808316738,
-    "baseApr": 15.3216670168823,
-    "addyTokenApr": 2.574517497225026
+    "apy": 23.30693670185818,
+    "baseApr": 17.88470412185337,
+    "addyTokenApr": 2.914240844151485
   },
   {
     "name": "ODDZ/QUICK LP (Quick)",
     "lpAddress": "0x8df6f7da556b9e70e272434bdc581dbb4848dffc",
     "vaultAddress": "0x80e9d9119792b0d5cadee4194f3a7a8ba370c075",
     "strategyAddress": "0xA4a4d39Cf022458AE8170dB538E953AC2E82281b",
-    "apy": 414.2804092852653,
-    "baseApr": 146.01280788560993,
-    "addyTokenApr": 49.069403258308235
+    "apy": 210.35989050694963,
+    "baseApr": 96.50297783024742,
+    "addyTokenApr": 31.44954679250332
   },
   {
     "name": "PBR/USDT LP (Quick)",
     "lpAddress": "0x53b02ad5f6615262ec5b483937260135429d5af9",
     "vaultAddress": "0x630cf5b33935cf4f132daf007dfee7020f99b3ca",
     "strategyAddress": "0xFd8B1C086F42fa3e6337e519599f945e73B384ba",
-    "apy": 401.99338000575045,
-    "baseApr": 143.56536648632613,
-    "addyTokenApr": 48.24691041873063
+    "apy": 137.4998248324243,
+    "baseApr": 71.33272560988217,
+    "addyTokenApr": 23.246763388493434
   },
   {
     "name": "MASK/USDC LP (Quick)",
     "lpAddress": "0x253d637068fbf11b18d0f2a1bf3b167d37802687",
     "vaultAddress": "0xd11a88c5d09c738cbe5d5b70d4852726c814bcde",
     "strategyAddress": "0x199F7142DC59474a90038166cF420D348cC3924e",
-    "apy": 128.58726624611072,
-    "baseApr": 67.46684093882128,
-    "addyTokenApr": 22.673063223225817
+    "apy": 91.98392589201617,
+    "baseApr": 52.204675842863345,
+    "addyTokenApr": 17.013085322565004
+  },
+  {
+    "name": "ETH/USDC LP (Wault)",
+    "lpAddress": "0xd928ce1d0f2642e44615768761c0f00c23e0d588",
+    "vaultAddress": "0x9c563911636f5432fb8703e0bd4217d3f1a0fe50",
+    "strategyAddress": "0x7203768D5985509b890d28aBabeadF6a5Bc723Fd",
+    "apy": 19.316116609986363,
+    "baseApr": 13.049651064975704,
+    "addyTokenApr": 4.252776660588795
   },
   {
     "name": "WBTC/ETH LP (Wault)",
     "lpAddress": "0x30adbcab9fbb4436109fcf3058d1af27e6e33f3f",
     "vaultAddress": "0x442ce81756dd15581dae49502033603af6c7c9c3",
     "strategyAddress": "0x3Aa3506B027DFB1C99D13C05d2A932e7995ca8B7",
-    "apy": 5.094631361147314,
-    "baseApr": 3.554243060468177,
-    "addyTokenApr": 1.1944471758175452
-  },
-  {
-    "name": "DTOP/WETH LP (Sushi)",
-    "lpAddress": "0x25e8bbc103842f0dad2465f4e04cb8d44fb787bc",
-    "vaultAddress": "0x43f54e12e21a363040ab821b387daf6eec9baee2",
-    "strategyAddress": "0x005307252BCE5aBd8245F4ee0298B7B15C40470d",
-    "apy": 21.73175818444277,
-    "baseApr": 14.538753826647024,
-    "addyTokenApr": 4.885927369823038
+    "apy": 5.09854201812965,
+    "baseApr": 3.585852775235633,
+    "addyTokenApr": 1.1686006709987118
   },
   {
     "name": "POOL/WETH LP (Quick)",
     "lpAddress": "0x1585d301b58661bc0cb5a8eba24ecae7b4600470",
     "vaultAddress": "0x2494484d0359c8076c5224bfaa544faf69dfb234",
     "strategyAddress": "0x299404ac22bcfc280AAc34273bE060fda2c6E70b",
-    "apy": 69.23614431606953,
-    "baseApr": 41.03840454060919,
-    "addyTokenApr": 13.791461520679379
+    "apy": 67.4272506199597,
+    "baseApr": 40.388525325484785,
+    "addyTokenApr": 13.16229660123414
+  },
+  {
+    "name": "SHIB/WMATIC LP (Quick)",
+    "lpAddress": "0x5fb641de2663e8a94c9dea0a539817850d996e99",
+    "vaultAddress": "0x4ed998a0690fee1ed2a87562aa82986a2cc4d5a5",
+    "strategyAddress": "0x5732CB410510C038e643cFc26129af5Bb6e7Ea79",
+    "apy": 1261.3293474538054,
+    "baseApr": 247.25822124753844,
+    "addyTokenApr": 80.57947198929106
+  },
+  {
+    "name": "DTOP/WETH LP (Sushi)",
+    "lpAddress": "0x25e8bbc103842f0dad2465f4e04cb8d44fb787bc",
+    "vaultAddress": "0x43f54e12e21a363040ab821b387daf6eec9baee2",
+    "strategyAddress": "0x005307252BCE5aBd8245F4ee0298B7B15C40470d",
+    "apy": 21.58688525041191,
+    "baseApr": 14.555891002673224,
+    "addyTokenApr": 4.743648180477872
   },
   {
     "name": "MOONED/QUICK LP (Quick)",
     "lpAddress": "0x3ba7afa5f600be15607b89d03f98aa791c8ecef8",
     "vaultAddress": "0x4dd254c034937f4e534e9f10776238880e31bfa0",
     "strategyAddress": "0xF5E087485A576f33249D7848Cb48bda6f256D2d7",
-    "apy": 488.3175227606184,
-    "baseApr": 159.70233687772932,
-    "addyTokenApr": 53.66993815834839
+    "apy": 288.4648866885023,
+    "baseApr": 118.3868820106588,
+    "addyTokenApr": 38.581335717557494
   },
   {
     "name": "ADS/USDC LP (Quick)",
     "lpAddress": "0x85ba262be13329a2db5acf9aa46ac2345b5df4ff",
     "vaultAddress": "0x5fbb3334511ca8f9bbedd75bb9a8d69665a696b4",
     "strategyAddress": "0x2fc7caa175d2B8a4c49646414246e3d382bCB468",
-    "apy": 195.9434402381299,
-    "baseApr": 91.52751497786204,
-    "addyTokenApr": 30.758949209428785
+    "apy": 39.942127604872624,
+    "baseApr": 25.55843939393656,
+    "addyTokenApr": 8.329290491707797
   },
   {
     "name": "ADS/QUICK LP (Quick)",
     "lpAddress": "0x5a25c9e27097ebac600ed1df3f31441272af9d38",
     "vaultAddress": "0x74c12424ee4d01606d56fd34a48224189d12e85d",
     "strategyAddress": "0x212188f63027C91f2D9488485888fba2e31784f7",
-    "apy": 181.91252322206077,
-    "baseApr": 86.9194854412197,
-    "addyTokenApr": 29.21036410354656
+    "apy": 42.350499425610096,
+    "baseApr": 26.935885682748236,
+    "addyTokenApr": 8.778189193987682
   },
   {
     "name": "DHV/QUICK LP (Quick)",
     "lpAddress": "0xfd0e242c95b271844bf6860d4bc0e3e136bc0f7c",
     "vaultAddress": "0x100d43a764e49844e13bc02c2df7b83b1568d988",
     "strategyAddress": "0xfb1359b3B84D3e5E726AB495Af98b09f63cDFbf9",
-    "apy": 132.6263090395072,
-    "baseApr": 69.06243008830509,
-    "addyTokenApr": 23.209280617743296
+    "apy": 72.5894025546727,
+    "baseApr": 42.974665873000895,
+    "addyTokenApr": 14.005099072098467
   },
   {
     "name": "PLR/QUICK LP (Quick)",
     "lpAddress": "0xb980171e5647a8531d3b28134622d225bc3cdb82",
     "vaultAddress": "0xe327ff664025f587d5c197d64b9c79ee041bf278",
     "strategyAddress": "0x733493B603eb04050a4E0B822Ae2098F1F8a1066",
-    "apy": 330.4874343376362,
-    "baseApr": 128.12658869983952,
-    "addyTokenApr": 43.05851890711731
+    "apy": 238.33667388029068,
+    "baseApr": 104.84437573447777,
+    "addyTokenApr": 34.16794149494904
   },
   {
     "name": "REI/QUICK LP (Quick)",
     "lpAddress": "0x1c75bd54ad15449d12e6c24a9b5e8ce1a62c567c",
     "vaultAddress": "0x46cde238cddad5e4abd53ac59457151ad2872bc1",
     "strategyAddress": "0x94A6E237926F5084d71AAE33363685a53C6398d9",
-    "apy": 643.0053967387317,
-    "baseApr": 183.71643257193713,
-    "addyTokenApr": 61.74017091783235
+    "apy": 435.7913430381678,
+    "baseApr": 150.63647917736162,
+    "addyTokenApr": 49.091220883149816
   },
   {
     "name": "USDC/USDT LP (Quick)",
     "lpAddress": "0x2cf7252e74036d1da831d11089d326296e64a728",
     "vaultAddress": "0x4e43cd3a9877fa164775124bbe68e2973fafaa0d",
     "strategyAddress": "0xaa6BF7EB6d913c4Be32955dD84d2F1eFDb8F09a8",
-    "apy": 7.597782360326045,
-    "baseApr": 5.2626453577997605,
-    "addyTokenApr": 1.7685768187517348
+    "apy": 7.63995507384103,
+    "baseApr": 5.333777471817384,
+    "addyTokenApr": 1.738235316176365
+  },
+  {
+    "name": "SX/WETH LP (Dino)",
+    "lpAddress": "0x1bf9805b40a5f69c7d0f9e5d1ab718642203c652",
+    "vaultAddress": "0x44c3be1b580ffc4d31cb365392464c0e304f3e0f",
+    "strategyAddress": "0xa18A6AF556182af4AcF9275E8E8f83D0caB80329",
+    "apy": 9.704845427740452,
+    "baseApr": 7.802957500131193,
+    "addyTokenApr": 1.2714606457634818
+  },
+  {
+    "name": "WOW/QUICK LP (Quick)",
+    "lpAddress": "0xd5211a55d978bf651b9da899cc8bb09491ff39a1",
+    "vaultAddress": "0x928a6bacfc7ba92ea1a748aed865236c0cd8d48e",
+    "strategyAddress": "0xE69F67bc217E1de5E98cd489297F32bd26B70644",
+    "apy": 49.85852535740763,
+    "baseApr": 31.12884790306915,
+    "addyTokenApr": 10.14464196583002
+  },
+  {
+    "name": "DAI/USDC LP (Quick)",
+    "lpAddress": "0xf04adbf75cdfc5ed26eea4bbbb991db002036bdd",
+    "vaultAddress": "0xe9194168a109bfb902cdc9e00ff8f7fa70354434",
+    "strategyAddress": "0x4593Be5BBdd7A68543A7a21D9F64b39Fdf33c576",
+    "apy": 7.2000904364685585,
+    "baseApr": 5.03307860854066,
+    "addyTokenApr": 1.640239967393358
+  },
+  {
+    "name": "IMX/WETH LP (Quick)",
+    "lpAddress": "0x5f819f510ca9b1469e6a3ffe4ecd7f0c1126f8f5",
+    "vaultAddress": "0xdb81fb9527719ab38762f11a6dc4e6b57fdba026",
+    "strategyAddress": "0x6850ADab8a26EEcdf585F2Fe143921FA8008aE2d",
+    "apy": 17.796440553550006,
+    "baseApr": 12.073377859023797,
+    "addyTokenApr": 3.9346170497334683
+  },
+  {
+    "name": "RAMP/WETH LP (Quick)",
+    "lpAddress": "0xe55739e1feb9f9aed4ce34830a06ca6cc37494a0",
+    "vaultAddress": "0x67d1e13c47778d7af94f7b881e34b487274a0c32",
+    "strategyAddress": "0x0d933981171dEf92E651269395029703f852Ba0a",
+    "apy": 7.3302798306869335,
+    "baseApr": 5.122157421018776,
+    "addyTokenApr": 1.6692700382185204
+  },
+  {
+    "name": "WETH/USDT LP (Quick)",
+    "lpAddress": "0xf6422b997c7f54d1c6a6e103bcb1499eea0a7046",
+    "vaultAddress": "0x53dfaccf31f5c556f01fd5086d444e04175859b4",
+    "strategyAddress": "0x635EbE9F0Efb16757f34F851C42b73D037F85e29",
+    "apy": 22.0723271530196,
+    "baseApr": 14.800003797918391,
+    "addyTokenApr": 4.823202583350457
+  },
+  {
+    "name": "FEAR/USDC LP (Quick)",
+    "lpAddress": "0x4e56843592da70ce073ad6599b3fb3ce3bf02f3b",
+    "vaultAddress": "0x49441d08c08eac53a7a9de3bb52efdc02d8f179e",
+    "strategyAddress": "0x04177B4dA9eF3494E23E8106926e47271Eba5b7F",
+    "apy": 74.55437621630935,
+    "baseApr": 43.94410535134924,
+    "addyTokenApr": 14.321031625915063
+  },
+  {
+    "name": "GUARD/USDC LP (Quick)",
+    "lpAddress": "0xd2eeeedfcaf1457f7bc9cba28d5316f73bb83b49",
+    "vaultAddress": "0xa9849881cd2e26ecc9a9b4626d4dc00f2e2d283e",
+    "strategyAddress": "0xCc565E1e9CD2eBFfB95E5076b12BFFB47CbA8194",
+    "apy": 155.25115604137721,
+    "baseApr": 78.00131932109413,
+    "addyTokenApr": 25.420004615617707
+  },
+  {
+    "name": "XCAD/USDC LP (Quick)",
+    "lpAddress": "0x602fe85ceba5d27fd4d48c241cfb83ce045a179d",
+    "vaultAddress": "0x2722a90d0c3fee4e6cc9f8af709f8535087cebd6",
+    "strategyAddress": "0x42306130CA38f5f488fAf3B7dfe35583A250AD7D",
+    "apy": 113.85252137819205,
+    "baseApr": 61.794669365276405,
+    "addyTokenApr": 20.138387326752493
+  },
+  {
+    "name": "ORBS/USDC LP (Dino)",
+    "lpAddress": "0xb2b6d423e535b57aad06e9866803b95fb66152ea",
+    "vaultAddress": "0x3a16784b9cb850acffc254c0afb44eca567b55d3",
+    "strategyAddress": "0x03d930908Ce815CCbC7De767a7f2E706eF13bBAA",
+    "apy": 102.76826097746573,
+    "baseApr": 60.00044673827494,
+    "addyTokenApr": 14.665248417922651
+  },
+  {
+    "name": "WOW/USDC LP (Quick)",
+    "lpAddress": "0x7600cc75fa9045986efe0bddee8e18621a8dd49e",
+    "vaultAddress": "0x90a7018d6fc44e4f35f02c540736f34ad45cdcb5",
+    "strategyAddress": "0x226Ee2B17ae0860080274ecf9653c30Af9616292",
+    "apy": 65.91023550770427,
+    "baseApr": 39.617432776512864,
+    "addyTokenApr": 12.911003721516993
+  },
+  {
+    "name": "DNXC/USDC LP (Quick)",
+    "lpAddress": "0xe169a660d720917b4fb7e95f045b6f60a64eb10a",
+    "vaultAddress": "0x35730238767e940326861abe064210796f542386",
+    "strategyAddress": "0x91b46B11A783E970b94727Dd409FF0C05F1044DB",
+    "apy": 195.80114683670297,
+    "baseApr": 91.90316725955844,
+    "addyTokenApr": 29.950505405055143
+  },
+  {
+    "name": "KNIGHT/WETH LP (Quick)",
+    "lpAddress": "0x7f7c12acec546cdceb028cc5b57f7aa2d91f0887",
+    "vaultAddress": "0x26e7abd60713d9af1c32f92e8de257c5dd849edd",
+    "strategyAddress": "0xc15413f311749Ed7bD6874B6EcFAcA4A1E15eaD1",
+    "apy": 33.681982928947534,
+    "baseApr": 21.900452624517797,
+    "addyTokenApr": 7.137181930316488
+  },
+  {
+    "name": "ETH/DAI LP (Wault)",
+    "lpAddress": "0xaef35d720c56ef3c259bccdb6931f331c7f15b3f",
+    "vaultAddress": "0x47c4fd3ba2860c9b14f6a2c6ece6d6fc0b804cc7",
+    "strategyAddress": "0x9eFd41Bfc7B12Ef6CeBB9975A6475e256689e088",
+    "apy": 16.58436891723929,
+    "baseApr": 11.288905134957849,
+    "addyTokenApr": 3.6789636782245356
+  },
+  {
+    "name": "PERA/QUICK LP (Quick)",
+    "lpAddress": "0x8bab360e41468dff5326df636e2377a858ad0670",
+    "vaultAddress": "0xab7352d65850a5cb2d8e377c114f2bf61a797094",
+    "strategyAddress": "0x459C633dcA14045f6774E9498B3609d566B73930",
+    "apy": 429.1162259739612,
+    "baseApr": 149.3633141689568,
+    "addyTokenApr": 48.67630661411205
+  },
+  {
+    "name": "ALN/WETH LP (Quick)",
+    "lpAddress": "0x150255a6ba2d32ac058e8b435a445f5137a21857",
+    "vaultAddress": "0xf895faa619569a4fa8ecab79d51b7d5a32ddc335",
+    "strategyAddress": "0x150f5715723FCB12dd930E687180B5AC8cdcf7Cf",
+    "apy": 1020.788223631977,
+    "baseApr": 226.92390756602003,
+    "addyTokenApr": 73.95268218447005
+  },
+  {
+    "name": "UCO/WETH LP (Quick)",
+    "lpAddress": "0x25bae75f6760ac30554cc62f9282307c3038c3a0",
+    "vaultAddress": "0xefb93d9d7ceac56c2f3003a7400337a5acfb76f6",
+    "strategyAddress": "0xd94B9A9cA596dB48b36678045e978648164DCD42",
+    "apy": 112.47477628908184,
+    "baseApr": 61.21360576638984,
+    "addyTokenApr": 19.949023358370628
+  },
+  {
+    "name": "EROWAN/AKT LP (Quick)",
+    "lpAddress": "0xa651ef83fa6a90e76206de4e79a5c69f80994556",
+    "vaultAddress": "0x7aa200148154081e73ddbd7eaf121866f3885808",
+    "strategyAddress": "0x91Ea459E59424272B99ccc239A93a037218fB987",
+    "apy": null,
+    "baseApr": null,
+    "addyTokenApr": null
+  },
+  {
+    "name": "EROWAN/REGEN LP (Quick)",
+    "lpAddress": "0x66c37a00e426a613b188180198aac12b0b4ae4d4",
+    "vaultAddress": "0x72448d6ca456e82ba8449ddd5c3ec9098aa3c3fe",
+    "strategyAddress": "0xfb09e7f611B850245BDB7f1A4Bb3AA367a96c392",
+    "apy": null,
+    "baseApr": null,
+    "addyTokenApr": null
+  },
+  {
+    "name": "IRIS/EROWAN LP (Quick)",
+    "lpAddress": "0x58ffb271c6f3d92f03c49e08e2887810f65b8cd6",
+    "vaultAddress": "0x56f4029d62db7b4562126961e8320c718ccf8ca0",
+    "strategyAddress": "0xe36BF5531b12E0a22329EaE510069DfA1Be27e6F",
+    "apy": 1687.6736117737394,
+    "baseApr": 275.7919092279414,
+    "addyTokenApr": 89.87837214220536
+  },
+  {
+    "name": "DPI/WETH LP (Quick)",
+    "lpAddress": "0x9f77ef7175032867d26e75d2fa267a6299e3fb57",
+    "vaultAddress": "0xa500844460e89308b05b219eb67ea923188ec2d0",
+    "strategyAddress": "0x0E492E365c501CEa03f4830cF2432ceF56221b3A",
+    "apy": 33.25341471782323,
+    "baseApr": 21.645811256760812,
+    "addyTokenApr": 7.054196350071832
+  },
+  {
+    "name": "EROWAN/XPRT LP (Quick)",
+    "lpAddress": "0xf366df119532b2e0f4e416c81d6ff7728a60fe7d",
+    "vaultAddress": "0x2df922f721be91b93df0d785665c4f49caa1961c",
+    "strategyAddress": "0x7f43D1BBd746193406B5Df611d2AF25e1f08aB83",
+    "apy": null,
+    "baseApr": null,
+    "addyTokenApr": null
+  },
+  {
+    "name": "GFARM2/DAI LP (Quick)",
+    "lpAddress": "0x0c7ad41d3e0dbc1cfdcdd717afb0a72a65cdf069",
+    "vaultAddress": "0xac5241e86353800c75127c7b33a4ea5c64fb9610",
+    "strategyAddress": "0xB304dC09150CaFc672B13ef4B2fEAd94064e4Ef1",
+    "apy": 15.598856219245597,
+    "baseApr": 10.647214539681793,
+    "addyTokenApr": 3.469841857777268
+  },
+  {
+    "name": "YAMP/USDC LP (Quick)",
+    "lpAddress": "0x87d68f797623590e45982ad0f21228557207fdda",
+    "vaultAddress": "0xf3311256042181c4ad6657a2c20918f6fa5e319c",
+    "strategyAddress": "0xA31D4969264565D91c3276E843137fa880F12D4B",
+    "apy": 253.3351003924713,
+    "baseApr": 108.62559917055223,
+    "addyTokenApr": 36.50497108480364,
+    "deprecated": true
   },
   {
     "name": "TEL/QUICK LP",
@@ -2109,124 +2353,8 @@
     "strategyAddress": "0x97D70dEDb9E6C2016B09371B57EAc76b75e75bd7",
     "apy": 53.50258214241863,
     "baseApr": 35.15746260228689,
-    "addyTokenApr": 11.815098517398804
-  },
-  {
-    "name": "SX/WETH LP (Dino)",
-    "lpAddress": "0x1bf9805b40a5f69c7d0f9e5d1ab718642203c652",
-    "vaultAddress": "0x44c3be1b580ffc4d31cb365392464c0e304f3e0f",
-    "strategyAddress": "0xa18A6AF556182af4AcF9275E8E8f83D0caB80329",
-    "apy": 21.481494715162782,
-    "baseApr": 16.512873172599644,
-    "addyTokenApr": 2.774677250554563
-  },
-  {
-    "name": "WOW/QUICK LP (Quick)",
-    "lpAddress": "0xd5211a55d978bf651b9da899cc8bb09491ff39a1",
-    "vaultAddress": "0x928a6bacfc7ba92ea1a748aed865236c0cd8d48e",
-    "strategyAddress": "0xE69F67bc217E1de5E98cd489297F32bd26B70644",
-    "apy": 48.6123920035058,
-    "baseApr": 30.235635206225705,
-    "addyTokenApr": 10.161057774244808
-  },
-  {
-    "name": "DAI/USDC LP (Quick)",
-    "lpAddress": "0xf04adbf75cdfc5ed26eea4bbbb991db002036bdd",
-    "vaultAddress": "0xe9194168a109bfb902cdc9e00ff8f7fa70354434",
-    "strategyAddress": "0x4593Be5BBdd7A68543A7a21D9F64b39Fdf33c576",
-    "apy": 8.96816430733244,
-    "baseApr": 6.187692473424435,
-    "addyTokenApr": 2.079450300378654
-  },
-  {
-    "name": "RAMP/WETH LP (Quick)",
-    "lpAddress": "0xe55739e1feb9f9aed4ce34830a06ca6cc37494a0",
-    "vaultAddress": "0x67d1e13c47778d7af94f7b881e34b487274a0c32",
-    "strategyAddress": "0x0d933981171dEf92E651269395029703f852Ba0a",
-    "apy": 7.557410327078172,
-    "baseApr": 5.2352841866108415,
-    "addyTokenApr": 1.7593817600296227
-  },
-  {
-    "name": "IMX/WETH LP (Quick)",
-    "lpAddress": "0x5f819f510ca9b1469e6a3ffe4ecd7f0c1126f8f5",
-    "vaultAddress": "0xdb81fb9527719ab38762f11a6dc4e6b57fdba026",
-    "strategyAddress": "0x6850ADab8a26EEcdf585F2Fe143921FA8008aE2d",
-    "apy": 19.848799353151005,
-    "baseApr": 13.288334696372505,
-    "addyTokenApr": 4.46570861344235
-  },
-  {
-    "name": "WETH/USDT LP (Quick)",
-    "lpAddress": "0xf6422b997c7f54d1c6a6e103bcb1499eea0a7046",
-    "vaultAddress": "0x53dfaccf31f5c556f01fd5086d444e04175859b4",
-    "strategyAddress": "0x635EbE9F0Efb16757f34F851C42b73D037F85e29",
-    "apy": 11.249133619643372,
-    "baseApr": 7.711697373924428,
-    "addyTokenApr": 2.59161092596472
-  },
-  {
-    "name": "GUARD/USDC LP (Quick)",
-    "lpAddress": "0xd2eeeedfcaf1457f7bc9cba28d5316f73bb83b49",
-    "vaultAddress": "0xa9849881cd2e26ecc9a9b4626d4dc00f2e2d283e",
-    "strategyAddress": "0xCc565E1e9CD2eBFfB95E5076b12BFFB47CbA8194",
-    "apy": 249.6720095097201,
-    "baseApr": 107.60894602862838,
-    "addyTokenApr": 36.16331226927035
-  },
-  {
-    "name": "FEAR/USDC LP (Quick)",
-    "lpAddress": "0x4e56843592da70ce073ad6599b3fb3ce3bf02f3b",
-    "vaultAddress": "0x49441d08c08eac53a7a9de3bb52efdc02d8f179e",
-    "strategyAddress": "0x04177B4dA9eF3494E23E8106926e47271Eba5b7F",
-    "apy": 294.16589875383977,
-    "baseApr": 119.37083083025179,
-    "addyTokenApr": 40.11603858668202
-  },
-  {
-    "name": "XCAD/USDC LP (Quick)",
-    "lpAddress": "0x602fe85ceba5d27fd4d48c241cfb83ce045a179d",
-    "vaultAddress": "0x2722a90d0c3fee4e6cc9f8af709f8535087cebd6",
-    "strategyAddress": "0x42306130CA38f5f488fAf3B7dfe35583A250AD7D",
-    "apy": 179.69828440061892,
-    "baseApr": 86.17478613795957,
-    "addyTokenApr": 28.960098726508672
-  },
-  {
-    "name": "ORBS/USDC LP (Dino)",
-    "lpAddress": "0xb2b6d423e535b57aad06e9866803b95fb66152ea",
-    "vaultAddress": "0x3a16784b9cb850acffc254c0afb44eca567b55d3",
-    "strategyAddress": "0x03d930908Ce815CCbC7De767a7f2E706eF13bBAA",
-    "apy": 103.1672493866696,
-    "baseApr": 59.911035972974105,
-    "addyTokenApr": 15.10038139642511
-  },
-  {
-    "name": "WOW/USDC LP (Quick)",
-    "lpAddress": "0x7600cc75fa9045986efe0bddee8e18621a8dd49e",
-    "vaultAddress": "0x90a7018d6fc44e4f35f02c540736f34ad45cdcb5",
-    "strategyAddress": "0x226Ee2B17ae0860080274ecf9653c30Af9616292",
-    "apy": 62.77488252873048,
-    "baseApr": 37.760249191162984,
-    "addyTokenApr": 12.689797022100763
-  },
-  {
-    "name": "DNXC/USDC LP (Quick)",
-    "lpAddress": "0xe169a660d720917b4fb7e95f045b6f60a64eb10a",
-    "vaultAddress": "0x35730238767e940326861abe064210796f542386",
-    "strategyAddress": "0x91b46B11A783E970b94727Dd409FF0C05F1044DB",
-    "apy": 562.4058085630653,
-    "baseApr": 171.86913243564302,
-    "addyTokenApr": 57.7587397247177
-  },
-  {
-    "name": "KNIGHT/WETH LP (Quick)",
-    "lpAddress": "0x7f7c12acec546cdceb028cc5b57f7aa2d91f0887",
-    "vaultAddress": "0x26e7abd60713d9af1c32f92e8de257c5dd849edd",
-    "strategyAddress": "0xc15413f311749Ed7bD6874B6EcFAcA4A1E15eaD1",
-    "apy": 33.4502230867363,
-    "baseApr": 21.606063789956966,
-    "addyTokenApr": 7.260983966315573
+    "addyTokenApr": 11.815098517398804,
+    "deprecated": true
   },
   {
     "name": "TEL/WETH LP",
@@ -2235,25 +2363,8 @@
     "strategyAddress": "0x48aeEd2d92D634ef3905F1f7C15613B035E8DF1b",
     "apy": 32.143429089666604,
     "baseApr": 21.733966140369287,
-    "addyTokenApr": 7.303967127183109
-  },
-  {
-    "name": "ETH/DAI LP (Wault)",
-    "lpAddress": "0xaef35d720c56ef3c259bccdb6931f331c7f15b3f",
-    "vaultAddress": "0x47c4fd3ba2860c9b14f6a2c6ece6d6fc0b804cc7",
-    "strategyAddress": "0x9eFd41Bfc7B12Ef6CeBB9975A6475e256689e088",
-    "apy": 16.320188976689913,
-    "baseApr": 11.031653579617537,
-    "addyTokenApr": 3.707323117354837
-  },
-  {
-    "name": "PERA/QUICK LP (Quick)",
-    "lpAddress": "0x8bab360e41468dff5326df636e2377a858ad0670",
-    "vaultAddress": "0xab7352d65850a5cb2d8e377c114f2bf61a797094",
-    "strategyAddress": "0x459C633dcA14045f6774E9498B3609d566B73930",
-    "apy": 857.456629890061,
-    "baseApr": 210.05927596285457,
-    "addyTokenApr": 70.59300803560126
+    "addyTokenApr": 7.303967127183109,
+    "deprecated": true
   },
   {
     "name": "SAND/WETH LP (Sushi)",
